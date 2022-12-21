@@ -1,46 +1,46 @@
 {
-  "short_name": "Parle",
-  "name": "Par🇮🇹le",
+  "short_name": "WIS",
+  "name": "Medical Words, Powered by WIS ( Womenin in Surgery Italia)",
   "icons": [
     {
-      "src": "/react-wordle/images/parle_logo_48x48.png",
+      "src": "/react-wordle/images/logo_index.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "/react-wordle/images/parle_logo_72x72.png",
+      "src": "/react-wordle/images/logo_index.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "/react-wordle/images/parle_logo_96x96.png",
+      "src": "/react-wordle/images/logo_index.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/react-wordle/images/parle_logo_144x144.png",
+      "src": "/react-wordle/images/logo_index.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/react-wordle/images/parle_logo_168x168.png",
+      "src": "/react-wordle/images/logo_index.png",
       "type": "image/png",
       "sizes": "168x168"
     },
     {
-      "src": "/react-wordle/images/parle_logo_192x192.png",
+      "src": "/react-wordle/images/logo_index.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/react-wordle/images/parle_logo_512x512.png",
+      "src": "/react-wordle/images/logo_index.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://par-le.github.io/react-wordle/",
+  "start_url": "https://alongo13.github.io/react-wordle/",
   "background_color": "#6aaa64",
   "display": "standalone",
   "theme_color": "#6aaa64",
-  "description": "Un gioco di parole al giorno (wordle in italiano)"
+  "description": "Medical Words powered by WSI ( Womenin Surgery Italia)"
 }
