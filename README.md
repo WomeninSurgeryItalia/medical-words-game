@@ -36,7 +36,7 @@ $> docker build --target=prod -t game:prod .
 $> docker run -d -p 80:80 game:prod
 ```
 
-Open [http://localhost](http://localhost) in browser.
+Open [https://alongo13.github.io/react-wordle/](https://alongo13.github.io/react-wordle/) in browser.
 
 ## Projects built using this repo
 
