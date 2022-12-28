@@ -5,10 +5,10 @@ creating a mirror of <https://github.com/alongo13/react-wordle>
 - [x] In [.env](.env):
   - [x] Update the title and the description
   - [x] Add plausible domain
-- [x] In [public/index.html](docs/index.html):
+- [x] In [public/index.html](public/index.html):
   - [x] Update the "You need to enable JavaScript" message
   - [x] Update the language attribute in the HTML tag
-- [x] Update the name and short name in [public/manifest.json](docs/manifest.json)
+- [x] Update the name and short name in [public/manifest.json](public/manifest.json)
 - [x] Update the strings in [src/constants/strings.ts](src/constants/strings.ts)
 - [x] Add all of the five letter words in the language to [src/constants/validGuesses.ts](src/constants/validGuesses.ts), replacing the English words
 - [x] Add a list of goal words in the language to [src/constants/wordlist.ts](src/constants/wordlist.ts), replacing the English words
