@@ -8495,56 +8495,8 @@
                                 className: "mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm",
                                 onClick: function() {
                                     ! function(e, a, t) {
-                                                                              a.preventDefault(), a.stopPropagation();
-                                                                              us(function(e) {
-                                                                                  var a = e.evaluations,
-                                                                                      s = e.dayOffset,
-                                                                                      t = e.rowIndex,
-                                                                                      o = e.isHardMode,
-                                                                                      r = e.isWin,
-                                                                                      n = JSON.parse(window.localStorage.getItem(j)),
-                                                                                      i = JSON.parse(window.localStorage.getItem(S)),
-                                                                                      l = "Medical Words n°".concat(s);
-                                                                                  l += " ".concat(r ? t : "X", "/").concat(6), o && (l += "*");
-                                                                                  var d = "";
-                                                                                  return a.forEach((function(e) {
-                                                                                      e && (e.forEach((function(e) {
-                                                                                          if (e) {
-                                                                                              var a = "";
-                                                                                              switch (e) {
-                                                                                                  case Ia:
-                                                                                                      a = function(e) {
-                                                                                                          return e ? "🟧" : "🟩"
-                                                                                                      }(i);
-                                                                                                      break;
-                                                                                                  case Ta:
-                                                                                                      a = function(e) {
-                                                                                                          return e ? "🟦" : "🟨"
-                                                                                                      }(i);
-                                                                                                      break;
-                                                                                                  case Ca:
-                                                                                                      a = function(e) {
-                                                                                                          return e ? "⬛" : "⬜"
-                                                                                                      }(n)
-                                                                                              }
-                                                                                              d += a
-                                                                                          }
-                                                                                      })), d += "\n")
-                                                                                  })), {
-                                                                                      text: "".concat(l, "\n\n").concat(d.trimEnd())
-                                                                                  }
-                                                                              }({
-                                                                                  evaluations: e.gameApp.evaluations,
-                                                                                  dayOffset: e.gameApp.dayOffset,
-                                                                                  rowIndex: e.gameApp.rowIndex,
-                                                                                  isHardMode: e.gameApp.hardMode,
-                                                                                  isWin: e.gameApp.gameStatus === Za
-                                                                              }), (function() {
-                                                                                  e.gameApp.addToast("Risultati copiati", 2e3, !0)
-                                                                              }), (function() {
-                                                                                  e.gameApp.addToast("Errore nella condivisione", 2e3, !0)
-                                                                              }))
-                                                                          }(i, o, s), l()
+                                        navigator.clipboard.writeText("".concat(oe, " ").concat(me, " ").concat(a ? "X" : e.length, "/6").concat(t ? "*" : "", "\n\n") + Da(e))
+                                    }(i, o, s), l()
                                 },
                                 children: "Condividi"
                             })]
