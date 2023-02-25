@@ -7892,7 +7892,7 @@
                         handleClose: t,
                         children: [(0, J.jsx)("p", {
                             className: "text-sm text-gray-500 dark:text-gray-300",
-                            children: "Indovina una parola di 5 lettere in 6 tentativi."
+                            children: "Indovina una parola, appartenente al vocabolario medico, di 5 lettere in 6 tentativi."
                         }), (0, J.jsx)("p", {
                             className: "text-sm text-gray-500 dark:text-gray-300",
                             children: "Dopo ogni tentativo, i colori delle tessere cambiano per mostrarti quanto ci sei andato vicino."
@@ -7952,7 +7952,7 @@
                             children: "Ogni giorno c'\xe8 una nuova parola da indovinare, la stessa per tutti."
                         }), (0, J.jsxs)("p", {
                             className: "mt-6 italic text-sm text-gray-500 dark:text-gray-300",
-                            children: ["Questa \xe8 una versione italiana ed open source (", (0, J.jsx)("a", {
+                            children: ["Medical Words \xe8 una customizzata per Women in Surgery Italia (WIS) ed open source (", (0, J.jsx)("a", {
                                 href: "https://alongo13.github.io/react-wordle",
                                 className: "underline",
                                 children: "qui il codice"
@@ -8806,7 +8806,7 @@
                             },
                             isDarkMode: I,
                             handleDarkMode: function(e) {
-                                A(e), localStorage.setItem("theme", e ? "dark" : "light")
+                                A(e), localStorage.setItem("theme", e ? "light" : "light")
                             },
                             isHardModeErrorModalOpen: C,
                             isHighContrastMode: H,
