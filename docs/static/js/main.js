@@ -7056,7 +7056,7 @@
                         l = i && n,
                         s = "".concat((void 0 === o ? 0 : o) * ae, "ms"),
                         u = ze(),
-                        c = X()("w-14 h-14 border-solid border-2 flex items-center justify-center mx-0.5 text-4xl font-bold rounded dark:text-black", {
+                        c = X()("w-14 h-14 border-solid border-2 flex items-center justify-center mx-0.5 text-4xl font-bold rounded dark:text-white", {
                             "bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-600": !t,
                             "border-black dark:border-slate-100": a && !t,
                             "absent shadowed bg-slate-400 dark:bg-slate-700 text-white border-slate-400 dark:border-slate-700": "absent" === t,
@@ -8373,7 +8373,7 @@
                     var a = e.label,
                         t = e.value;
                     return (0, J.jsxs)("div", {
-                        className: "items-center justify-center m-1 w-1/4 dark:text-white",
+                        className: "items-center justify-center m-1 w-1/4 dark:text-black",
                         children: [(0, J.jsx)("div", {
                             className: "text-3xl font-bold",
                             children: t
@@ -8427,7 +8427,7 @@
                     var a = e.gameStats.winDistribution,
                         t = Math.max.apply(Math, o(a));
                     return (0, J.jsx)("div", {
-                        className: "columns-1 justify-left m-2 text-sm dark:text-white",
+                        className: "columns-1 justify-left m-2 text-sm dark:text-black",
                         children: a.map((function(e, a) {
                             return (0, J.jsx)(Ma, {
                                 index: a,
