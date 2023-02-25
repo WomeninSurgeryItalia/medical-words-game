@@ -7056,7 +7056,7 @@
                         l = i && n,
                         s = "".concat((void 0 === o ? 0 : o) * ae, "ms"),
                         u = ze(),
-                        c = X()("w-14 h-14 border-solid border-2 flex items-center justify-center mx-0.5 text-4xl font-bold rounded dark:text-white", {
+                        c = X()("w-14 h-14 border-solid border-2 flex items-center justify-center mx-0.5 text-4xl font-bold rounded dark:text-black", {
                             "bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-600": !t,
                             "border-black dark:border-slate-100": a && !t,
                             "absent shadowed bg-slate-400 dark:bg-slate-700 text-white border-slate-400 dark:border-slate-700": "absent" === t,
@@ -7154,7 +7154,7 @@
                         r = e.onClick,
                         l = e.isRevealing,
                         s = ze(),
-                        u = X()("flex items-center justify-center rounded mx-0.5 text-xs font-bold cursor-pointer select-none dark:text-white", {
+                        u = X()("flex items-center justify-center rounded mx-0.5 text-xs font-bold cursor-pointer select-none dark:text-black", {
                             "transition ease-in-out": l,
                             "bg-slate-200 dark:bg-slate-600 hover:bg-slate-300 active:bg-slate-400": !t,
                             "bg-slate-400 dark:bg-slate-800 text-white": "absent" === t,
