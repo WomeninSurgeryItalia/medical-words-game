@@ -7952,7 +7952,7 @@
                             children: "Ogni giorno c'\xe8 una nuova parola da indovinare, la stessa per tutti."
                         }), (0, J.jsxs)("p", {
                             className: "mt-6 italic text-sm text-gray-500 dark:text-gray-300",
-                            children: ["Medical Words \xe8 una customizzata per Women in Surgery Italia (WIS) ed open source (", (0, J.jsx)("a", {
+                            children: ["Medical Words \xe8 una versione customizzata per Women in Surgery Italia (WIS) ed open source (", (0, J.jsx)("a", {
                                 href: "https://alongo13.github.io/react-wordle",
                                 className: "underline",
                                 children: "qui il codice"
