@@ -7908,11 +7908,11 @@
                             }), (0, J.jsx)(we, {
                                 value: "B"
                             }), (0, J.jsx)(we, {
-                                value: "o"
+                                value: "O"
                             })]
                         }), (0, J.jsx)("p", {
                             className: "text-sm text-gray-500 dark:text-gray-300",
-                            children: "La lettera B \xe8 nella parola ed \xe8 nel posto giusto."
+                            children: "La lettera F \xe8 nella parola ed \xe8 nel posto giusto."
                         }), (0, J.jsxs)("div", {
                             className: "flex justify-center mb-1 mt-4",
                             children: [(0, J.jsx)(we, {
