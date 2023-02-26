@@ -1,6 +1,6 @@
 ### Italian translation
 
-creating a mirror of <https://github.com/alongo13/react-wordle>
+creating a mirror of <https://github.com/pietroppeter/wordle-it>
 
 - [x] In [.env](.env):
   - [x] Update the title and the description
@@ -27,6 +27,6 @@ additional actions:
     should I use a PUBLIC_URL?
   - [x] update again after completing translation
   - [ ] I should pass to vercel or netlify
-- [x] use images and manifest.json from [alongo13/react-wordle](https://github.com/alongo13/react-wordle)
+- [x] use images and manifest.json from [pietroppeter/wordle-it](https://github.com/pietroppeter/wordle-it)
 - [x] add also open graph fields in index.html (FB meta tags)
 - [x] use favicon from wordle
