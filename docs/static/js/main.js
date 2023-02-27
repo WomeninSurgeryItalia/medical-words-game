@@ -7892,7 +7892,7 @@
                         handleClose: t,
                         children: [(0, J.jsx)("p", {
                             className: "text-sm text-gray-500 dark:text-gray-300",
-                            children: "Indovina ogni giorno dei termini ed acronimi medici di 5 lettere in 6 tentativi."
+                            children: "Indovina ogni giorno termini ed acronimi medici di 5 lettere in 6 tentativi."
                         }), (0, J.jsx)("p", {
                             className: "text-sm text-gray-500 dark:text-gray-300",
                             children: "Dopo ogni tentativo, i colori delle tessere cambiano per mostrarti quanto ci sei andato vicino."
