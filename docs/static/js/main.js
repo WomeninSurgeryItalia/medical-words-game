@@ -7888,7 +7888,7 @@
                         t = e.handleClose;
                     return (0, J.jsxs)(pa, {
                         title: "Come giocare a Medical Words",
-                        isOpen: a,
+                        isOpen: "true",
                         handleClose: t,
                         children: [(0, J.jsx)("p", {
                             className: "text-sm text-gray-500 dark:text-gray-300",
