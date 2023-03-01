@@ -8806,7 +8806,7 @@
                             },
                             isDarkMode: I,
                             handleDarkMode: function(e) {
-                                A(e), localStorage.setItem("theme", e ? "light" : "light")
+                                A(e), localStorage.setItem("theme", e ? "dark" : "light")
                             },
                             isHardModeErrorModalOpen: C,
                             isHighContrastMode: H,
