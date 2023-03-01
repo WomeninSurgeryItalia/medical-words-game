@@ -7886,7 +7886,7 @@
                 ma = function(e) {
                     var a = e.isOpen,
                         t = e.handleClose;
-                    return (0, J.jsxs)(pa, {
+                    return (1, J.jsxs)(pa, {
                         title: "Come giocare a Medical Words",
                         isOpen: a,
                         handleClose: t,
