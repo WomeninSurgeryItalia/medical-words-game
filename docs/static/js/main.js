@@ -1,4 +1,4 @@
-/*! For license information please see main.a75e428e.js.LICENSE.txt */ ! function() {
+/*! For license information please see main.cc92f49d.js.LICENSE.txt */ ! function() {
     var e = {
             694: function(e, a) {
                 var t;
@@ -6927,19 +6927,20 @@
                 ee = 2e3,
                 ae = 350;
             var ne = ["oncia", "dubbi", "corra", "litro", "sparo", "carta", "nasce", "punti", "rasoi", "muffa", "ritmi", "lorde", "carne", "snodi", "borie", "calco", "crepe", "eredi", "tosai", "sugli", "disto", "dirmi", "nuovo", "mandi", "giace", "odino", "zolfo", "umana", "scali", "farne", "dogma", "rompa", "arida", "ressa", "puzzi", "vuole", "pigro", "fogne", "panno", "gioco", "rozza", "porge", "linfa", "zinco", "regia", "acino", "dighe", "stelo", "bacio", "balsa", "leghe", "omega", "nonio", "conca", "talea", "gambo", "sella", "afona", "prono", "tremo", "mallo", "piuma", "gradi", "aglio", "fulva", "dieta", "fioca", "zuppa", "nanna", "epoca", "greve", "motto", "tassa", "pochi", "folle", "rocca", "iodio", "cargo", "girai", "tenni", "gnosi", "mambo", "bachi", "omero", "mitra", "conga", "corna", "farsa", "dorma", "denso", "mania", "miele", "mille", "cicca", "falce", "frigo", "bande", "serro", "vista", "rutto", "sfila", "sesso", "sasso", "servi", "astio", "porre", "prude", "torme", "sansa", "faina", "netto", "conte", "secca", "conto", "garza", "ditta", "brina", "madre", "forum", "sudai", "boato", "culto", "spago", "curai", "badai", "roghi", "bieco", "lanci", "ovvio", "bitta", "obesi", "cavai", "massa", "ruota", "lerci", "penna", "tacco", "natia", "togli", "vinti", "mogio", "scala", "ampio", "lembo", "onice", "nomea", "stare", "giogo", "rughe", "retro", "audio", "rissa", "offro", "pecca", "testa", "turbe", "gonna", "aroma", "ruolo", "rebbi", "tanfo", "tarme", "borgo", "ragno", "tetto", "tenia", "piano", "copia", "torce", "orafe", "spera", "cucio", "viola", "sacre", "muovi", "crisi", "muoio", "liana", "curva", "tolda", "bugie", "bidet", "bozza", "altra", "parco", "salmo", "eroso", "fetta", "spine", "libro", "buffa", "sorci", "sonno", "cosmo", "laghi", "solfa", "sappi", "pugni", "adori", "mangi", "sopra", "borsa", "verga", "seppi", "pegni", "avari", "azoto", "nevai", "avolo", "peplo", "sorso", "turno", "ostia", "fauci", "secco", "avito", "amaro", "patta", "zoppo", "upupa", "nervi", "pista", "freno", "salsa", "lince", "tozza", "vacuo", "idolo", "mango", "lombi", "mucca", "bosco", "blesa", "nylon", "sabba", "monca", "fitto", "palmo", "dimmi", "peana", "casba", "ogiva", "cauto", "viale", "opino", "doghe", "rogge", "carte", "zeppa", "forca", "verbo", "prove", "cedro", "ulivo", "acuti", "larva", "feudo", "ceduo", "agave", "piaga", "brame", "nonna", "golfo", "negai", "aceto", "esito", "palla", "scavo", "marca", "cloro", "orata", "esile", "sorge", "abbai", "bizze", "spola", "sputo", "polio", "legno", "amici", "ebete", "dazio", "sinti", "bacca", "torre", "entra", "zebra", "asino", "relax", "antro", "cadde", "masai", "cucce", "beghe", "tonti", "nuoto", "sedia", "cirri", "alice", "rumba", "patio", "lizza", "frate", "udito", "balia", "curry", "fatto", "cenci", "zonzo", "pecco", "dieci", "urina", "manzo", "notai", "terzo", "gotta", "bollo", "arabi", "succo", "cenno", "spada", "poggi", "scure", "coevo", "alveo", "tacca", "avere", "mosca", "nenia", "vasca", "manca", "ancia", "barai", "anche", "furia", "invio", "univa", "viole", "aiuto", "bocce", "pezzo", "salma", "prole", "baule", "epuro", "losco", "occhi", "sacco", "voghi", "collo", "totem", "avvio", "volai", "canoa", "festa", "purga", "nuora", "orgia", "zucca", "fiabe", "seggi", "germe", "doppi", "ceffo", "gamma", "pesce", "cetra", "villa", "piace", "vello", "marna", "cesio", "setta", "fuori", "brace", "modem", "cippo", "talpa", "ambra", "lisca", "pareo", "mogli", "varie", "cella", "diade", "bisca", "radio", "udiva", "bruno", "niveo", "prora", "china", "abusa", "ricco", "cocci", "coesa", "stesa", "utero", "asola", "ninja", "metto", "cozzo", "sfizi", "tetro", "serbo", "reame", "porci", "zirlo", "visto", "fummo", "trama", "cielo", "campa", "reato", "polpa", "etnea", "fiuto", "laico", "gamba", "ciuco", "carme", "norme", "nerbo", "acume", "colon", "primo", "gente", "terme", "tedio", "pizza", "aerea", "orari", "bazza", "grana", "cesso", "scopa", "acqua", "morsa", "cocco", "volpe", "ernia", "stiro", "retto", "sunto", "posso", "certa", "puffi", "aprii", "drupa", "otite", "renna", "fallo", "taiga", "capii", "siepe", "marce", "siero", "usato", "album", "volto", "basta", "fanno", "siamo", "perno", "farro", "grama", "emoji", "magro", "dalia", "mesta", "ridda", "passi", "curia", "annuo", "tappo", "vuoti", "pigio", "balle", "abbia", "desco", "eremo", "fusto", "slogo", "ebreo", "grafo", "valgo", "fondo", "miope", "venia", "colpe", "zompo", "casse", "terga", "cenge", "onore", "fesso", "ovale", "pende", "tosse", "zuffa", "sughi", "eludo", "agape", "costa", "tasto", "bocca", "marzo", "tende", "banca", "fungo", "bagno", "fiero", "clava", "pensa", "azero", "domai", "mezzo", "svelo", "canto", "mecca", "diari", "ghiro", "gocce", "colai", "recai", "espio", "punge", "pongo", "bruti", "frase", "vulva", "fiera", "corpo", "vanga", "lieta", "smise", "fogli", "amala", "beone", "scolo", "pollo", "cunei", "rodeo", "mossa", "quasi", "sanno", "fresa", "goffe", "merlo", "verza", "sobri", "robot", "sagra", "fuoco", "abaco", "utile", "preda", "colza", "fichi", "nuche", "rebus", "svago", "liceo", "donna", "petto", "opera", "tonfo", "setto", "cachi", "tuono", "panne", "quale", "tocca", "galea", "baffi", "lenza", "tizio", "covai", "tenda", "eroga", "sorbo", "jeans", "afoso", "beato", "mosto", "stola", "detto", "punta", "posai", "umile", "spore", "arpie", "budda", "corda", "treno", "lotta", "cinta", "gergo", "lardo", "grida", "poema", "luogo", "fiato", "vinai", "bongo", "furba", "sport", "pinta", "crema", "frode", "trono", "clero", "mozzi", "dolce", "turco", "ordii", "venti", "tanto", "ovini", "colla", "conio", "vocio", "ansia", "bolla", "zolla", "serpe", "nuoce", "ruppe", "prode", "latte", "ossia", "regno", "fatuo", "teche", "corvi", "righe", "posta", "anelo", "casta", "falso", "emana", "milza", "extra", "morbo", "cuore", "cosca", "faggi", "solco", "grigi", "pinne", "suino", "astro", "volge", "asilo", "multa", "rione", "balzo", "forza", "frasi", "torso", "pulsa", "anice", "ronfa", "trito", "belva", "trota", "animo", "ormai", "bario", "busta", "dardo", "esche", "vendo", "litio", "sigla", "cigli", "panda", "sommo", "colse", "vetta", "lecci", "baldo", "alone", "rullo", "pruno", "reale", "draga", "drone", "ovile", "oblio", "pelle", "bulbo", "clone", "tappe", "firma", "sogno", "sigma", "sisma", "fonte", "diodo", "grumo", "birra", "lasci", "sceso", "pelli", "parve", "dicco", "tango", "parte", "busti", "elogi", "paura", "negli", "gechi", "ebbro", "buchi", "pulce", "etimo", "bello", "morso", "barra", "gomma", "pazzi", "vinco", "duole", "usano", "breve", "selci", "penne", "canna", "berlo", "fosco", "cesta", "senno", "nause", "cervo", "messa", "daino", "vaghe", "cecio", "drago", "umida", "etnia", "spuma", "piega", "micio", "opaco", "vibra", "tilde", "ossea", "rauca", "falco", "cifra", "studi", "tomba", "ratto", "carpa", "barca", "rocce", "sturo", "folla", "bruco", "targa", "molla", "ballo", "tagli", "bruci", "benda", "malga", "aduso", "ubbia", "vasai", "rango", "oneri", "clima", "pizzo", "selva", "carro", "croda", "velai", "cosce", "ceppo", "brano", "usare", "scemi", "evoco", "agito", "pozza", "gobba", "legge", "vieto", "desio", "belga", "adagi", "zanne", "denti", "lacca", "olive", "vegli", "facce", "atrio", "coppa", "pesto", "fante", "parti", "volta", "poppa", "disfa", "crasi", "bivio", "pance", "cerco", "celti", "nafta", "alcol", "abile", "reggo", "emulo", "avuto", "fosse", "alibi", "ombra", "cameo", "pioli", "copri", "stima", "corsa", "estro", "lucci", "greco", "funge", "piena", "tigli", "burro", "gatto", "razzo", "faida", "tosta", "lucro", "banco", "aureo", "bullo", "vermi", "censo", "lutto", "ilare", "utili", "melma", "tibia", "bisce", "colta", "umori", "celia", "cromo", "cespo", "cacio", "cappa", "badia", "malta", "parlo", "nappa", "passa", "salve", "teppa", "frana", "ponte", "letto", "etica", "sonda", "lista", "serra", "palle", "bazar", "paria", "lusso", "crepi", "cobra", "pesco", "ferro", "corte", "fisco", "baita", "polpo", "calca", "stufo", "scova", "butta", "campo", "epica", "tigna", "trave", "fasce", "quota", "causa", "imita", "porro", "forra", "pigli", "lonza", "avrai", "suono", "sozza", "lesso", "premi", "merce", "museo", "hanno", "calai", "amaca", "uggia", "sento", "volle", "gelso", "anodo", "pigna", "legai", "svito", "docce", "sosta", "rampa", "gesti", "perso", "coffa", "mughi", "bioma", "nesso", "soldi", "preso", "glifo", "lenta", "sesto", "gigli", "hotel", "bardo", "archi", "tallo", "nocca", "sodio", "fibra", "ugola", "morti", "mirto", "erica", "testo", "ninfa", "mazza", "alate", "oziai", "lesta", "basso", "piada", "ardua", "slego", "mappa", "bucce", "vieni", "grano", "culla", "zitti", "oppio", "tarlo", "fiume", "rotta", "degna", "scafo", "fango", "tinta", "carie", "arare", "carso", "bordi", "rupia", "odore", "prete", "udire", "colpi", "magma", "presa", "omone", "segno", "sarti", "cenai", "salpo", "oltre", "duchi", "genio", "forse", "abate", "fiala", "cacao", "perla", "pinza", "rubai", "pelai", "ritto", "vespa", "ruzzo", "aspri", "amavo", "bimba", "adito", "felpa", "palma", "croce", "morda", "etere", "maghi", "porta", "cento", "esame", "ligio", "fughe", "icona", "piede", "unico", "grata", "passo", "apice", "conci", "giuro", "forma", "limbo", "fossa", "zecca", "colmo", "forte", "costi", "masso", "mensa", "casco", "liuto", "afidi", "leggo", "torve", "raggi", "porto", "cruda", "lecca", "gesso", "visse", "samba", "etano", "bambu", "cozze", "oliai", "palio", "orcio", "media", "lunga", "linea", "orchi", "tesse", "sfuso", "guado", "stona", "metro", "tulle", "toppa", "acero", "rospo", "foibe", "pesca", "blusa", "alghe", "usura", "cheta", "adipe", "vanno", "frega", "prima", "basco", "riuso", "edema", "finto", "chela", "tarpo", "tardi", "vento", "vetro", "fermo", "panna", "sette", "becco", "barba", "calze", "sotto", "zaino", "croco", "tempo", "vezzo", "foche", "spiga", "ameni", "egizi", "sbuca", "stile", "circa", "cisti", "sarde", "prato", "marea", "aneto", "lepri", "mafia", "solai", "tasca", "zeppo", "versi", "manna", "perde", "clown", "annoi", "calli", "pacca", "citai", "calci", "lacci", "tirai", "ferie", "rosea", "evaso", "avido", "elica", "vizio", "siedi", "dossi", "colui", "parto", "cagna", "cuoca", "amato", "fammi", "capra", "arnia", "tordo", "saghe", "video", "risma", "suore", "santa", "soffi", "fauna", "fobia", "tatto", "isola", "babbo", "penai", "celai", "evita", "muone", "legna", "vizzo", "nassa", "esule", "bigia", "molti", "curda", "paese", "esoso", "paggi", "trino", "finge", "erigo", "sfida", "fremo", "pieve", "atomo", "erano", "inizi", "osare", "soave", "linda", "tecno", "peste", "gusci", "cuoio", "raspa", "tersa", "vacca", "manto", "danza", "guida", "mosci", "efebo", "ruspa", "circo", "regio", "suola", "gogna", "lemma", "scudo", "poeta", "errai", "alito", "bieta", "valle", "duale", "misto", "russo", "folto", "colma", "briga", "pampa", "biada", "venga", "ricci", "batte", "elevo", "meteo", "agire", "ratti", "schwa", "lieve", "parso", "nutre", "senza", "lagna", "stato", "tasso", "berci", "sidro", "creta", "razza", "crani", "marmo", "stiva", "padre", "bravi", "croma", "busso", "suolo", "obolo", "corso", "verde", "droga", "tutte", "teste", "sarei", "gonfi", "vitto", "sorto", "ostro", "torta", "rombo", "gemma", "addio", "fieno", "spesa", "ganci", "obice", "prego", "seguo", "terra", "cinse", "pasto", "resto", "tonda", "buono", "probo", "emiro", "aorta", "remai", "seghe", "fumai", "pinna", "disco", "mamma", "umore", "laser", "rubli", "educa", "andai", "cruna", "rossa", "calva", "leone", "cassa", "posto", "figli", "botti", "agile", "abito", "lotti", "sposi", "trova", "slavi", "palco", "vispa", "sfera", "ciclo", "tento", "sciai", "senso", "sazio", "polso", "foste", "ovaia", "alzai", "ascia", "optai", "magia", "ebano", "marre", "scade", "cigno", "lavai", "salto", "ponfo", "flora", "gonzo", "fissa", "tieni", "cieca", "direi", "ladro", "arena", "omise", "tolta", "calce", "brodo", "serie", "pompa", "sosia", "veste", "panca", "bomba", "pesai", "tonno", "iella", "acari", "paghe", "svaso", "canea", "iride", "micce", "cambi", "sauna", "agata", "corto", "amore", "terna", "urlai", "ameba", "monte", "varco", "saggi", "serio", "desta", "gozzo", "tatuo", "gazza", "sbafo", "coppi", "danno", "tuffo", "roche", "randa", "patto", "sfamo", "sordi", "credo", "kappa", "istmo", "furto", "creai", "ronda", "sugna", "karma", "largo", "torba", "edile", "edera", "esigo", "colgo", "sfogo", "adula", "apnea", "vanto", "grato", "palpo", "beffa", "globo", "ghisa", "dillo", "sfumo", "comma", "duomo", "pozzi", "basto", "virus", "guano", "adone", "gorgo", "spira", "ribes", "picco", "svevo", "ganzo", "koala", "falde", "cibai", "fiore", "somma", "scusa", "matto", "lance", "cerro", "uscio", "saldo", "babau", "flebo", "greto", "guaio", "ovulo", "ulula", "tengo", "lampo", "cavia", "ovest", "gassa", "latta", "raspo", "camma", "lasco", "bruma", "cotta", "burla", "mento", "stavi", "unire", "fruga", "sbavi", "dammi", "nulla", "nembo", "turpe", "speck", "vigna", "torto", "pacco", "chilo", "ozono", "gusto", "fregi", "giada", "crine", "toghe", "birba", "torni", "getto", "mazzo", "talco", "rogna", "mutuo", "mance", "podio", "verso", "pausa", "dotta", "botte", "pasta", "brado", "savio", "piove", "privo", "assai", "abeti", "pappa", "gallo", "igneo", "zampa", "forno", "grave", "plico", "mondo", "scena", "prosa", "felce", "stadi", "agone", "conta", "gioia", "calme", "amido", "aereo", "scopo", "esodo", "cardo", "gnomo", "spelo", "narri", "tigre", "orale", "notte", "giova", "retta", "tenue", "curio", "omino", "lobby", "usavi", "lisci", "avena", "menta", "dorso", "tazza", "caldo", "nozze", "armai", "plebe", "spazi", "riffa", "zozze", "zappa", "unito", "leale", "socio", "vinse", "giara", "rende", "acida", 'garbo"],ne=["abaco', "abata", "abate", "abati", "abato", "abavi", "abavo", "abaya", "abbai", "abbia", "abbui", "abete", "abeti", "abile", "abili", "abita", "abiti", "abito", "abuna", "abusa", "abusi", "abuso", "acari", "acaro", "acati", "acato", "acazi", "accia", "accio", "aceri", "acero", "acese", "acesi", "aceta", "aceti", "aceto", "achea", "achee", "achei", "acheo", "acida", "acide", "acidi", "acido", "acile", "acili", "acini", "acino", "acori", "acoro", "acqua", "acque", "acqui", "acquo", "actea", "actee", "acuii", "acume", "acumi", "acuta", "acute", "acuti", "acuto", "adagi", "adale", "adali", "addai", "addii", "addio", "addua", "addui", "adduo", "adesa", "adese", "adesi", "adeso", "adima", "adimi", "adimo", "adipe", "adipi", "adira", "adire", "adiri", "adiro", "adita", "adite", "aditi", "adito", "adiva", "adivi", "adivo", "adobe", "adona", "adone", "adoni", "adono", "adora", "adori", "adoro", "adoxa", "adoxe", "adula", "aduli", "adulo", "aduna", "aduni", "aduno", "adusa", "aduse", "adusi", "aduso", "aequo", "aerai", "aerea", "aeree", "aerei", "aereo", "afaca", "afata", "afate", "afati", "afato", "afeli", "afeta", "afeti", "afide", "afidi", "afnii", "afnio", "afona", "afone", "afoni", "afono", "afosa", "afose", "afosi", "afoso", "agama", "agame", "agami", "agamo", "agape", "agapi", "agata", "agate", "agave", "agavi", "aggio", "agiai", "agile", "agili", "agino", "agire", "agita", "agite", "agiti", "agito", "agiva", "agivi", "agivo", "aglio", "agone", "agoni", "agora", "aguti", "aiace", "aiaci", "aiata", "aiate", "aiola", "aiole", "aioli", "aiolo", "aione", "aioni", "aitai", "aiuga", "aiuta", "aiuti", "aiuto", "aizza", "aizzi", "aizzo", "alaci", "alala", "alale", "alali", "alalo", "alami", "alane", "alani", "alano", "alare", "alari", "alata", "alate", "alati", "alato", "alava", "alavi", "alavo", "albio", "album", "alcea", "alcee", "alche", "alcol", "aldio", "aleph", "alesa", "alese", "alesi", "aleso", "alghe", "algia", "algie", "aliai", "alias", "alibi", "alice", "alici", "alida", "alide", "alidi", "alido", "alimi", "alimo", "alino", "alita", "alite", "aliti", "alito", "allea", "allee", "allei", "alleo", "almea", "almee", "alobi", "alona", "alone", "aloni", "alono", "alosa", "alose", "alpha", "altea", "altee", "altra", "altre", "altri", "altro", "alula", "alule", "alvei", "alveo", "alzai", "amaca", "amaci", "amala", "amale", "amali", "amalo", "amami", "amane", "amano", "amara", "amare", "amari", "amaro", "amasi", "amata", "amate", "amati", "amato", "amava", "amavi", "amavo", "ambia", "ambii", "ambio", "ambra", "ambre", "ameba", "amebe", "amena", "amene", "ameni", "ameno", "amica", "amici", "amico", "amida", "amide", "amidi", "amido", "amiga", "amigo", "amile", "amili", "amina", "amine", "amino", "ammai", "amnii", "amnio", "amomi", "amomo", "amore", "amori", "ampia", "ampie", "ampio", "ampli", "amuli", "amulo", "anale", "anali", "anari", "anche", "ancia", "andai", "anela", "anele", "aneli", "anelo", "aneti", "aneto", "angla", "angle", "angli", "anglo", "angue", "angui", "anice", "anici", "anile", "anili", "anima", "anime", "animi", "animo", "annoi", "annua", "annue", "annui", "annuo", "anobi", "anodi", "anodo", "anona", "anone", "ansai", "ansia", "ansie", "ansio", "antri", "antro", "anura", "anure", "anuri", "anuro", "aonia", "aonie", "aonio", "aorta", "aorte", "apale", "apali", "apate", "apice", "apici", "apide", "apidi", "apina", "apine", "apira", "apire", "apiri", "apiro", "apnea", "apnee", "apoda", "apode", "apodi", "apodo", "appai", "appia", "appie", "appio", "aprii", "apula", "apule", "apuli", "apulo", "araba", "arabe", "arabi", "arabo", "araci", "arala", "arale", "arali", "aralo", "arama", "arame", "arami", "aramo", "arane", "arano", "arara", "arare", "arata", "arate", "arati", "arato", "arava", "aravi", "aravo", "arcai", "arche", "archi", "arcua", "arcui", "arcuo", "ardea", "ardee", "ardii", "ardua", "ardue", "ardui", "arduo", "areai", "areca", "arena", "arene", "areni", "areno", "arese", "aresi", "argea", "argee", "argei", "argeo", "arghi", "argon", "arida", "aride", "aridi", "arido", "arile", "arili", "arino", "armai", "arnia", "arnie", "aroma", "aromi", "arpia", "arpie", "arsii", "artai", "artoa", "artoe", "artoi", "artoo", "asada", "asado", "asana", "asari", "asaro", "aschi", "ascia", "ascio", "asili", "asilo", "asina", "asine", "asini", "asino", "asola", "asole", "asoli", "asolo", "aspra", "aspre", "aspri", "aspro", "assai", "astia", "astio", "astri", "astro", "atava", "atave", "atavi", "atavo", "atele", "ateli", "atomi", "atomo", "atona", "atone", "atoni", "atono", "atout", "atrii", "atrio", "attai", "attea", "attee", "attei", "atteo", "attua", "attui", "attuo", "audio", "audit", "auffa", "augna", "augni", "augno", "aulii", "aurai", "aurea", "auree", "aurei", "aureo", "avana", "avara", "avare", "avari", "avaro", "avena", "avene", "avere", "averi", "avete", "aveva", "avevi", "avevo", "avida", "avide", "avidi", "avido", "avita", "avite", "aviti", "avito", "avoca", "avoco", "avola", "avole", "avoli", "avolo", "avori", "avrai", "avrei", "avuta", "avute", "avuti", "avuto", "avvia", "avvii", "avvio", "axone", "axoni", "azera", "azere", "azeri", "azero", "azide", "azidi", "azima", "azime", "azimi", "azimo", "azina", "azine", "azoni", "azota", "azoti", "azoto", "azuki", "babao", "babau", "babbi", "babbo", "bacai", "bacca", "bacco", "bachi", "bacia", "bacie", "bacii", "bacio", "badai", "badge", "badgi", "badia", "badie", "baele", "baeli", "baffi", "baffo", "bagel", "bagli", "bagna", "bagne", "bagni", "bagno", "baiai", "baili", "bailo", "baino", "baita", "baite", "bakka", "bakke", "bakki", "bakko", "balba", "balbe", "balbi", "balbo", "balco", "balda", "balde", "baldi", "baldo", "balia", "balie", "balii", "balio", "balla", "balle", "balli", "ballo", "balma", "balme", "balsa", "balse", "balta", "balte", "balti", "balto", "balza", "balze", "balzi", "balzo", "bamba", "bambe", "bambi", "bambo", "bambu", "banaa", "banae", "banai", "banao", "banca", "banco", "banda", "bande", "bandi", "bando", "bangi", "banjo", "banna", "banni", "banno", "bantu", "barai", "barba", "barbe", "barbi", "barbo", "barca", "barco", "barda", "barde", "bardi", "bardo", "baria", "barie", "barii", "bario", "barra", "barre", "barri", "barro", "basai", "basca", "basco", "basii", "bassa", "basse", "bassi", "basso", "basta", "baste", "basti", "basto", "batta", "batte", "batti", "batto", "batua", "baula", "baule", "bauli", "baulo", "bauta", "baute", "bazar", "bazza", "bazze", "beaci", "beala", "beale", "beali", "bealo", "beami", "beane", "beano", "beare", "beata", "beate", "beati", "beato", "beava", "beavi", "beavo", "bebop", "becca", "becco", "beffa", "beffe", "beffi", "beffo", "begai", "beggi", "beghe", "beghi", "begia", "begli", "beige", "beigi", "beino", "beisa", "beise", "belai", "belga", "belgi", "belii", "belio", "bella", "belle", "belli", "bello", "belta", "belva", "belve", "benai", "benda", "bende", "bendi", "bendo", "benna", "benne", "beola", "beole", "beona", "beone", "beoni", "beota", "beote", "beoti", "berci", "berla", "berle", "berli", "berlo", "berma", "berme", "bermi", "berne", "bersi", "berta", "berte", "berti", "bervi", "besce", "besci", "bessa", "besse", "bessi", "besso", "betta", "bette", "beuta", "beute", "bevei", "bevve", "bevvi", "bezzi", "bezzo", "biada", "biade", "biadi", "biado", "biava", "biave", "biavi", "biavo", "bibbi", "biche", "bidet", "bieca", "bieco", "bieta", "biete", "biffa", "biffe", "biffi", "biffo", "bighe", "bighi", "bigia", "bigie", "bigio", "bigne", "bilia", "bilie", "bimba", "bimbe", "bimbi", "bimbo", "binai", "binda", "binde", "bindi", "binga", "binge", "bingo", "biodi", "biodo", "bioma", "biomi", "biosi", "biova", "biove", "birba", "birbe", "birbi", "birbo", "birce", "birci", "birra", "birre", "birri", "birro", "bisca", "bisce", "bissa", "bissi", "bisso", "bista", "biste", "bisti", "bitta", "bitte", "bitti", "bitto", "biuta", "biute", "biuti", "biuto", "bivio", "bizza", "bizze", "blesa", "blese", "blesi", "bleso", "blini", "blitz", "blumi", "blumo", "blusa", "bluse", "boari", "boaro", "boati", "boato", "bobba", "bobbi", "bobbo", "bocca", "bocce", "bocci", "bocco", "bocia", "boema", "boeme", "boemi", "boemo", "boera", "boere", "boeri", "boero", "boghe", "boide", "boidi", "boite", "boldi", "boldo", "bolge", "bolla", "bolle", "bolli", "bollo", "bolsa", "bolse", "bolsi", "bolso", "bomba", "bombe", "bombi", "bombo", "bongo", "bonne", "bonta", "bonza", "bonze", "bonzi", "bonzo", "borda", "borde", "bordi", "bordo", "borea", "borei", "borgo", "boria", "borie", "borii", "borio", "borni", "borra", "borre", "borri", "borro", "borsa", "borse", "bosco", "bossi", "bosso", "botri", "botro", "botta", "botte", "botti", "botto", "boule", "boxai", "bozza", "bozze", "bozzi", "bozzo", "braca", "brace", "braci", "braco", "brada", "brade", "bradi", "brado", "braga", "brago", "braii", "brama", "brame", "brami", "bramo", "brani", "brano", "brasa", "brasi", "braso", "brava", "brave", "bravi", "bravo", "bremi", "bremo", "breva", "breve", "brevi", "brice", "brici", "brida", "bride", "briga", "brige", "brigi", "brigo", "brina", "brine", "brini", "brino", "broda", "brode", "brodi", "brodo", "broge", "brogi", "broli", "brolo", "bromi", "bromo", "brova", "brovi", "brovo", "bruca", "bruci", "bruco", "brugi", "brugo", "bruii", "bruma", "brume", "bruna", "brune", "bruni", "bruno", "bruta", "brute", "bruti", "bruto", "bruzi", "bubai", "bucai", "bucce", "bucci", "buche", "buchi", "bucio", "budda", "buddi", "bufai", "buffa", "buffe", "buffi", "buffo", "bugia", "bugie", "bugio", "bugli", "bugna", "bugne", "bugni", "bugno", "buina", "buine", "bulai", "bulbi", "bulbo", "bulla", "bulle", "bulli", "bullo", "bumba", "bumbe", "buona", "buone", "buoni", "buono", "burba", "burbe", "burga", "burka", "burla", "burle", "burli", "burlo", "burqa", "burri", "burro", "busaa", "busae", "busai", "busao", "busca", "busco", "bushi", "bussa", "busse", "bussi", "busso", "busta", "buste", "busti", "busto", "butta", "butte", "butti", "butto", "buzza", "buzze", "buzzi", "buzzo", "bwaka", "bwana", "caaba", "cabla", "cabli", "cablo", "cabra", "cabri", "cabro", "cacai", "cacao", "cacca", "cacce", "cacci", "cache", "cachi", "cacia", "cacio", "cacti", "cacto", "cadde", "caddi", "cadmi", "caffa", "caffe", "caffi", "caffo", "cafra", "cafre", "cafri", "cafro", "cagai", "caghi", "cagli", "cagna", "cagne", "caiba", "caibe", "caina", "caine", "caini", "caino", "calai", "calao", "calca", "calce", "calci", "calco", "calda", "calde", "caldi", "caldo", "calia", "calie", "calla", "calle", "calli", "callo", "calma", "calme", "calmi", "calmo", "calse", "calta", "calte", "calva", "calve", "calvi", "calvo", "calza", "calze", "calzi", "calzo", "cambi", "camei", "cameo", "camma", "camme", "campa", "campi", "campo", "canai", "canea", "canee", "canga", "cange", "cangi", "canna", "canne", "canni", "canno", "canoa", "canoe", "cansa", "cansi", "canso", "canta", "canti", "canto", "capai", "capii", "cappa", "cappe", "cappi", "cappo", "capra", "capre", "capri", "capro", "capta", "capti", "capto", "carca", "carco", "carda", "carde", "cardi", "cardo", "cargo", "caria", "carie", "cario", "carme", "carmi", "carna", "carne", "carni", "carno", "carpa", "carpe", "carpi", "carpo", "carri", "carro", "carsi", "carso", "carta", "carte", "carvi", "casba", "casbe", "casca", "casci", "casco", "casei", "caseo", "caspa", "caspe", "caspi", "cassa", "casse", "cassi", "casso", "casta", "caste", "casti", "casto", "catta", "catte", "catti", "catto", "caule", "cauli", "cauri", "causa", "cause", "causi", "causo", "cauta", "caute", "cauti", "cauto", "cavai", "cavea", "cavee", "cavia", "cavie", "cazza", "cazze", "cazzi", "cazzo", "cecai", "cecca", "ceche", "cechi", "cecio", "cedei", "cedra", "cedri", "cedro", "cedua", "cedue", "cedui", "ceduo", "ceffa", "ceffi", "ceffo", "ceiba", "ceibe", "celai", "celia", "celie", "celio", "cella", "celle", "celli", "cello", "celta", "celte", "celti", "celto", "celzi", "cenai", "cenci", "cenge", "cengi", "cenna", "cenni", "cenno", "censi", "censo", "cento", "ceppa", "ceppe", "ceppi", "ceppo", "cerai", "cerca", "cerci", "cerco", "cerea", "ceree", "cerei", "cereo", "cerii", "cerio", "cerna", "cerne", "cerni", "cerno", "cerri", "cerro", "certa", "certe", "certi", "certo", "cerva", "cerve", "cervi", "cervo", "cesia", "cesie", "cesio", "cespi", "cespo", "cessa", "cesse", "cessi", "cesso", "cesta", "ceste", "cesti", "cesto", "cetra", "cetre", "chela", "chele", "cheli", "cheta", "chete", "cheti", "cheto", "chile", "chili", "chilo", "chimi", "chimo", "china", "chine", "chini", "chino", "chita", "chiti", "chito", "cholo", "chope", "ciaba", "ciabi", "ciabo", "ciana", "ciane", "ciani", "ciano", "ciati", "ciato", "ciazi", "cibai", "cicca", "cicce", "cicci", "cicco", "ciche", "cicli", "ciclo", "cidia", "cidie", "cidio", "cieca", "cieco", "cieli", "cielo", "ciesa", "ciese", "cifra", "cifre", "cifri", "cifro", "cigli", "cigna", "cigne", "cigni", "cigno", "cimai", "cimba", "cimbe", "cince", "cinga", "cinge", "cingi", "cingo", "cinse", "cinsi", "cinta", "cinte", "cinti", "cinto", "cinzi", "cioce", "ciofi", "ciofo", "cippi", "cippo", "cipri", "circa", "circe", "circi", "circo", "cirri", "cirro", "cisio", "cispa", "cispe", "cista", "ciste", "cisti", "cisto", "citai", "citta", "citte", "citti", "citto", "ciuca", "ciuco", "ciula", "ciuli", "ciulo", "clade", "cladi", "clama", "clami", "clamo", "clava", "clave", "clavi", "clavo", "cleri", "clero", "clima", "climi", "cline", "clini", "clino", "clivi", "clivo", "clona", "clone", "cloni", "clono", "clora", "clori", "cloro", "clown", "cloze", "clune", "cluni", "cnidi", "coala", "coana", "coane", "coati", "cobea", "cobee", "cobla", "coble", "cobra", "cocca", "cocce", "cocci", "cocco", "coche", "codia", "codio", "coesa", "coese", "coesi", "coeso", "coeva", "coeve", "coevi", "coevo", "coffa", "coffe", "cofta", "cofte", "cofti", "cofto", "cogli", "cogni", "cogno", "coiai", "coipi", "coipo", "coire", "coita", "coite", "coiti", "coito", "coiva", "coivi", "coivo", "colai", "colca", "colco", "colei", "colga", "colgo", "colia", "colie", "colla", "colle", "colli", "collo", "colma", "colme", "colmi", "colmo", "colon", "colpa", "colpe", "colpi", "colpo", "colse", "colsi", "colta", "colte", "colti", "colto", "colui", "colza", "colze", "comba", "combe", "combo", "comma", "commi", "commo", "compi", "conca", "conce", "conci", "conga", "congi", "conia", "conie", "conio", "conne", "conni", "conno", "consa", "conso", "conta", "conte", "conti", "conto", "cooba", "coobi", "coobo", "copia", "copie", "copio", "coppa", "coppe", "coppi", "coppo", "copra", "copre", "copri", "copro", "copta", "copte", "copti", "copto", "coque", "corai", "corba", "corbe", "corca", "corco", "corda", "corde", "corea", "coree", "corei", "coreo", "corio", "cormi", "cormo", "corna", "corni", "corno", "corpi", "corpo", "corra", "corre", "corri", "corro", "corsa", "corse", "corsi", "corso", "corta", "corte", "corti", "corto", "corvi", "corvo", "cosai", "cosca", "cosce", "cosci", "cosfi", "cosmi", "cosmo", "cosse", "cossi", "cosso", "costa", "coste", "costi", "costo", "cotta", "cotte", "cotti", "cotto", "cousi", "couso", "covai", "covid", "cozza", "cozze", "cozzi", "cozzo", "crace", "craci", "crani", "crapa", "crape", "crasi", "creai", "creda", "crede", "credi", "credo", "crema", "creme", "cremi", "cremo", "crena", "crene", "creni", "creno", "crepa", "crepe", "crepi", "crepo", "cresi", "creso", "creta", "crete", "crime", "crimi", "crina", "crine", "crini", "crino", "crisi", "croce", "croci", "croco", "croda", "crode", "croia", "croie", "croio", "croma", "crome", "cromi", "cromo", "crono", "cruci", "cruda", "crude", "crudi", "crudo", "cruna", "crune", "ctoni", "cubai", "cubia", "cubie", "cucca", "cucce", "cucci", "cucco", "cucia", "cucii", "cucio", "cueva", "cugna", "cugne", "culai", "culla", "culle", "culli", "cullo", "culmi", "culmo", "culpa", "culta", "culte", "culti", "culto", "cunca", "cunce", "cunci", "cunco", "cunei", "cuneo", "cuoca", "cuoce", "cuoci", "cuoco", "cuoia", "cuoio", "cuora", "cuore", "cuori", "curai", "curda", "curde", "curdi", "curdo", "curia", "curie", "curii", "curio", "curri", "curro", "curry", "curva", "curve", "curvi", "curvo", "cusco", "cussi", "cusso", "dacci", "dache", "dacia", "dacie", "dafne", "dafni", "daghe", "dagli", "daina", "daine", "daini", "daino", "dalai", "dalia", "dalie", "dalla", "dalle", "dalli", "dallo", "damai", "damma", "damme", "dammi", "dance", "danda", "dande", "dando", "danna", "danne", "danni", "danno", "dante", "danti", "danza", "danze", "danzi", "danzo", "darai", "darci", "dardi", "dardo", "darei", "darla", "darle", "darli", "darlo", "darmi", "darne", "darsi", "darti", "darvi", "daspo", "datai", "datti", "dauni", "dazia", "dazio", "debba", "debbi", "debbo", "deche", "deghi", "degli", "degna", "degne", "degni", "degno", "delia", "delie", "delio", "della", "delle", "dello", "delta", "demmo", "densa", "dense", "densi", "denso", "denta", "dente", "denti", "dento", "derby", "derma", "dermi", "derno", "desco", "desia", "desii", "desio", "dessa", "desse", "dessi", "desso", "desta", "deste", "desti", "desto", "detox", "detta", "dette", "detti", "detto", "devia", "devie", "devii", "devio", "diade", "diadi", "diale", "diali", "diamo", "diana", "diane", "diano", "diapa", "diape", "diapi", "diapo", "diari", "diate", "diaza", "diaze", "diazi", "diazo", "dicai", "dicci", "dicco", "diche", "dichi", "dicta", "dieci", "diede", "diedi", "diene", "dieni", "dieri", "diesa", "diesi", "dieso", "dieta", "diete", "dieti", "dieto", "dighe", "digli", "dildi", "dildo", "dilla", "dille", "dilli", "dillo", "dimmi", "dimoi", "dindi", "dindo", "dingo", "dinka", "dinne", "diodi", "diodo", "dioli", "diolo", "diosi", "dipoi", "dirai", "dirci", "direi", "dirla", "dirle", "dirli", "dirlo", "dirmi", "dirne", "dirsi", "dirti", "dirvi", "disco", "disfa", "disfi", "disfo", "disia", "disii", "disio", "disse", "dissi", "dista", "disti", "disto", "ditta", "ditte", "ditti", "diula", "djaga", "doagi", "doari", "dobla", "doble", "dobli", "doblo", "dobra", "docce", "docci", "docmi", "dogai", "doghe", "doghi", "dogli", "dogma", "dogmi", "dogre", "dolai", "dolca", "dolce", "dolci", "dolco", "dolga", "dolgo", "dolio", "dolse", "dolsi", "dolta", "dolte", "dolti", "dolto", "domai", "domma", "dommi", "donai", "donde", "donna", "donne", "donni", "donno", "dopai", "doppi", "dorai", "doria", "dorio", "dorma", "dorme", "dormi", "dormo", "dorsi", "dorso", "dosai", "dossi", "dosso", "dotai", "dotta", "dotte", "dotti", "dotto", "doula", "doule", "dovei", "draba", "drabe", "draco", "draga", "drago", "drena", "dreni", "dreno", "drive", "droga", "drogo", "droma", "drome", "dromi", "dromo", "drone", "droni", "druda", "drude", "drudi", "drudo", "drupa", "drupe", "drusa", "druse", "drusi", "druso", "duagi", "duale", "duali", "dubbi", "ducai", "ducea", "ducee", "duchi", "duina", "duine", "duini", "duino", "dulia", "dulie", "duole", "duoli", "duolo", "duomi", "duomo", "dupla", "duple", "dupli", "duplo", "durai", "durio", "durra", "durre", "duvet", "dviii", "ebani", "ebano", "ebbio", "ebbra", "ebbre", "ebbri", "ebbro", "ebeni", "ebeno", "ebeta", "ebete", "ebeti", "ebeto", "ebola", "ebole", "ebook", "ebrea", "ebree", "ebrei", "ebreo", "ebuli", "ebulo", "echei", "echeo", "echio", "ecidi", "edace", "edaci", "edema", "edemi", "edera", "edere", "edile", "edili", "edipi", "edipo", "edita", "edite", "editi", "edito", "edona", "edone", "edoni", "edono", "educa", "educe", "educi", "educo", "edule", "eduli", "efebi", "efebo", "efesi", "efori", "eforo", "egena", "egene", "egeni", "egeno", "egida", "egide", "egira", "egire", "egizi", "ekiti", "elafe", "elafi", "eleni", "eleva", "elevi", "elevo", "elica", "elice", "elici", "elida", "elide", "elidi", "elido", "eliea", "eliee", "elima", "elime", "elimi", "elimo", "elisa", "elise", "elisi", "eliso", "elogi", "eluda", "elude", "eludi", "eludo", "eluii", "elusa", "eluse", "elusi", "eluso", "eluvi", "emaci", "email", "emale", "emali", "emana", "emani", "emano", "emeri", "emero", "emesi", "emica", "emici", "emico", "emide", "emidi", "emina", "emine", "emiri", "emiro", "emise", "emisi", "emoji", "emoni", "empia", "empie", "empii", "empio", "emula", "emule", "emuli", "emulo", "enema", "enemi", "enfia", "enfie", "enfio", "engri", "ennea", "ennee", "ennei", "enneo", "enoli", "enolo", "entra", "entri", "entro", "enula", "enule", "eolia", "eolie", "eolio", "epica", "epici", "epico", "epoca", "epodi", "epodo", "epura", "epuri", "epuro", "equai", "erada", "erade", "eradi", "erado", "erano", "erari", "erasa", "erase", "erasi", "eraso", "erbai", "erbio", "erebi", "erebo", "ereda", "erede", "eredi", "eredo", "eremi", "eremo", "ereta", "ereti", "ereto", "erica", "eriga", "erige", "erigi", "erigo", "ernia", "ernie", "ernio", "eroda", "erode", "erodi", "erodo", "eroga", "erogo", "erosa", "erose", "erosi", "eroso", "errai", "eruca", "erula", "erule", "eruli", "erulo", "erzya", "esala", "esali", "esalo", "esame", "esami", "esani", "esano", "esche", "eschi", "esiga", "esige", "esigi", "esigo", "esile", "esili", "esima", "esime", "esimi", "esimo", "esipi", "esipo", "esita", "esiti", "esito", "esizi", "esodi", "esodo", "esone", "esoni", "esora", "esori", "esoro", "esosa", "esose", "esosi", "esoso", "espia", "espii", "espio", "essai", "estia", "estie", "estii", "estio", "estri", "estro", "estua", "estui", "estuo", "esula", "esule", "esuli", "esulo", "esuma", "esumi", "esumo", "etani", "etano", "etate", "etati", "etene", "eteni", "etera", "etere", "eteri", "etero", "etesi", "ethos", "etica", "etici", "etico", "etile", "etili", "etimi", "etimo", "etini", "etino", "etnea", "etnee", "etnei", "etneo", "etnia", "etnie", "etola", "etole", "etoli", "etolo", "eutri", "evada", "evade", "evadi", "evado", "evasa", "evase", "evasi", "evaso", "evira", "eviri", "eviro", "evita", "eviti", "evito", "evoca", "evoco", "extra", "fabri", "fabro", "facce", "facci", "facto", "faggi", "fagli", "faida", "faide", "faina", "faine", "falba", "falbe", "falbi", "falbo", "falca", "falce", "falci", "falco", "falda", "falde", "faldi", "faldo", "falla", "falle", "falli", "fallo", "falsa", "false", "falsi", "falso", "famai", "fammi", "fanga", "fango", "fanne", "fanno", "fante", "fanti", "farad", "farai", "farce", "farci", "farda", "farde", "farea", "farei", "farla", "farle", "farli", "farlo", "farmi", "farne", "farri", "farro", "farsa", "farse", "farsi", "farso", "farti", "farvi", "fasai", "fasce", "fasci", "fasta", "faste", "fasti", "fasto", "fatai", "fatta", "fatte", "fatti", "fatto", "fatua", "fatue", "fatui", "fatuo", "fatwa", "fauce", "fauci", "fauna", "faune", "fauni", "fauno", "fauve", "favai", "faxai", "feace", "feaci", "febea", "febee", "febei", "febeo", "fecce", "fedai", "felce", "felci", "fella", "felle", "felli", "fello", "felpa", "felpe", "felpi", "felpo", "felse", "felsi", "felze", "felzi", "femme", "fence", "fenda", "fende", "fendi", "fendo", "feria", "ferie", "ferii", "ferla", "ferle", "ferma", "ferme", "fermi", "fermo", "ferra", "ferri", "ferro", "fersa", "ferse", "ferva", "ferve", "fervi", "fervo", "ferza", "ferze", "ferzi", "ferzo", "fessa", "fesse", "fessi", "fesso", "festa", "feste", "festi", "festo", "fetta", "fette", "feudi", "feudo", "fiaba", "fiabe", "fiala", "fiale", "fiani", "fiano", "fiata", "fiate", "fiati", "fiato", "fibra", "fibre", "ficca", "ficco", "ficea", "ficee", "fiche", "fichi", "ficus", "fidai", "fiele", "fieli", "fieni", "fieno", "fiera", "fiere", "fieri", "fiero", "fighe", "fighi", "figli", "filai", "filli", "fillo", "filma", "filmi", "filmo", "filza", "filze", "finca", "finga", "finge", "fingi", "fingo", "finii", "finna", "finne", "finni", "finno", "finse", "finsi", "finta", "finte", "finti", "finto", "fioca", "fioco", "fiora", "fiore", "fiori", "fioro", "fiote", "fioti", "firma", "firme", "firmi", "firmo", "fisai", "fisco", "fissa", "fisse", "fissi", "fisso", "fitta", "fitte", "fitti", "fitto", "fiume", "fiumi", "fiuta", "fiuti", "fiuto", "flake", "flana", "flani", "flano", "flash", "flati", "flato", "flava", "flave", "flavi", "flavo", "flebo", "fleti", "fleto", "flirt", "flora", "flore", "fluii", "fobia", "fobie", "focea", "focee", "focei", "foceo", "foche", "fochi", "focus", "fodri", "fodro", "fogge", "foggi", "foghe", "fogli", "fogna", "fogne", "fogni", "fogno", "foiba", "foibe", "folce", "folco", "folio", "folla", "folle", "folli", "follo", "folta", "folte", "folti", "folto", "fonai", "fonda", "fonde", "fondi", "fondo", "fonia", "fonie", "fonte", "fonti", "forai", "forca", "force", "forci", "forge", "forgi", "forma", "forme", "formi", "formo", "forni", "forno", "forra", "forre", "forse", "forte", "forti", "forum", "forza", "forze", "forzi", "forzo", "fosca", "fosco", "fossa", "fosse", "fossi", "fosso", "foste", "fosti", "fotta", "fotte", "fotti", "fotto", "fovea", "fovee", "foyer", "fraga", "frale", "frali", "frame", "frana", "frane", "frani", "frano", "frase", "frasi", "frate", "frati", "frega", "fregi", "frego", "frema", "freme", "fremi", "fremo", "frena", "freni", "freno", "freon", "fresa", "frese", "fresi", "freso", "frigi", "frigo", "frine", "frini", "frisa", "frisi", "friso", "froda", "frode", "frodi", "frodo", "froge", "fruga", "frugo", "fruii", "ftori", "ftoro", "fuchi", "fuffa", "fuffe", "fugai", "fugga", "fugge", "fuggi", "fuggo", "fughe", "fughi", "fulbe", "fulbi", "fulga", "fulge", "fulgi", "fulgo", "fulsa", "fulse", "fulsi", "fulso", "fulva", "fulve", "fulvi", "fulvo", "fumai", "fumea", "fumee", "fumei", "fumeo", "fumma", "fummi", "fummo", "funai", "fundo", "funga", "funge", "fungi", "fungo", "funky", "funse", "funsi", "funta", "funte", "funti", "funto", "fuoco", "fuori", "furai", "furba", "furbe", "furbi", "furbo", "furca", "furia", "furie", "furio", "furti", "furto", "fusai", "fusta", "fuste", "fusti", "fusto", "futon", "fuxia", "fuxie", "fuzzy", "gabba", "gabbi", "gabbo", "gaela", "gaele", "gaeli", "gaelo", "gaffa", "gaffe", "gagge", "gaggi", "galea", "galee", "galei", "galeo", "galgo", "galio", "galla", "galle", "galli", "gallo", "gamba", "gambe", "gambi", "gambo", "gamia", "gamie", "gamma", "gamme", "ganci", "ganda", "gande", "ganga", "gange", "ganza", "ganze", "ganzi", "ganzo", "garba", "garbe", "garbi", "garbo", "garga", "gargo", "garni", "garza", "garze", "garzi", "garzo", "gasai", "gasco", "gassa", "gasse", "gassi", "gasso", "gatta", "gatte", "gatti", "gatto", "gauda", "gaude", "gaudi", "gaudo", "gauge", "gauli", "gaulo", "gauta", "gaute", "gauti", "gauto", "gazai", "gazza", "gazze", "gazzi", "gazzo", "gechi", "gelai", "gelao", "gelsa", "gelse", "gelsi", "gelso", "gemei", "gemma", "gemme", "gemmi", "gemmo", "genai", "genia", "genie", "genio", "genoa", "gente", "genti", "genue", "geode", "geodi", "geomi", "gerba", "gerbe", "gergo", "gerla", "gerle", "gerli", "gerlo", "germa", "germe", "germi", "gessa", "gessi", "gesso", "gesta", "gesti", "gesto", "getta", "getti", "getto", "ghali", "ghega", "ghegi", "ghego", "ghiri", "ghiro", "ghisa", "ghise", "giace", "giaci", "giaco", "giada", "giade", "giani", "giano", "giara", "giare", "giava", "giave", "gibbi", "gibbo", "gighe", "gigli", "gilda", "gilde", "gilet", "gimmo", "ginna", "ginni", "ginno", "gioca", "gioco", "giogo", "gioia", "gioie", "gioii", "gioio", "giova", "giovi", "giovo", "girai", "girci", "girei", "girii", "girio", "girla", "girle", "girli", "girlo", "girmi", "girne", "girsi", "girti", "girvi", "gisse", "gissi", "giste", "gisti", "gitta", "gitti", "gitto", "giuba", "giube", "giuda", "giuli", "giura", "giure", "giuri", "giuro", "giuso", "gladi", "gleba", "glebe", "glena", "glene", "gleni", "glifi", "glifo", "globe", "globi", "globo", "glomi", "glomo", "glori", "gluma", "glume", "gnidi", "gnome", "gnomi", "gnomo", "gnosi", "gnuda", "gnude", "gnudi", "gnudo", "gobba", "gobbe", "gobbi", "gobbo", "gocce", "gocci", "godei", "godii", "godio", "goffa", "goffe", "goffi", "goffo", "gogna", "gogne", "goldi", "golea", "golei", "goleo", "golfi", "golfo", "golia", "golpe", "gombe", "gombi", "gombo", "gomma", "gomme", "gommi", "gommo", "gonda", "gonde", "gondi", "gondo", "gonfa", "gonfe", "gonfi", "gonfo", "gonga", "gonio", "gonja", "gonna", "gonne", "gonza", "gonze", "gonzi", "gonzo", "gordi", "gorga", "gorge", "gorgo", "gorna", "gorne", "gotha", "gotta", "gotte", "gotti", "gotto", "gouda", "gozzi", "gozzo", "grada", "grade", "gradi", "grado", "grafi", "grafo", "graia", "graie", "graii", "graio", "grama", "grame", "grami", "gramo", "grana", "grane", "grani", "grano", "grata", "grate", "grati", "grato", "grava", "grave", "gravi", "gravo", "grazi", "greca", "greci", "greco", "gremi", "greti", "greto", "greve", "grevi", "grica", "grici", "grico", "grida", "gride", "gridi", "grido", "grifa", "grifi", "grifo", "grigi", "grola", "grole", "groma", "grome", "grufa", "grufi", "grufo", "gruga", "grugo", "gruma", "grume", "grumi", "grumo", "grusi", "guaco", "guada", "guade", "guadi", "guado", "guaii", "guaio", "guani", "guano", "guari", "guata", "guati", "guato", "gufai", "guida", "guide", "guidi", "guido", "guina", "guini", "guino", "guisa", "guise", "gulag", "gurge", "gurgi", "gusci", "gusla", "gusta", "gusti", "gusto", "gutea", "gutee", "gutei", "guteo", "gutti", "gutto", "guzla", "guzle", "gwari", "hafni", "haida", "haiku", "hakka", "hallo", "hamza", "hanno", "harem", "haute", "hedge", "hello", "henna", "henne", "hertz", "hevea", "hevee", "hijab", "hindi", "hobby", "hokka", "hokke", "hokki", "hokko", "holmi", "hotel", "house", "huave", "huavi", "huchi", "hudna", "iacea", "iacee", "iarda", "iarde", "ibera", "ibere", "iberi", "ibero", "iblea", "iblee", "iblei", "ibleo", "icari", "icena", "icene", "iceni", "iceno", "icona", "icone", "icore", "icori", "ictus", "idali", "iddia", "iddie", "iddio", "ideai", "idoli", "idolo", "idria", "idrie", "iella", "ielle", "iesta", "ieste", "iesti", "iesto", "ietta", "ietti", "ietto", "ifale", "ifali", "ifema", "ifemi", "igloo", "ignea", "ignee", "ignei", "igneo", "ilare", "ilari", "ilice", "ilici", "ilide", "ilidi", "illea", "illee", "illei", "illeo", "ilota", "ilote", "iloti", "image", "imago", "imani", "imano", "imati", "imene", "imeni", "imita", "imiti", "imito", "inala", "inali", "inalo", "inane", "inani", "incoa", "incoi", "incoo", "india", "indie", "indio", "infoi", "infra", "ingoi", "ingri", "inizi", "inlei", "inlui", "inmia", "inmio", "inoli", "inoma", "inomi", "inope", "inopi", "insce", "insci", "insta", "insti", "insto", "intra", "intro", "inula", "inule", "inuma", "inumi", "inumo", "invai", "invia", "invii", "invio", "iodai", "iodio", "ioide", "ioidi", "iolla", "iolle", "ionia", "ionie", "ionio", "ipate", "ipati", "ippia", "ippie", "ippii", "ippio", "irace", "iraci", "irata", "irate", "irati", "irato", "irchi", "irida", "iride", "iridi", "irido", "irite", "iriti", "iroki", "iroko", "irosa", "irose", "irosi", "iroso", "irula", "ischi", "islam", "isodi", "isola", "isole", "isoli", "isolo", "isopi", "isopo", "issai", "istai", "istle", "istmi", "istmo", "isuri", "isuro", "itaci", "itaco", "itala", "itale", "itali", "italo", "itera", "iteri", "itero", "iucca", "iulca", "iulco", "iurta", "iurte", "ivata", "ivate", "ivati", "ivato", "jeans", "jihad", "jolly", "joule", "jumbo", "junci", "junco", "kaaba", "kakwa", "kamti", "kanji", "kansa", "kaone", "kaoni", "kappa", "karma", "kasba", "kayak", "kebab", "kendo", "khasi", "kiowa", "kissi", "kitai", "kiwai", "koala", "konde", "kondi", "konga", "konge", "kongi", "kongo", "konta", "kulla", "kulle", "kulli", "kullo", "kunta", "kurda", "kurde", "kurdi", "kurdo", "kwena", "kyrie", "labbi", "labbo", "labda", "labio", "labri", "labro", "lacca", "lacce", "lacci", "lacco", "ladra", "ladre", "ladri", "ladro", "laghi", "lagna", "lagne", "lagni", "lagno", "laica", "laici", "laico", "laida", "laide", "laidi", "laido", "lamai", "lamba", "lambe", "lambi", "lambo", "lamia", "lamie", "lamio", "lampa", "lampe", "lampi", "lampo", "lanca", "lance", "lanci", "landa", "lande", "lanea", "lanee", "lanei", "laneo", "lanfa", "lanfe", "langa", "lange", "lania", "lanio", "lanzi", "lanzo", "lapis", "lappa", "lappe", "lappi", "lappo", "larda", "lardi", "lardo", "larga", "large", "largo", "larva", "larve", "larvi", "larvo", "lasca", "lasci", "lasco", "laser", "lassa", "lasse", "lassi", "lasso", "lasta", "laste", "latra", "latri", "latro", "latta", "latte", "latti", "latto", "lauda", "laude", "laudi", "laura", "laure", "lauri", "lauro", "lauta", "laute", "lauti", "lauto", "lavai", "lavia", "lavie", "lavra", "lavre", "lazza", "lazze", "lazzi", "lazzo", "leale", "leali", "lebbi", "lecca", "lecce", "lecci", "lecco", "legai", "legga", "legge", "leggi", "leggo", "leghe", "leghi", "legna", "legni", "legno", "lella", "lelle", "lelli", "lello", "lembi", "lembo", "lemma", "lemme", "lemmi", "lemmo", "lemna", "lemne", "lenca", "lenci", "lenea", "lenee", "lenei", "leneo", "lenii", "lenta", "lente", "lenti", "lento", "lenza", "lenze", "lenzi", "lenzo", "leone", "leoni", "leppa", "leppi", "leppo", "lepra", "lepre", "lepri", "lerce", "lerci", "lesbi", "lesbo", "lesca", "lessa", "lesse", "lessi", "lesso", "lesta", "leste", "lesti", "lesto", "letea", "letee", "letei", "leteo", "letri", "letro", "letta", "lette", "letti", "letto", "leuca", "leuci", "leuco", "leuti", "leuto", "levai", "lezia", "lezie", "lezio", "lezza", "lezze", "lezzi", "lezzo", "liana", "liane", "libai", "libra", "libre", "libri", "libro", "licci", "licei", "liceo", "licia", "licie", "licio", "lidar", "lidia", "lidie", "lidio", "lieta", "liete", "lieti", "lieto", "lieve", "lievi", "lifta", "lifti", "lifto", "ligei", "ligeo", "ligia", "ligie", "ligio", "ligre", "ligri", "lilla", "limai", "limbi", "limbo", "limii", "limio", "limma", "limmi", "linai", "lince", "linci", "linda", "linde", "lindi", "lindo", "linea", "linee", "linei", "lineo", "linfa", "linfe", "lingi", "linka", "linki", "linko", "lippa", "lippe", "lippi", "lippo", "liqua", "liqui", "liquo", "lisai", "lisca", "lisce", "lisci", "lissa", "lisse", "lissi", "lisso", "lista", "liste", "listi", "listo", "litai", "litio", "litra", "litre", "litri", "litro", "litta", "litte", "litui", "lituo", "liuti", "liuto", "lizza", "lizze", "lizzi", "lizzo", "lobby", "locai", "locca", "locco", "lochi", "lodai", "loden", "lodge", "loffa", "loffe", "loffi", "loffo", "lofio", "logga", "logge", "loggo", "loghi", "logia", "logli", "logra", "logri", "logro", "loica", "loici", "loico", "lolla", "lolle", "lombi", "lombo", "lompi", "lompo", "longa", "longo", "lonza", "lonze", "loppa", "loppe", "loppi", "loppo", "lorda", "lorde", "lordi", "lordo", "lorio", "losca", "losco", "lotta", "lotte", "lotti", "lotto", "lucci", "lucco", "lucea", "lucei", "luchi", "lucia", "lucie", "lucra", "lucri", "lucro", "ludra", "ludre", "ludri", "ludro", "luena", "luese", "luesi", "luffa", "luffe", "lugli", "lugre", "lugri", "lugro", "luigi", "lulla", "lulle", "lumai", "lumia", "lumie", "lumpi", "lumpo", "lunda", "lunga", "lungi", "lungo", "luogo", "lurca", "lurco", "lusca", "lusco", "lussa", "lussi", "lusso", "lutai", "lutea", "lutee", "lutei", "luteo", "lutta", "lutti", "lutto", "luvia", "luvie", "luvii", "luvio", "lycra", "macao", "macca", "macco", "machi", "macho", "macia", "macie", "macro", "madia", "madie", "madre", "madri", "mafia", "mafie", "mafio", "magai", "maggi", "maghe", "maghi", "magia", "magie", "magio", "magli", "magma", "magmi", "magna", "magne", "magni", "magno", "magra", "magre", "magri", "magro", "maide", "maidi", "maina", "maini", "maino", "malga", "malgo", "malia", "malie", "malli", "mallo", "malta", "malte", "malti", "malto", "malva", "malve", "mamba", "mambi", "mambo", "mamma", "mamme", "mammi", "mammo", "manaa", "manae", "manai", "manao", "manca", "mance", "manco", "manda", "mande", "mandi", "mando", "manga", "mangi", "mango", "mania", "manie", "manna", "manne", "mansa", "manse", "mansi", "manso", "manta", "mante", "manti", "manto", "manza", "manze", "manzi", "manzo", "maona", "maone", "maori", "mappa", "mappe", "mappi", "mappo", "marca", "marce", "marci", "marco", "marea", "maree", "margi", "margo", "marma", "marmi", "marmo", "marna", "marne", "marni", "marno", "marra", "marre", "marsa", "marse", "marsi", "marso", "marza", "marze", "marzi", "marzo", "masai", "massa", "masse", "massi", "masso", "masti", "matta", "matte", "matti", "matto", "maura", "maure", "mauri", "mauro", "mauve", "mauvi", "mazza", "mazze", "mazzi", "mazzo", "mbaka", "mbaya", "meaci", "meala", "meale", "meali", "mealo", "meami", "meane", "meano", "meare", "meata", "meate", "meati", "meato", "meava", "meavi", "meavo", "mecca", "media", "medie", "medio", "meino", "mekea", "mekee", "mekei", "mekeo", "melai", "melba", "melda", "melde", "meldi", "meldo", "melia", "melie", "melii", "melio", "melma", "melme", "meloe", "meloi", "menai", "mence", "menci", "menda", "mende", "mendi", "mendo", "menga", "menri", "mensa", "mense", "menta", "mente", "menti", "mento", "meoni", "meoti", "merca", "merce", "merci", "merco", "merda", "merde", "merga", "merge", "mergi", "mergo", "meria", "merie", "merio", "merla", "merle", "merli", "merlo", "mersa", "merse", "mersi", "merso", "mesca", "mesce", "mesci", "mesco", "messa", "messe", "messi", "messo", "mesta", "meste", "mesti", "mesto", "meteo", "metri", "metro", "metta", "mette", "metti", "metto", "mezza", "mezze", "mezzi", "mezzo", "miasi", "micca", "micce", "micci", "micco", "miche", "micia", "micie", "micio", "micro", "miele", "mieli", "mieta", "miete", "mieti", "mieto", "migma", "migmi", "migra", "migri", "migro", "milia", "milio", "mille", "milza", "milze", "mimai", "mimma", "mimme", "mimmi", "mimmo", "minai", "minea", "minee", "minei", "mineo", "minga", "minge", "mingi", "mingo", "minia", "minio", "minna", "minne", "minse", "minsi", "mioma", "miomi", "miope", "miopi", "miosi", "mirai", "mirra", "mirre", "mirri", "mirro", "mirti", "mirto", "misia", "misie", "misii", "misio", "missa", "missi", "misso", "mista", "miste", "misti", "misto", "mitra", "mitre", "mitri", "mitro", "mitti", "mitto", "mixai", "mixer", "mocci", "mochi", "mocoa", "modem", "modio", "moggi", "mogia", "mogie", "mogio", "mogli", "moina", "moine", "moira", "moire", "molai", "molca", "molce", "molla", "molle", "molli", "mollo", "molta", "molte", "molti", "molto", "molva", "molve", "monca", "monco", "monda", "monde", "mondi", "mondo", "monna", "monne", "monta", "monte", "monti", "monto", "moqui", "morai", "morbi", "morbo", "morda", "morde", "mordi", "mordo", "morfi", "morfo", "moria", "morie", "morii", "morra", "morre", "morsa", "morse", "morsi", "morso", "morta", "morte", "morti", "morto", "morva", "morve", "mosca", "mosce", "mosci", "mosco", "mossa", "mosse", "mossi", "mosso", "mosti", "mosto", "motta", "motte", "motti", "motto", "mouse", "movie", "mozza", "mozze", "mozzi", "mozzo", "mucca", "mucci", "mucco", "muchi", "mudai", "muffa", "muffe", "muffi", "muffo", "mufti", "mughi", "mugli", "mulsi", "mulso", "multa", "multe", "multi", "multo", "mundi", "munga", "munge", "mungi", "mungo", "munii", "munse", "munsi", "munta", "munte", "munti", "munto", "muoia", "muoio", "muone", "muoni", "muore", "muori", "muova", "muove", "muovi", "muovo", "murai", "murge", "muria", "murie", "murmi", "murra", "murre", "musai", "musco", "musei", "museo", "mussa", "musse", "mussi", "musso", "mutai", "mutua", "mutue", "mutui", "mutuo", "nabla", "nabli", "nadir", "nafta", "nafte", "nahua", "naibi", "naide", "naidi", "naira", "nakfa", "nanfa", "nanfe", "nanna", "nanne", "nante", "nanzi", "napea", "napee", "nappa", "nappe", "nappi", "nappo", "narco", "nardi", "nardo", "narra", "narri", "narro", "nasai", "nasca", "nasce", "nasci", "nasco", "nashi", "naspi", "naspo", "nassa", "nasse", "nassi", "nasso", "nasua", "nasue", "natai", "natia", "natie", "natii", "natio", "natta", "natte", "nause", "nauta", "nauti", "ndoga", "ndoge", "ndogi", "ndogo", "nebbi", "necai", "necce", "necci", "nechi", "negai", "neghi", "negli", "nella", "nelle", "nello", "nembi", "nembo", "nemea", "nemee", "nemei", "nemeo", "nence", "nenci", "nenia", "nenie", "nerba", "nerbi", "nerbo", "nervi", "nervo", "nesce", "nesci", "nessi", "nesso", "nesta", "nesti", "nesto", "netta", "nette", "netti", "netto", "neuma", "neumi", "neura", "neure", "neuri", "neuro", "nevai", "ngala", "nguni", "nibbi", "nicce", "nicci", "niego", "nievi", "nievo", "nimbi", "nimbo", "ninfa", "ninfe", "ninja", "ninna", "ninne", "ninni", "ninno", "niobi", "nisba", "nitra", "nitri", "nitro", "niuna", "niune", "niuni", "niuno", "nivea", "nivee", "nivei", "niveo", "nobel", "nocca", "noema", "noemi", "noesi", "nogai", "noghi", "nomai", "nomea", "nomee", "nonio", "nonna", "nonne", "nonni", "nonno", "noria", "norie", "norma", "norme", "normi", "normo", "norna", "norne", "notai", "notta", "notte", "notti", "notto", "novai", "novio", "nozze", "nuche", "nudai", "nugae", "nulla", "nulle", "nulli", "nullo", "nummi", "nummo", "nunci", "nunzi", "nuoce", "nuoci", "nuora", "nuore", "nuota", "nuoti", "nuoto", "nuova", "nuove", "nuovi", "nuovo", "nurse", "nutka", "nutra", "nutre", "nutri", "nutro", "nyala", "nylon", "obbli", "obeli", "obelo", "obera", "oberi", "obero", "obesa", "obese", "obesi", "obeso", "obice", "obici", "obiti", "obito", "oblai", "oblia", "oblii", "oblio", "oboli", "obolo", "ocche", "occhi", "ocimi", "ocimo", "ocrea", "ocree", "oculi", "oculo", "odano", "oddio", "odiai", "odici", "odila", "odile", "odili", "odilo", "odimi", "odine", "odino", "odire", "odita", "odite", "oditi", "odito", "odiva", "odivi", "odivo", "odono", "odora", "odore", "odori", "odoro", "odrai", "oecio", "offra", "offre", "offri", "offro", "ofide", "ofidi", "ofite", "ofiti", "ogiva", "ogive", "oiana", "oidio", "okapi", "oleai", "olfai", "oliai", "olino", "olire", "olita", "olite", "oliti", "olito", "oliva", "olive", "olivi", "olivo", "olmio", "olona", "olone", "olora", "olore", "olori", "oloro", "oltra", "oltre", "omaha", "omani", "omano", "omari", "omaro", "omasi", "omaso", "ombra", "ombre", "ombri", "ombro", "omega", "omeri", "omero", "omese", "omesi", "omini", "omino", "omise", "omisi", "omnia", "omone", "omoni", "oncia", "ondai", "onera", "onere", "oneri", "onero", "onese", "onesi", "onice", "onici", "onora", "onore", "onori", "onoro", "onrai", "opaca", "opaci", "opaco", "opale", "opali", "opata", "opera", "opere", "operi", "opero", "opica", "opici", "opico", "opima", "opime", "opimi", "opimo", "opina", "opini", "opino", "oppia", "oppio", "optai", "oraci", "orafa", "orafe", "orafi", "orafo", "orala", "orale", "orali", "oralo", "orami", "orane", "orano", "orare", "orari", "orata", "orate", "orati", "orato", "orava", "oravi", "oravo", "orbai", "orche", "orchi", "orcio", "ordii", "orfea", "orfee", "orgia", "oribi", "orice", "orici", "orige", "origi", "orina", "orine", "orini", "orino", "orlai", "ormai", "ornai", "orobi", "oroci", "oroki", "oroma", "orome", "oromi", "oromo", "orrea", "orree", "orrei", "orreo", "orrii", "orzai", "osaci", "osage", "osagi", "osala", "osale", "osali", "osalo", "osami", "osane", "osano", "osare", "osata", "osate", "osati", "osato", "osava", "osavi", "osavo", "oscar", "osche", "osino", "osmio", "ossea", "ossee", "ossei", "osseo", "ossia", "ostai", "osteo", "ostia", "ostie", "ostio", "ostri", "ostro", "otica", "otici", "otico", "otide", "otidi", "otite", "otiti", "ottri", "ovaia", "ovaie", "ovaio", "ovale", "ovali", "ovari", "ovata", "ovate", "ovati", "ovato", "ovest", "ovile", "ovili", "ovina", "ovine", "ovini", "ovino", "ovoli", "ovolo", "ovula", "ovuli", "ovulo", "ovvia", "ovvie", "ovvii", "ovvio", "oyana", "ozena", "ozene", "oziai", "ozino", "ozoni", "ozono", "pabbi", "pacai", "pacca", "pacco", "pachi", "pacia", "pacio", "pacta", "padda", "padre", "padri", "paese", "paesi", "pafia", "pafie", "pafii", "pafio", "pagai", "paggi", "paghe", "paghi", "pagri", "pagro", "paini", "paino", "paisa", "palai", "palco", "palea", "palee", "palei", "paleo", "palio", "palla", "palle", "palli", "pallo", "palma", "palme", "palmi", "palmo", "palpa", "palpi", "palpo", "palta", "palte", "pampa", "panai", "panca", "pance", "panda", "pande", "pandi", "pando", "pania", "panie", "panna", "panne", "panni", "panno", "pansa", "panse", "pansi", "panso", "panza", "panze", "paoli", "paolo", "pappa", "pappe", "pappi", "pappo", "papua", "parai", "parca", "parce", "parci", "parco", "pardi", "pardo", "parei", "pareo", "paria", "parie", "parii", "pario", "parka", "parla", "parli", "parlo", "parma", "parme", "parra", "parre", "parsa", "parse", "parsi", "parso", "parta", "parte", "parti", "parto", "parva", "parve", "parvi", "parvo", "pasca", "pasce", "pasci", "pasco", "passa", "passe", "passi", "passo", "pasta", "paste", "pasti", "pasto", "patia", "patie", "patii", "patio", "patre", "patri", "patta", "patte", "patti", "patto", "paura", "paure", "pausa", "pause", "pausi", "pauso", "pavia", "pavie", "pazza", "pazze", "pazzi", "pazzo", "peace", "peaci", "peana", "peani", "peata", "peate", "pecca", "pecce", "pecci", "pecco", "pechi", "pecia", "pecie", "pedio", "pegni", "pegno", "pekoe", "pelai", "pelea", "pelee", "pelei", "peleo", "pelle", "pelli", "pelta", "pelte", "pelvi", "penai", "penda", "pende", "pendi", "pendo", "penei", "peneo", "penna", "penne", "pensa", "pensi", "penso", "penta", "pente", "penti", "pento", "peoci", "peone", "peoni", "peota", "peote", "pepai", "pepli", "peplo", "pepsi", "perca", "perda", "perde", "perdi", "perdo", "perii", "perla", "perle", "perni", "perno", "persa", "perse", "persi", "perso", "pervi", "pesai", "pesca", "pesce", "pesci", "pesco", "pesta", "peste", "pesti", "pesto", "petai", "petti", "petto", "pezza", "pezze", "pezzi", "pezzo", "phone", "photo", "phyla", "piace", "piaci", "piada", "piade", "piaga", "piago", "piala", "piale", "piali", "pialo", "piami", "piamo", "piana", "piane", "piani", "piano", "piare", "piata", "piate", "piati", "piato", "piava", "piavi", "piavo", "picca", "picce", "picco", "picea", "picee", "picei", "piceo", "piche", "pichi", "picio", "piede", "piedi", "piega", "piego", "piena", "piene", "pieni", "pieno", "pieri", "piese", "piesi", "pieta", "piete", "pieve", "pievi", "pighi", "pigia", "pigii", "pigio", "pigli", "pigna", "pigne", "pigra", "pigre", "pigri", "pigro", "piino", "pilai", "pilei", "pileo", "pilla", "pilli", "pillo", "pinai", "pinca", "pince", "pinco", "pinea", "pinee", "pinei", "pineo", "pinna", "pinne", "pinsa", "pinse", "pinta", "pinte", "pinti", "pinto", "pinza", "pinze", "pinzi", "pinzo", "pioda", "piode", "piola", "piole", "pioli", "piolo", "pione", "pioni", "piota", "piote", "pioti", "pioto", "piova", "piove", "piovi", "piovo", "pipai", "pipia", "pipio", "pippa", "pippe", "pippi", "pippo", "pipra", "pipre", "pirla", "pirli", "pirlo", "pisce", "pisci", "pissi", "pista", "piste", "pitia", "pitie", "pitta", "pitte", "pitti", "pitto", "piuma", "piume", "piumi", "piumo", "pizia", "pizie", "pizio", "pizza", "pizze", "pizzi", "pizzo", "placa", "place", "placo", "plaga", "plagi", "plana", "plani", "plano", "plebe", "plebi", "plica", "plico", "ploia", "ploie", "plora", "plori", "ploro", "ploti", "ploto", "plugo", "pluvi", "pocci", "poche", "pochi", "podio", "podza", "podze", "podzi", "podzo", "poema", "poemi", "poeta", "poeti", "poeto", "pogai", "pogge", "poggi", "poghi", "poise", "poker", "polca", "polii", "polio", "polka", "polke", "polla", "polle", "polli", "pollo", "polpa", "polpe", "polpi", "polpo", "polsi", "polso", "polta", "polte", "polve", "polvi", "pomai", "pomfi", "pomfo", "pompa", "pompe", "pompi", "pompo", "ponce", "ponci", "ponda", "pondi", "pondo", "ponfi", "ponfo", "ponga", "pongo", "ponta", "ponte", "ponti", "ponto", "ponza", "ponzi", "ponzo", "poppa", "poppe", "poppi", "poppo", "porca", "porci", "porco", "porga", "porge", "porgi", "porgo", "porla", "porle", "porli", "porlo", "pormi", "porne", "porno", "porre", "porri", "porro", "porse", "porsi", "porta", "porte", "porti", "porto", "porvi", "posai", "posca", "possa", "posse", "possi", "posso", "posta", "poste", "posti", "posto", "potai", "potei", "potta", "potte", "poule", "pozza", "pozze", "pozzi", "pozzo", "praho", "prana", "prasi", "prati", "prato", "prava", "prave", "pravi", "pravo", "prece", "preci", "preco", "preda", "prede", "predi", "predo", "prega", "pregi", "prego", "preli", "prema", "preme", "premi", "premo", "presa", "prese", "presi", "preso", "prete", "preti", "previ", "price", "pride", "prima", "prime", "primi", "primo", "priva", "prive", "privi", "privo", "proba", "probe", "probi", "probo", "proci", "proco", "proda", "prode", "prodi", "prole", "proli", "promo", "prona", "prone", "proni", "prono", "prora", "prore", "prosa", "prose", "prosi", "proso", "proti", "proto", "prova", "prove", "provi", "provo", "prozi", "pruda", "prude", "prudi", "prudo", "pruna", "prune", "pruni", "pruno", "psico", "psoco", "psofi", "psofo", "ptini", "ptino", "ptosi", "pucci", "puffi", "puffo", "pugge", "puggi", "pugio", "pugna", "pugne", "pugni", "pugno", "puina", "puine", "pulca", "pulce", "pulci", "pulii", "pulka", "pulke", "pulla", "pulle", "pulli", "pullo", "pulsa", "pulsi", "pulso", "punci", "punga", "punge", "pungi", "pungo", "punii", "punse", "punsi", "punta", "punte", "punti", "punto", "puppa", "puppi", "puppo", "purai", "purea", "puree", "purga", "purgo", "pussa", "pussi", "pusso", "pusta", "puste", "putai", "putii", "putre", "putri", "putta", "putte", "putti", "putto", "puzza", "puzze", "puzzi", "puzzo", "qasba", "qasbe", "qibla", "quada", "quade", "quadi", "quado", "quale", "quali", "quare", "quark", "quasi", "queta", "queto", "quici", "quija", "quije", "quiji", "quijo", "quina", "quine", "quini", "quino", "quita", "quiti", "quito", "quivi", "quota", "quote", "quoti", "quoto", "rabbi", "rabia", "racca", "racco", "racla", "racle", "radia", "radio", "radon", "raffa", "raffe", "raffi", "raffo", "rafia", "rafie", "raggi", "raghe", "ragia", "ragie", "ragli", "ragna", "ragne", "ragni", "ragno", "raiai", "raide", "raidi", "raino", "raita", "raiti", "raito", "ralla", "ralle", "ralli", "rallo", "ramai", "rambo", "ramea", "ramee", "ramei", "ramen", "rameo", "ramia", "ramie", "ramni", "ramno", "rampa", "rampe", "rampi", "rampo", "ranca", "rance", "ranci", "ranco", "randa", "rande", "ranfi", "range", "rango", "ranni", "ranno", "rapai", "rapii", "rappa", "rappe", "rasai", "rasce", "rasoi", "raspa", "raspe", "raspi", "raspo", "rasta", "ratea", "ratei", "rateo", "ratio", "ratta", "ratte", "ratti", "ratto", "rauca", "rauco", "razza", "razze", "razzi", "razzo", "reale", "reali", "reame", "reami", "reati", "reato", "rebbi", "rebus", "recai", "recei", "rechi", "recto", "redai", "redii", "reese", "reesi", "regga", "regge", "reggi", "reggo", "regia", "regie", "regio", "regna", "regni", "regno", "reide", "reidi", "reiki", "relax", "remai", "renai", "renda", "rende", "rendi", "rendo", "renio", "renna", "renne", "rensa", "rense", "repli", "replo", "requi", "resca", "resia", "resie", "respi", "respo", "ressa", "resse", "ressi", "resta", "reste", "resti", "resto", "retai", "retea", "retee", "retei", "reteo", "retri", "retro", "retta", "rette", "retti", "retto", "reuma", "reumi", "rezza", "rezze", "rezzi", "rezzo", "riale", "riali", "riama", "riami", "riamo", "riara", "riari", "riaro", "ribes", "ricca", "ricce", "ricci", "ricco", "ridai", "ridda", "ridde", "riddi", "riddo", "ridia", "rieda", "riede", "riedi", "riedo", "riera", "rieri", "riero", "rifai", "riffa", "riffe", "rifui", "rigai", "rigge", "righe", "righi", "rigna", "rigni", "rigno", "rimai", "rioca", "rioco", "rioda", "riode", "riodi", "riodo", "rione", "rioni", "ripii", "risai", "risei", "risia", "risii", "risma", "risme", "rispi", "rissa", "risse", "rissi", "risso", "ritma", "ritmi", "ritmo", "ritta", "ritte", "ritti", "ritto", "riusa", "riusi", "riuso", "rivai", "rizza", "rizze", "rizzi", "rizzo", "roana", "roane", "roani", "roano", "robbi", "robot", "rocca", "rocce", "rocco", "roche", "rochi", "rodai", "rodei", "rodeo", "rodia", "rodie", "rodii", "rodio", "roese", "roesi", "rogai", "rogge", "roggi", "roghi", "rogna", "rogne", "rogni", "rogno", "rolla", "rolli", "rollo", "romba", "rombe", "rombi", "rombo", "romea", "romee", "romei", "romeo", "rompa", "rompe", "rompi", "rompo", "ronca", "ronco", "ronda", "ronde", "rondi", "rondo", "ronfa", "ronfe", "ronfi", "ronfo", "ronza", "ronzi", "ronzo", "rorai", "rosai", "rosea", "rosee", "rosei", "roseo", "rospi", "rospo", "rossa", "rosse", "rossi", "rosso", "rosta", "roste", "rosti", "rosto", "rotai", "rotea", "rotei", "roteo", "rotta", "rotte", "rotti", "rotto", "rouge", "rovai", "rozza", "rozze", "rozzi", "rozzo", "rubai", "rubbi", "rubbo", "rubea", "rubee", "rubei", "rubeo", "rubli", "rublo", "rubra", "rubre", "rubri", "rubro", "ruche", "ruese", "ruesi", "ruffa", "ruffe", "rugai", "rugby", "rughe", "rughi", "rugli", "ruina", "ruini", "ruino", "rulla", "rulli", "rullo", "rumai", "rumba", "rumbe", "rumme", "rummi", "ruoli", "ruolo", "ruota", "ruote", "ruoti", "ruoto", "rupia", "rupie", "ruppe", "ruppi", "rusca", "rusco", "ruspa", "ruspe", "ruspi", "ruspo", "russa", "russe", "russi", "russo", "rutta", "rutti", "rutto", "ruzza", "ruzze", "ruzzi", "ruzzo", "saale", "saali", "sabba", "sabbi", "sabea", "sabee", "sabei", "sabeo", "sabia", "sabie", "sabii", "sabio", "sabra", "sacca", "sacco", "sacia", "sacie", "sacio", "sacra", "sacre", "sacri", "sacro", "saffo", "sagge", "saggi", "saghe", "saghi", "sagii", "sagna", "sagni", "sagno", "sagra", "sagre", "sagri", "sagro", "saiga", "saime", "saimi", "salai", "salda", "salde", "saldi", "saldo", "salga", "salgo", "salii", "salio", "salma", "salme", "salmi", "salmo", "salpa", "salpe", "salpi", "salpo", "salsa", "salse", "salsi", "salso", "salta", "salti", "salto", "salva", "salve", "salvi", "salvo", "samba", "samia", "samie", "samii", "samio", "sanai", "sanie", "sanno", "sansa", "sanse", "santa", "sante", "santi", "santo", "saora", "sapio", "sappi", "sarai", "sarda", "sarde", "sardi", "sardo", "sarei", "sarge", "sargo", "sarta", "sarte", "sarti", "sarto", "sassi", "sasso", "sauna", "saune", "saura", "saure", "sauri", "sauro", "savia", "savie", "savio", "sazia", "sazie", "sazio", "sbafa", "sbafi", "sbafo", "sbava", "sbavi", "sbavo", "sboba", "sbobe", "sbora", "sbore", "sbovi", "sbovo", "sbuca", "sbuco", "scada", "scade", "scadi", "scado", "scafa", "scafe", "scafi", "scafo", "scala", "scale", "scali", "scalo", "scana", "scane", "scapa", "scapi", "scapo", "scari", "scaro", "scasa", "scasi", "scaso", "scava", "scavi", "scavo", "sceda", "scede", "scema", "sceme", "scemi", "scemo", "scena", "scene", "scesa", "scese", "scesi", "sceso", "schei", "schwa", "sciai", "scifi", "scifo", "scipa", "scipi", "scipo", "scira", "scire", "sciri", "sciro", "scita", "scite", "sciti", "scoda", "scodi", "scodo", "scoia", "scoio", "scola", "scoli", "scolo", "scopa", "scope", "scopi", "scopo", "scora", "score", "scori", "scoro", "scota", "scote", "scoti", "scoto", "scova", "scovi", "scovo", "scuce", "scuci", "scuda", "scudi", "scudo", "scuoi", "scura", "scure", "scuri", "scuro", "scusa", "scuse", "scusi", "scuso", "scuti", "scuto", "sdama", "sdami", "sdamo", "sdare", "sdata", "sdate", "sdati", "sdato", "sdava", "sdavi", "sdavo", "sdazi", "sdica", "sdice", "sdici", "sdico", "sdire", "sdite", "sdoga", "sdogo", "sdora", "sdori", "sdoro", "sdrai", "sduca", "sduco", "secai", "secca", "secce", "secco", "sechi", "sedai", "sedei", "sedia", "sedie", "sedio", "segai", "segga", "seggi", "seggo", "seghe", "seghi", "segna", "segni", "segno", "segua", "segue", "segui", "seguo", "seini", "seino", "selce", "selci", "selfa", "selfi", "selfo", "sella", "selle", "selli", "sello", "selva", "selve", "semai", "senna", "senne", "senni", "senno", "senoi", "sensi", "senso", "senta", "sente", "senti", "sento", "senza", "seppe", "seppi", "sepsi", "serba", "serbe", "serbi", "serbo", "seria", "serie", "serio", "sermo", "serpa", "serpe", "serpi", "serpo", "serra", "serre", "serri", "serro", "serti", "serto", "serva", "serve", "servi", "servo", "sesia", "sesie", "sessa", "sesse", "sessi", "sesso", "sesta", "seste", "sesti", "sesto", "setta", "sette", "setti", "setto", "sezza", "sezze", "sezzi", "sezzo", "sfama", "sfami", "sfamo", "sfare", "sfasa", "sfasi", "sfaso", "sfata", "sfate", "sfati", "sfato", "sfece", "sfeci", "sfera", "sfere", "sfida", "sfide", "sfidi", "sfido", "sfiga", "sfila", "sfili", "sfilo", "sfina", "sfini", "sfino", "sfizi", "sfoca", "sfoci", "sfoco", "sfoga", "sfogo", "sfora", "sfori", "sforo", "sfuma", "sfumi", "sfumo", "sfuri", "sfusa", "sfuse", "sfusi", "sfuso", "sgama", "sgami", "sgamo", "sgara", "sgari", "sgaro", "sgasa", "sgasi", "sgaso", "sgela", "sgeli", "sgelo", "sgola", "sgoli", "sgolo", "sgura", "sguri", "sguro", "shake", "shara", "share", "shari", "sharo", "shina", "shire", "siamo", "siano", "siate", "siche", "sicli", "siclo", "sidri", "sidro", "sieda", "siede", "siedi", "siedo", "siepa", "siepe", "siepi", "siepo", "sieri", "siero", "siete", "sigla", "sigle", "sigli", "siglo", "sigma", "sigmi", "sigua", "siici", "siila", "siile", "siili", "siilo", "siimi", "siine", "siiti", "silfi", "silfo", "silli", "sillo", "silos", "silvi", "sinti", "sipai", "sirma", "sirme", "sirte", "sirti", "sisma", "sismi", "sismo", "sitai", "sitii", "situa", "situi", "situo", "sizio", "sizza", "sizze", "skate", "skypa", "skypi", "skypo", "slama", "slami", "slamo", "slava", "slave", "slavi", "slavo", "slebi", "slebo", "slega", "slego", "slice", "slide", "sloga", "slogo", "sluma", "slumi", "slumo", "smaga", "smagi", "smago", "smani", "smela", "smeli", "smelo", "smera", "smeri", "smero", "smile", "smina", "smini", "smino", "smira", "smiri", "smiro", "smise", "smisi", "smoda", "smodi", "smodo", "smoke", "smova", "smove", "smovi", "smovo", "smura", "smuri", "smuro", "smusa", "smusi", "smuso", "snasa", "snasi", "snaso", "sneva", "snevi", "snevo", "snida", "snidi", "snido", "snipe", "snoda", "snodi", "snodo", "snuda", "snudi", "snudo", "soana", "soane", "soani", "soano", "soave", "soavi", "sobri", "socci", "socco", "socia", "socie", "socio", "sodai", "sodio", "soffi", "sofia", "sofie", "soghe", "sogli", "sogna", "sogni", "sogno", "solai", "solca", "solco", "solda", "soldi", "soldo", "solea", "solee", "solei", "soleo", "solfa", "solfe", "solfi", "solfo", "solgo", "solio", "solla", "solle", "solli", "sollo", "solta", "solte", "solti", "solto", "solva", "solve", "solvi", "solvo", "somma", "somme", "sommi", "sommo", "somni", "sonai", "sonar", "sonco", "sonda", "sonde", "sondi", "sondo", "songa", "songe", "songi", "songo", "sonii", "sonio", "sonni", "sonno", "sopii", "sopra", "sorai", "sorba", "sorbe", "sorbi", "sorbo", "sorca", "sorci", "sorda", "sorde", "sordi", "sordo", "sorga", "sorge", "sorgi", "sorgo", "sorra", "sorre", "sorsa", "sorse", "sorsi", "sorso", "sorta", "sorte", "sorti", "sorto", "sosia", "sosta", "soste", "sosti", "sosto", "sotho", "sotta", "sotti", "sotto", "sovra", "sozio", "sozza", "sozze", "sozzi", "sozzo", "spada", "spade", "spago", "spaia", "spaio", "spala", "spali", "spalo", "spana", "spani", "spano", "spara", "spari", "sparo", "spasa", "spase", "spasi", "spaso", "spata", "spate", "spati", "spato", "spazi", "speck", "speco", "speda", "spedi", "spedo", "spela", "speli", "spelo", "speme", "spemi", "spene", "speni", "spepa", "spepe", "spera", "spere", "speri", "spero", "spesa", "spese", "spesi", "speso", "spezi", "spiai", "spica", "spiga", "spigo", "spike", "spina", "spine", "spini", "spino", "spira", "spire", "spiri", "spiro", "spola", "spole", "spone", "sponi", "spora", "spore", "sport", "sposa", "spose", "sposi", "sposo", "sprue", "spula", "spuli", "spulo", "spuma", "spume", "spumi", "spumo", "spura", "spuri", "spuro", "sputa", "sputi", "sputo", "stadi", "stage", "staia", "staio", "stame", "stami", "stana", "stani", "stano", "stara", "stare", "stari", "staro", "stasa", "stasi", "staso", "stata", "state", "stati", "stato", "stava", "stavi", "stavo", "steca", "stele", "steli", "stelo", "steno", "steri", "stero", "stesa", "stese", "stesi", "steso", "stibi", "stici", "stico", "stiga", "stigi", "stigo", "stila", "stile", "stili", "stilo", "stima", "stime", "stimi", "stimo", "stina", "stini", "stino", "stipa", "stipe", "stipi", "stipo", "stira", "stiri", "stiro", "stiva", "stive", "stivi", "stivo", "stoga", "stogo", "stoia", "stoio", "stola", "stole", "stoma", "stomi", "stona", "stone", "stoni", "stono", "store", "stori", "stria", "strie", "strio", "studi", "stufa", "stufe", "stufi", "stufo", "stura", "sture", "sturi", "sturo", "stuta", "stuti", "stuto", "style", "suari", "suave", "suavi", "subbi", "subii", "succi", "succo", "suchi", "sudai", "sugai", "sugga", "sugge", "suggi", "suggo", "sughi", "sugli", "sugna", "sugne", "suide", "suidi", "suina", "suine", "suini", "suino", "suite", "sulka", "sulla", "sulle", "sullo", "summa", "summe", "sunna", "sunne", "sunti", "sunto", "suola", "suole", "suoli", "suolo", "suona", "suoni", "suono", "suora", "suore", "super", "surfa", "surfi", "surfo", "surga", "surge", "surgi", "surgo", "surma", "surra", "surre", "surse", "sursi", "surta", "surte", "surti", "surto", "susci", "sushi", "sussi", "susta", "suste", "sutha", "suthe", "suthi", "sutho", "sutra", "sutri", "sutro", "suzza", "suzzi", "suzzo", "svaga", "svago", "svani", "svapa", "svapi", "svapo", "svari", "svasa", "svasi", "svaso", "svela", "sveli", "svelo", "svena", "sveni", "sveno", "sveva", "sveve", "svevi", "svevo", "sviai", "svina", "svini", "svino", "svisa", "svisi", "sviso", "svita", "sviti", "svito", "sviva", "svivi", "svivo", "svizi", "svola", "svoli", "svolo", "svota", "svoti", "svoto", "svuoi", "swazi", "tabla", "tacca", "tacce", "tacci", "tacco", "taffi", "tafia", "tafie", "tafii", "tafio", "tagga", "taggo", "tagli", "taide", "taidi", "taiga", "taiko", "taina", "taine", "taini", "taino", "talco", "talea", "talee", "talli", "tallo", "talpa", "talpe", "tamia", "tanai", "tanca", "tanco", "tanfa", "tanfi", "tanfo", "tanga", "tange", "tango", "tanna", "tanni", "tanno", "tanta", "tante", "tanti", "tanto", "tappa", "tappe", "tappi", "tappo", "tarai", "tarda", "tarde", "tardi", "tardo", "targa", "targo", "tarla", "tarli", "tarlo", "tarma", "tarme", "tarmi", "tarmo", "tarpa", "tarpi", "tarpo", "tarsi", "tasca", "tassa", "tasse", "tassi", "tasso", "tasta", "taste", "tasti", "tasto", "tatti", "tatto", "tatua", "tatui", "tatuo", "taura", "taure", "tauri", "tauro", "tazza", "tazze", "tebea", "tebee", "tebei", "tebeo", "tecca", "teche", "tecno", "tedia", "tedio", "tegea", "tegee", "tegei", "tegeo", "teghe", "teide", "teidi", "teina", "teine", "teita", "teite", "teiti", "telai", "temei", "tempa", "tempe", "tempi", "tempo", "tenda", "tende", "tendi", "tendo", "tenei", "tenga", "tenge", "tengo", "tenia", "tenie", "tenne", "tenni", "tenno", "tensa", "tense", "tenta", "tenti", "tento", "tenue", "tenui", "tenza", "tenze", "tepee", "teppa", "teppe", "terbi", "terga", "terge", "tergi", "tergo", "terme", "termo", "terna", "terne", "terni", "terno", "terra", "terre", "tersa", "terse", "tersi", "terso", "terza", "terze", "terzi", "terzo", "tesai", "tesla", "tesle", "tessa", "tesse", "tessi", "tesso", "testa", "teste", "testi", "testo", "tetra", "tetre", "tetri", "tetro", "tetta", "tette", "tetti", "tetto", "texta", "texte", "texti", "texto", "theta", "tiade", "tiadi", "tiara", "tiare", "tiasi", "tiaso", "tibia", "tibie", "tiene", "tieni", "tifai", "tigli", "tigna", "tigne", "tigni", "tigno", "tigra", "tigre", "tigri", "tigro", "tigua", "tilde", "tildi", "tilla", "tille", "tilli", "tillo", "timpa", "timpe", "tinca", "tinga", "tinge", "tingi", "tingo", "tinse", "tinsi", "tinta", "tinte", "tinti", "tinto", "tioli", "tiolo", "tirai", "tirsi", "tirso", "tizia", "tizie", "tizio", "tizzi", "tizzo", "tmesi", "toast", "tocai", "tocca", "tocco", "tochi", "toghe", "toghi", "togli", "tokai", "tolda", "tolde", "tolga", "tolgo", "tolla", "tolle", "tolse", "tolsi", "tolta", "tolte", "tolti", "tolto", "tomai", "tomba", "tombe", "tombi", "tombo", "tonai", "tonda", "tonde", "tondi", "tondo", "tonfa", "tonfi", "tonfo", "tonia", "tonie", "tonni", "tonno", "tonta", "tonte", "tonti", "tonto", "topoi", "toppa", "toppe", "toppi", "toppo", "toque", "torba", "torbe", "torbi", "torbo", "torca", "torce", "torci", "torco", "tordi", "tordo", "torea", "torei", "toreo", "torio", "torli", "torlo", "torma", "torme", "torna", "torni", "torno", "torre", "torri", "torse", "torsi", "torso", "torta", "torte", "torti", "torto", "torva", "torve", "torvi", "torvo", "tosai", "tosca", "tosco", "tossa", "tosse", "tossi", "tosso", "tosta", "toste", "tosti", "tosto", "totem", "tozza", "tozze", "tozzi", "tozzo", "trace", "traci", "trade", "trago", "trama", "trame", "trami", "tramo", "trana", "trani", "trano", "trans", "trapa", "trape", "trare", "trave", "travi", "trema", "tremi", "tremo", "trena", "treni", "treno", "trevi", "trevo", "triai", "tribi", "tribo", "tribu", "triga", "trike", "trina", "trine", "trini", "trino", "trita", "trite", "triti", "trito", "trivi", "troco", "troia", "troie", "troll", "trona", "trone", "troni", "trono", "tropi", "tropo", "trota", "trote", "trova", "trovi", "trovo", "truca", "truce", "truci", "truka", "truke", "tsuga", "tubai", "tufai", "tuffa", "tuffi", "tuffo", "tughe", "tulio", "tulle", "tumba", "tunna", "tunne", "tunni", "tunno", "tuona", "tuoni", "tuono", "turai", "turba", "turbe", "turbi", "turbo", "turca", "turco", "turma", "turme", "turna", "turni", "turno", "turpe", "turpi", "tusca", "tusco", "tutai", "tutor", "tutsi", "tutta", "tutte", "tutti", "tutto", "tuzia", "tuzie", "ubbia", "ubbie", "ubera", "ubere", "uberi", "ubero", "ubica", "ubico", "ubini", "ubino", "uccia", "uccio", "udire", "udita", "udite", "uditi", "udito", "udiva", "udivi", "udivo", "udrai", "udrei", "ufizi", "uggia", "uggii", "uggio", "ugnai", "ugola", "ugole", "ukase", "ukiyo", "ulama", "ulani", "ulano", "ulema", "ulese", "ulesi", "ulice", "ulici", "ulite", "uliti", "uliva", "ulive", "ulivi", "ulivo", "ultra", "ulula", "ulule", "ululi", "ululo", "umana", "umane", "umani", "umano", "umata", "umate", "umati", "umato", "umbra", "umbre", "umbri", "umbro", "umica", "umici", "umico", "umida", "umide", "umidi", "umido", "umile", "umili", "umore", "umori", "unari", "unica", "unici", "unico", "unire", "unita", "unite", "uniti", "unito", "univa", "univi", "univo", "unqua", "unque", "untai", "upupa", "upupe", "urali", "urati", "urato", "urese", "uresi", "urica", "urici", "urico", "urina", "urine", "urini", "urino", "urlai", "urlii", "urlio", "urone", "uroni", "urtai", "usaci", "usala", "usale", "usali", "usalo", "usami", "usane", "usano", "usare", "usata", "usate", "usati", "usato", "usava", "usavi", "usavo", "uscii", "uscio", "usino", "usura", "usure", "usuri", "usuro", "uteri", "utero", "utese", "utesi", "utile", "utili", "uvala", "uvale", "uvina", "uvine", "uvola", "uvole", "uvosa", "uvose", "uvosi", "uvoso", "uvula", "uvule", "uxori", "vacai", "vacca", "vacci", "vachi", "vacua", "vacue", "vacui", "vacuo", "vaffa", "vagai", "vaghe", "vaghi", "vagii", "vagli", "vaiai", "valga", "valgo", "valla", "valle", "valli", "vallo", "valsa", "valse", "valsi", "valso", "valva", "valve", "vammi", "vampa", "vampe", "vampi", "vampo", "vanai", "vanea", "vanei", "vaneo", "vanga", "vango", "vania", "vanie", "vanii", "vanio", "vanne", "vanni", "vanno", "vanta", "vanti", "vanto", "varai", "varca", "varco", "varea", "varee", "varia", "varie", "vario", "varva", "varve", "vasai", "vasca", "vasta", "vaste", "vasti", "vasto", "vatti", "vauda", "vaude", "vecce", "vecia", "vecio", "vedda", "vegge", "veggi", "vegli", "velai", "velia", "velie", "velli", "vello", "velma", "velme", "venai", "venda", "vende", "vendi", "vendo", "venga", "vengi", "vengo", "venia", "venie", "venne", "venni", "venta", "venti", "vento", "vepre", "vepri", "vepsa", "vepse", "vepsi", "vepso", "verbi", "verbo", "verde", "verdi", "verga", "verge", "vergi", "vergo", "verla", "verle", "verme", "vermi", "vermo", "verna", "verne", "verni", "verno", "verri", "verro", "versa", "verse", "versi", "verso", "verta", "verte", "verti", "verto", "verve", "verza", "verze", "vesce", "vespa", "vespe", "vessa", "vessi", "vesso", "vesta", "veste", "vesti", "vesto", "vetri", "vetro", "vetta", "vette", "vezzi", "vezzo", "viado", "viale", "viali", "viari", "vibra", "vibri", "vibro", "vichi", "video", "viene", "vieni", "viera", "viere", "vieri", "viero", "vieta", "viete", "vieti", "vieto", "vigli", "vigna", "vigne", "vilai", "vilii", "villa", "ville", "villi", "villo", "vimai", "vinai", "vinca", "vince", "vinci", "vinco", "vinea", "vinee", "vinse", "vinsi", "vinta", "vinte", "vinti", "vinto", "viola", "viole", "violi", "violo", "vipla", "viple", "virai", "virei", "vireo", "virga", "virgo", "virtu", "virus", "visai", "visco", "vispa", "vispe", "vispi", "vispo", "visse", "vissi", "vista", "viste", "visti", "visto", "vitae", "vitai", "vitro", "vitta", "vitte", "vitti", "vitto", "vivai", "vizia", "vizio", "vizza", "vizze", "vizzi", "vizzo", "vocai", "vochi", "vocia", "vocii", "vocio", "vodka", "vogai", "voghe", "voghi", "vogli", "voice", "voile", "volai", "volca", "volco", "volee", "volga", "volge", "volgi", "volgo", "volle", "volli", "volpa", "volpe", "volpi", "volpo", "volse", "volsi", "volta", "volte", "volti", "volto", "volva", "volve", "volvi", "volvo", "vomii", "vorai", "vosco", "votai", "votii", "vulga", "vulgo", "vulva", "vulve", "vuole", "vuota", "vuote", "vuoti", "vuoto", "wakhi", "wasca", "wasce", "wasci", "wasco", "washa", "washe", "washi", "washo", "wayaa", "wayae", "wayai", "wayao", "white", "whiti", "widia", "xenia", "xenie", "xenon", "xhosa", "yagua", "yamea", "yamee", "yamei", "yameo", "yaqui", "yoghi", "yucca", "yuchi", "yurta", "yurte", "zabri", "zabro", "zaffa", "zaffe", "zaffi", "zaffo", "zaina", "zaine", "zaini", "zaino", "zaire", "zamba", "zambo", "zamia", "zamie", "zampa", "zampe", "zampi", "zampo", "zanca", "zande", "zanna", "zanne", "zanni", "zanno", "zappa", "zappe", "zappi", "zappo", "zarri", "zarro", "zatta", "zatte", "zebra", "zebre", "zebri", "zebro", "zecca", "zecco", "zelai", "zenda", "zende", "zendi", "zendo", "zenit", "zeppa", "zeppe", "zeppi", "zeppo", "zerbi", "zerbo", "zerga", "zerge", "zergi", "zergo", "zetti", "zetto", "zifio", "zigai", "zighi", "zigna", "zigni", "zigno", "zilla", "zilli", "zillo", "zinca", "zinco", "zinia", "zinie", "zinna", "zinne", "zinni", "zinno", "ziona", "zione", "zioni", "zippa", "zippi", "zippo", "zirbi", "zirbo", "zirla", "zirli", "zirlo", "zitta", "zitte", "zitti", "zitto", "zizza", "zizze", "zoeci", "zolfa", "zolfi", "zolfo", "zolla", "zolle", "zolli", "zollo", "zomba", "zombi", "zombo", "zompa", "zompi", "zompo", "zonai", "zonzo", "zooma", "zoomi", "zoomo", "zoppa", "zoppe", "zoppi", "zoppo", "zoque", "zoqui", "zozza", "zozze", "zozzi", "zozzo", "zuava", "zuave", "zuavi", "zuavo", "zucca", "zuffa", "zuffe", "zughi", "zumai", "zuppa", "zuppe", "zuppi", "zuppo", "zurla", "zurli", "zurlo"],
-                te, ie  = ["occhi", "benda", "setto", "ernia", "tatto", "sordo", "ebola", "urato", "covid", "callo", "alito", "botox", "umano", "ansia", "pelle", "meato", "aulin", "fiato", "borsa", "anite", "stoma", "gotta", "ioide", "fever", "robot", "petri", "crohn", "psoas", "fivet", "sonda", "zolfo", "acido", "shock", "lupus", "vulva", "tavor", "crile", "pomfo", "corpo", "udito", "litio", "polpa", "foley", "allis", "zimox", "uraco", "zaffo", "xanax", "hnpcc", "esone", "alpps", "etere", "sepsi", "acuto", "algia", "bronj", "elape", "corti", "salma", "mente", "soleo", "uncus", "htert", "vater", "fovea", "stemm", "plica", "urina", "logge", "parto", "gesso", "picee", "canto", "testa", "spore", "muffa", "milza", "sigma", "cisti", "sella", "trago", "villi", "ponte", "olier", "volto", "ugola", "lembo", "sensi", "enpam", "quick", "pulce", "pessi", "apert", "xelox", "bario", "hegar", "apgar", "suina", "redon", "retto", "frova", "nervo", "obeso", "ppoma", "purga", "calor", "raspa", "germe", "verme", "cauda", "bakri", "torso", "azoto", "vista", "adipe", "sodio", "kelly", "gamba", "imene", "ictus", "apnea", "lynch", "miope", "ronco", "valgo", "tigna", "mesna", "dieta", "collo", "medio", "ritmo", "pompa", "polso", "ewing", "linfa", "tenue", "dakin", "otite", "prono", "atono", "zecca", "colla", "potus", "porta", "flebo", "alcol", "tibia", "aorta", "derma", "garza", "piaga", "fobia", "gocce", "tarso", "pelvi", "emesi", "siero", "ameba", "duval", "anche", "ostio", "elice", "soffi", "iodio", "crema", "addis", "atrio", "carie", "gusto", "valva", "omero", "barba", "corde", "orvil", "bulbo", "latte", "dotto", "still", "palmo", "osseo", "dente", "lisch", "acqua", "sacca", "mento", "onico", "laser", "tenar", "adson", "passo", "piede", "starr", "visus", "fasci", "fabry", "siadh", "labbe", "istmo", "magro", "krebs", "rigor", "willi", "raggi", "coito", "talco", "rotch", "edema", "piega", "chilo", "umori", "sinus", "disco", "cieco", "patau", "iride", "longo", "dolor", "petto", "wells", "angor", "solco", "ferro", "ramie", "mutyh", "epcam", "gozzo", "kline", "reboa", "fresa", "chimo", "biota", "bocca", "virus", "brain", "flora", "lenti", "sotos", "ozono", "afono", "fiala", "fungo", "calvo", "sacro", "pompe", "tenia", "golgi", "galea", "tinca", "morte", "vasto", "clamp", "mania", "lasix", "mioma", "nigra", "sonno", "atomo", "pipac", "irccs", "tosse", "cloro", "ovulo", "colon", "drill", "morbo", "emina", "cromo", "acaro", "largo", "cuore", "lombo", "ciclo", "ldopa", "tumor", "ovaio", "gigli", "obgyn", "hipec", "turbe", "fibra", "dorso", "allen", "pinza", "lacci", "punto", "rubor", "costa", "carpo", "tatme", "radio", "zinco", "utero", "campo", "globo", "peste", "cocco", "piezo", "glomo", "tamis", "baffi", "coane"],
-                oe = ["Great Job!", "Awesome", "Well done!"],
-                re = function(e) {
+                te, ie = ["occhi", "benda", "setto", "ernia", "tatto", "sordo", "ebola", "urato", "covid", "callo", "alito", "botox", "umano", "ansia", "pelle", "meato", "aulin", "fiato", "borsa", "anite", "stoma", "gotta", "ioide", "fever", "robot", "petri", "crohn", "psoas", "fivet", "sonda", "zolfo", "acido", "shock", "lupus", "vulva", "tavor", "crile", "pomfo", "corpo", "udito", "litio", "polpa", "foley", "allis", "zimox", "uraco", "zaffo", "xanax", "hnpcc", "esone", "alpps", "etere", "sepsi", "acuto", "algia", "bronj", "elape", "corti", "salma", "mente", "soleo", "uncus", "htert", "vater", "fovea", "stemm", "plica", "urina", "logge", "parto", "gesso", "picee", "canto", "testa", "spore", "muffa", "milza", "sigma", "cisti", "sella", "trago", "villi", "ponte", "olier", "volto", "ugola", "lembo", "sensi", "enpam", "quick", "pulce", "pessi", "apert", "xelox", "bario", "hegar", "apgar", "suina", "redon", "retto", "frova", "nervo", "obeso", "ppoma", "purga", "calor", "raspa", "germe", "verme", "cauda", "bakri", "torso", "azoto", "vista", "adipe", "sodio", "kelly", "gamba", "imene", "ictus", "apnea", "lynch", "miope", "ronco", "valgo", "tigna", "mesna", "dieta", "collo", "medio", "ritmo", "pompa", "polso", "ewing", "linfa", "tenue", "dakin", "otite", "prono", "atono", "zecca", "colla", "potus", "porta", "flebo", "alcol", "tibia", "aorta", "derma", "garza", "piaga", "fobia", "gocce", "tarso", "pelvi", "emesi", "siero", "ameba", "duval", "anche", "ostio", "elice", "soffi", "iodio", "crema", "addis", "atrio", "carie", "gusto", "valva", "omero", "barba", "corde", "orvil", "bulbo", "latte", "dotto", "still", "palmo", "osseo", "dente", "lisch", "acqua", "sacca", "mento", "onico", "laser", "tenar", "adson", "passo", "piede", "starr", "visus", "fasci", "fabry", "siadh", "labbe", "istmo", "magro", "krebs", "rigor", "willi", "raggi", "coito", "talco", "rotch", "edema", "piega", "chilo", "umori", "sinus", "disco", "cieco", "patau", "iride", "longo", "dolor", "petto", "wells", "angor", "solco", "ferro", "ramie", "mutyh", "epcam", "gozzo", "kline", "reboa", "fresa", "chimo", "biota", "bocca", "virus", "brain", "flora", "lenti", "sotos", "ozono", "afono", "fiala", "fungo", "calvo", "sacro", "pompe", "tenia", "golgi", "galea", "tinca", "morte", "vasto", "clamp", "mania", "lasix", "mioma", "nigra", "sonno", "atomo", "pipac", "irccs", "tosse", "cloro", "ovulo", "colon", "drill", "morbo", "emina", "cromo", "acaro", "largo", "cuore", "lombo", "ciclo", "ldopa", "tumor", "ovaio", "gigli", "obgyn", "hipec", "turbe", "fibra", "dorso", "allen", "pinza", "lacci", "punto", "rubor", "costa", "carpo", "tatme", "radio", "zinco", "utero", "campo", "globo", "peste", "cocco", "piezo", "glomo", "tamis", "baffi", "coane"],
+                oe = "",
+                re = ["Great Job!", "Awesome", "Well done!"],
+                le = function(e) {
                     return "La parola era ".concat(e)
                 },
-                le = function(e, a) {
+                se = function(e, a) {
                     return "Devi usare la ".concat(e, " nella posizione ").concat(a)
                 },
-                se = function(e) {
+                ue = function(e) {
                     return "Il tentativo deve contenere la ".concat(e)
                 },
-                ue = "Statistiche",
-                ce = function(e, a) {
+                ce = "Statistiche",
+                fe = function(e, a) {
                     var t, i = new Set,
                         o = function(e, a) {
                             var t = "undefined" !== typeof Symbol && e[Symbol.iterator] || e["@@iterator"];
@@ -6990,8 +6991,8 @@
                         }(a);
                     try {
                         for (o.s(); !(t = o.n()).done;)
-                            for (var r = t.value, l = ge(r), s = 0; s < r.length; s++)
-                                if ("correct" !== l[s] && "present" !== l[s] || i.add(r[s]), "correct" === l[s] && e[s] !== r[s]) return le(r[s], s + 1)
+                            for (var r = t.value, l = ve(r), s = 0; s < r.length; s++)
+                                if ("correct" !== l[s] && "present" !== l[s] || i.add(r[s]), "correct" === l[s] && e[s] !== r[s]) return se(r[s], s + 1)
                     } catch (d) {
                         o.e(d)
                     } finally {
@@ -6999,11 +7000,11 @@
                     }
                     for (var u = 0, c = Array.from(i.values()); u < c.length; u++) {
                         var f = c[u];
-                        if (!e.includes(f)) return se(f)
+                        if (!e.includes(f)) return ue(f)
                     }
                     return !1
                 },
-                fe = function() {
+                de = function() {
                     var e = new Date("March 01, 2023 00:00:00").valueOf(),
                         a = Date.now(),
                         t = 864e5,
@@ -7015,11 +7016,11 @@
                         tomorrow: n
                     }
                 }(),
-                de = fe.solution,
-                pe = fe.solutionIndex,
-                me = fe.tomorrow,
-                ge = function(e) {
-                    var a = de.split(""),
+                pe = de.solution,
+                me = de.solutionIndex,
+                ge = de.tomorrow,
+                ve = function(e) {
+                    var a = pe.split(""),
                         t = e.split(""),
                         i = a.map((function(e) {
                             return !1
@@ -7039,13 +7040,13 @@
                         }
                     })), n
                 },
-                ve = "gameState",
-                be = "highContrast",
-                he = "gameStats",
-                ye = function() {
-                    return "1" === localStorage.getItem(be)
+                be = "gameState",
+                he = "highContrast",
+                ye = "gameStats",
+                ze = function() {
+                    return "1" === localStorage.getItem(he)
                 },
-                ze = function(e) {
+                we = function(e) {
                     var a = e.value,
                         t = e.status,
                         i = e.isRevealing,
@@ -7054,7 +7055,7 @@
                         r = a && !n,
                         l = i && n,
                         s = "".concat((void 0 === o ? 0 : o) * ae, "ms"),
-                        u = ye(),
+                        u = ze(),
                         c = X()("w-14 h-14 border-solid border-2 flex items-center justify-center mx-0.5 text-4xl font-bold rounded dark:text-white", {
                             "bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-600": !t,
                             "border-black dark:border-slate-100": a && !t,
@@ -7080,14 +7081,14 @@
                         })
                     })
                 },
-                we = function(e) {
+                ke = function(e) {
                     var a = e.guess,
                         t = e.isRevealing,
-                        i = ge(a);
+                        i = ve(a);
                     return (0, J.jsx)("div", {
                         className: "flex justify-center mb-1",
                         children: a.split("").map((function(e, a) {
-                            return (0, J.jsx)(ze, {
+                            return (0, J.jsx)(we, {
                                 value: e,
                                 status: i[a],
                                 position: a,
@@ -7097,7 +7098,7 @@
                         }))
                     })
                 },
-                ke = function(e) {
+                xe = function(e) {
                     var a = e.guess,
                         t = e.className,
                         i = a.split(""),
@@ -7106,24 +7107,24 @@
                     return (0, J.jsxs)("div", {
                         className: o,
                         children: [i.map((function(e, a) {
-                            return (0, J.jsx)(ze, {
+                            return (0, J.jsx)(we, {
                                 value: e
                             }, a)
                         })), n.map((function(e, a) {
-                            return (0, J.jsx)(ze, {}, a)
+                            return (0, J.jsx)(we, {}, a)
                         }))]
                     })
                 },
-                xe = function() {
+                Se = function() {
                     var e = Array.from(Array(5));
                     return (0, J.jsx)("div", {
                         className: "flex justify-center mb-1",
                         children: e.map((function(e, a) {
-                            return (0, J.jsx)(ze, {}, a)
+                            return (0, J.jsx)(we, {}, a)
                         }))
                     })
                 },
-                Se = function(e) {
+                Ee = function(e) {
                     var a = e.guesses,
                         t = e.currentGuess,
                         i = e.isRevealing,
@@ -7132,19 +7133,19 @@
                     return (0, J.jsxs)("div", {
                         className: "pb-6",
                         children: [a.map((function(e, t) {
-                            return (0, J.jsx)(we, {
+                            return (0, J.jsx)(ke, {
                                 guess: e,
                                 isRevealing: i && a.length - 1 === t
                             }, t)
-                        })), a.length < 6 && (0, J.jsx)(ke, {
+                        })), a.length < 6 && (0, J.jsx)(xe, {
                             guess: t,
                             className: n
                         }), o.map((function(e, a) {
-                            return (0, J.jsx)(xe, {}, a)
+                            return (0, J.jsx)(Se, {}, a)
                         }))]
                     })
                 },
-                Ee = function(e) {
+                Ce = function(e) {
                     var a = e.children,
                         t = e.status,
                         i = e.width,
@@ -7152,7 +7153,7 @@
                         o = e.value,
                         r = e.onClick,
                         l = e.isRevealing,
-                        s = ye(),
+                        s = ze(),
                         u = X()("flex items-center justify-center rounded mx-0.5 text-xs font-bold cursor-pointer select-none dark:text-white", {
                             "transition ease-in-out": l,
                             "bg-slate-200 dark:bg-slate-600 hover:bg-slate-300 active:bg-slate-400": !t,
@@ -7176,7 +7177,7 @@
                         children: a || o
                     })
                 },
-                Ce = function(a) {
+                Te = function(a) {
                     var t = a.onChar,
                         i = a.onDelete,
                         n = a.onEnter,
@@ -7186,7 +7187,7 @@
                             var a = {};
                             return e.forEach((function(e) {
                                 e.split("").forEach((function(e, t) {
-                                    return de.includes(e) ? e === de[t] ? a[e] = "correct" : "correct" !== a[e] ? a[e] = "present" : void 0 : a[e] = "absent"
+                                    return pe.includes(e) ? e === pe[t] ? a[e] = "correct" : "correct" !== a[e] ? a[e] = "present" : void 0 : a[e] = "absent"
                                 }))
                             })), a
                         }(o),
@@ -7210,7 +7211,7 @@
                         children: [(0, J.jsx)("div", {
                             className: "flex justify-center mb-1",
                             children: ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"].map((function(e) {
-                                return (0, J.jsx)(Ee, {
+                                return (0, J.jsx)(Ce, {
                                     value: e,
                                     onClick: s,
                                     status: l[e],
@@ -7220,7 +7221,7 @@
                         }), (0, J.jsx)("div", {
                             className: "flex justify-center mb-1",
                             children: ["A", "S", "D", "F", "G", "H", "J", "K", "L"].map((function(e) {
-                                return (0, J.jsx)(Ee, {
+                                return (0, J.jsx)(Ce, {
                                     value: e,
                                     onClick: s,
                                     status: l[e],
@@ -7229,19 +7230,19 @@
                             }))
                         }), (0, J.jsxs)("div", {
                             className: "flex justify-center",
-                            children: [(0, J.jsx)(Ee, {
+                            children: [(0, J.jsx)(Ce, {
                                 width: 65.4,
                                 value: "ENTER",
                                 onClick: s,
                                 children: "Invia"
                             }), ["Z", "X", "C", "V", "B", "N", "M"].map((function(e) {
-                                return (0, J.jsx)(Ee, {
+                                return (0, J.jsx)(Ce, {
                                     value: e,
                                     onClick: s,
                                     status: l[e],
                                     isRevealing: r
                                 }, e)
-                            })), (0, J.jsx)(Ee, {
+                            })), (0, J.jsx)(Ce, {
                                 width: 65.4,
                                 value: "DELETE",
                                 onClick: s,
@@ -7251,7 +7252,7 @@
                     })
                 };
 
-            function Te() {
+            function _e() {
                 for (var a = arguments.length, t = new Array(a), i = 0; i < a; i++) t[i] = arguments[i];
                 var n = (0, e.useRef)(t);
                 return (0, e.useEffect)((function() {
@@ -7264,7 +7265,7 @@
                 }), [n])
             }
 
-            function _e(e) {
+            function Ne(e) {
                 for (var a, t, i = e.parentElement, n = null; i && !(i instanceof HTMLFieldSetElement);) i instanceof HTMLLegendElement && (n = i), i = i.parentElement;
                 var o = null != (a = "" === (null == (t = i) ? void 0 : t.getAttribute("disabled"))) && a;
                 return (!o || ! function(e) {
@@ -7278,7 +7279,7 @@
                 }(n)) && o
             }
 
-            function Ne(a, t, i) {
+            function je(a, t, i) {
                 var n = (0, e.useRef)(t);
                 n.current = t, (0, e.useEffect)((function() {
                     function e(e) {
@@ -7292,34 +7293,34 @@
             }! function(e) {
                 e.Space = " ", e.Enter = "Enter", e.Escape = "Escape", e.Backspace = "Backspace", e.ArrowLeft = "ArrowLeft", e.ArrowUp = "ArrowUp", e.ArrowRight = "ArrowRight", e.ArrowDown = "ArrowDown", e.Home = "Home", e.End = "End", e.PageUp = "PageUp", e.PageDown = "PageDown", e.Tab = "Tab"
             }(te || (te = {}));
-            var je, Oe, Pe, Le, Me, Re = ["[contentEditable=true]", "[tabindex]", "a[href]", "area[href]", "button:not([disabled])", "iframe", "input:not([disabled])", "select:not([disabled])", "textarea:not([disabled])"].map((function(e) {
+            var Oe, Pe, Le, Me, Re, De = ["[contentEditable=true]", "[tabindex]", "a[href]", "area[href]", "button:not([disabled])", "iframe", "input:not([disabled])", "select:not([disabled])", "textarea:not([disabled])"].map((function(e) {
                 return e + ":not([tabindex='-1'])"
             })).join(",");
 
-            function De(e) {
+            function Fe(e) {
                 null == e || e.focus({
                     preventScroll: !0
                 })
             }
 
-            function Fe(e, a) {
+            function Ie(e, a) {
                 var t = Array.isArray(e) ? e : function(e) {
-                        return void 0 === e && (e = document.body), null == e ? [] : Array.from(e.querySelectorAll(Re))
+                        return void 0 === e && (e = document.body), null == e ? [] : Array.from(e.querySelectorAll(De))
                     }(e),
                     i = document.activeElement,
                     n = function() {
-                        if (a & (je.First | je.Next)) return Pe.Next;
-                        if (a & (je.Previous | je.Last)) return Pe.Previous;
+                        if (a & (Oe.First | Oe.Next)) return Le.Next;
+                        if (a & (Oe.Previous | Oe.Last)) return Le.Previous;
                         throw new Error("Missing Focus.First, Focus.Previous, Focus.Next or Focus.Last")
                     }(),
                     o = function() {
-                        if (a & je.First) return 0;
-                        if (a & je.Previous) return Math.max(0, t.indexOf(i)) - 1;
-                        if (a & je.Next) return Math.max(0, t.indexOf(i)) + 1;
-                        if (a & je.Last) return t.length - 1;
+                        if (a & Oe.First) return 0;
+                        if (a & Oe.Previous) return Math.max(0, t.indexOf(i)) - 1;
+                        if (a & Oe.Next) return Math.max(0, t.indexOf(i)) + 1;
+                        if (a & Oe.Last) return t.length - 1;
                         throw new Error("Missing Focus.First, Focus.Previous, Focus.Next or Focus.Last")
                     }(),
-                    r = a & je.NoScroll ? {
+                    r = a & Oe.NoScroll ? {
                         preventScroll: !0
                     } : {},
                     l = 0,
@@ -7327,33 +7328,33 @@
                     u = void 0;
                 do {
                     var c;
-                    if (l >= s || l + s <= 0) return Oe.Error;
+                    if (l >= s || l + s <= 0) return Pe.Error;
                     var f = o + l;
-                    if (a & je.WrapAround) f = (f + s) % s;
+                    if (a & Oe.WrapAround) f = (f + s) % s;
                     else {
-                        if (f < 0) return Oe.Underflow;
-                        if (f >= s) return Oe.Overflow
+                        if (f < 0) return Pe.Underflow;
+                        if (f >= s) return Pe.Overflow
                     }
                     null == (c = u = t[f]) || c.focus(r), l += n
                 } while (u !== document.activeElement);
-                return u.hasAttribute("tabindex") || u.setAttribute("tabindex", "0"), Oe.Success
+                return u.hasAttribute("tabindex") || u.setAttribute("tabindex", "0"), Pe.Success
             }
 
-            function Ie(a, t, i) {
-                void 0 === t && (t = Me.All);
+            function Ae(a, t, i) {
+                void 0 === t && (t = Re.All);
                 var n = void 0 === i ? {} : i,
                     o = n.initialFocus,
                     r = n.containers,
                     l = (0, e.useRef)("undefined" !== typeof window ? document.activeElement : null),
                     s = (0, e.useRef)(null),
                     u = _(),
-                    c = Boolean(t & Me.RestoreFocus),
-                    f = Boolean(t & Me.InitialFocus);
+                    c = Boolean(t & Re.RestoreFocus),
+                    f = Boolean(t & Re.InitialFocus);
                 (0, e.useEffect)((function() {
                     c && (l.current = document.activeElement)
                 }), [c]), (0, e.useEffect)((function() {
                     if (c) return function() {
-                        De(l.current), l.current = null
+                        Fe(l.current), l.current = null
                     }
                 }), [c]), (0, e.useEffect)((function() {
                     if (f && a.current) {
@@ -7361,12 +7362,12 @@
                         if (null == o ? void 0 : o.current) {
                             if ((null == o ? void 0 : o.current) === e) return void(s.current = e)
                         } else if (a.current.contains(e)) return void(s.current = e);
-                        (null == o ? void 0 : o.current) ? De(o.current): Fe(a.current, je.First) === Oe.Error && console.warn("There are no focusable elements inside the <FocusTrap />"), s.current = document.activeElement
+                        (null == o ? void 0 : o.current) ? Fe(o.current): Ie(a.current, Oe.First) === Pe.Error && console.warn("There are no focusable elements inside the <FocusTrap />"), s.current = document.activeElement
                     }
-                }), [a, o, f]), Ne("keydown", (function(e) {
-                    t & Me.TabLock && a.current && e.key === te.Tab && (e.preventDefault(), Fe(a.current, (e.shiftKey ? je.Previous : je.Next) | je.WrapAround) === Oe.Success && (s.current = document.activeElement))
-                })), Ne("focus", (function(e) {
-                    if (t & Me.FocusLock) {
+                }), [a, o, f]), je("keydown", (function(e) {
+                    t & Re.TabLock && a.current && e.key === te.Tab && (e.preventDefault(), Ie(a.current, (e.shiftKey ? Oe.Previous : Oe.Next) | Oe.WrapAround) === Pe.Success && (s.current = document.activeElement))
+                })), je("focus", (function(e) {
+                    if (t & Re.FocusLock) {
                         var i = new Set(null == r ? void 0 : r.current);
                         if (i.add(a), i.size) {
                             var n = s.current;
@@ -7378,48 +7379,48 @@
                                         if (null == (n = t.value.current) ? void 0 : n.contains(a)) return !0
                                     }
                                     return !1
-                                }(i, o) ? (e.preventDefault(), e.stopPropagation(), De(n)) : (s.current = o, De(o)) : De(s.current)
+                                }(i, o) ? (e.preventDefault(), e.stopPropagation(), Fe(n)) : (s.current = o, Fe(o)) : Fe(s.current)
                             }
                         }
                     }
                 }), !0)
             }! function(e) {
                 e[e.First = 1] = "First", e[e.Previous = 2] = "Previous", e[e.Next = 4] = "Next", e[e.Last = 8] = "Last", e[e.WrapAround = 16] = "WrapAround", e[e.NoScroll = 32] = "NoScroll"
-            }(je || (je = {})),
-            function(e) {
-                e[e.Error = 0] = "Error", e[e.Overflow = 1] = "Overflow", e[e.Success = 2] = "Success", e[e.Underflow = 3] = "Underflow"
             }(Oe || (Oe = {})),
             function(e) {
-                e[e.Previous = -1] = "Previous", e[e.Next = 1] = "Next"
+                e[e.Error = 0] = "Error", e[e.Overflow = 1] = "Overflow", e[e.Success = 2] = "Success", e[e.Underflow = 3] = "Underflow"
             }(Pe || (Pe = {})),
             function(e) {
-                e[e.Strict = 0] = "Strict", e[e.Loose = 1] = "Loose"
+                e[e.Previous = -1] = "Previous", e[e.Next = 1] = "Next"
             }(Le || (Le = {})),
             function(e) {
+                e[e.Strict = 0] = "Strict", e[e.Loose = 1] = "Loose"
+            }(Me || (Me = {})),
+            function(e) {
                 e[e.None = 1] = "None", e[e.InitialFocus = 2] = "InitialFocus", e[e.TabLock = 4] = "TabLock", e[e.FocusLock = 8] = "FocusLock", e[e.RestoreFocus = 16] = "RestoreFocus", e[e.All = 30] = "All"
-            }(Me || (Me = {}));
-            var Ae = new Set,
-                Ue = new Map;
+            }(Re || (Re = {}));
+            var Ue = new Set,
+                He = new Map;
 
-            function He(e) {
+            function qe(e) {
                 e.setAttribute("aria-hidden", "true"), e.inert = !0
             }
 
-            function qe(e) {
-                var a = Ue.get(e);
+            function Ve(e) {
+                var a = He.get(e);
                 a && (null === a["aria-hidden"] ? e.removeAttribute("aria-hidden") : e.setAttribute("aria-hidden", a["aria-hidden"]), e.inert = a.inert)
             }
-            var Ve = (0, e.createContext)(!1);
+            var We = (0, e.createContext)(!1);
 
-            function We(a) {
-                return e.createElement(Ve.Provider, {
+            function Be(a) {
+                return e.createElement(We.Provider, {
                     value: a.force
                 }, a.children)
             }
 
-            function Be() {
-                var a = (0, e.useContext)(Ve),
-                    t = (0, e.useContext)(Ke),
+            function $e() {
+                var a = (0, e.useContext)(We),
+                    t = (0, e.useContext)(Ge),
                     i = (0, e.useState)((function() {
                         if (!a && null !== t) return null;
                         if ("undefined" === typeof window) return null;
@@ -7434,11 +7435,11 @@
                     a || null !== t && o(t.current)
                 }), [t, o, a]), n
             }
-            var $e = e.Fragment;
+            var Qe = e.Fragment;
 
-            function Qe(t) {
+            function Ye(t) {
                 var i = t,
-                    n = Be(),
+                    n = $e(),
                     o = (0, e.useState)((function() {
                         return "undefined" === typeof window ? null : document.createElement("div")
                     }))[0],
@@ -7451,86 +7452,86 @@
                         }
                 }), [n, o]), r && n && o ? (0, a.createPortal)(h({
                     props: i,
-                    defaultTag: $e,
+                    defaultTag: Qe,
                     name: "Portal"
                 }), o) : null
             }
-            var Ye = e.Fragment,
-                Ke = (0, e.createContext)(null);
-            Qe.Group = function(a) {
+            var Ke = e.Fragment,
+                Ge = (0, e.createContext)(null);
+            Ye.Group = function(a) {
                 var t = a.target,
                     i = m(a, ["target"]);
-                return e.createElement(Ke.Provider, {
+                return e.createElement(Ge.Provider, {
                     value: t
                 }, h({
                     props: i,
-                    defaultTag: Ye,
+                    defaultTag: Ke,
                     name: "Popover.Group"
                 }))
             };
-            var Ge = (0, e.createContext)(null);
+            var Xe = (0, e.createContext)(null);
 
-            function Xe() {
-                var a = (0, e.useContext)(Ge);
+            function Je() {
+                var a = (0, e.useContext)(Xe);
                 if (null === a) {
                     var t = new Error("You used a <Description /> component, but it is not inside a relevant parent.");
-                    throw Error.captureStackTrace && Error.captureStackTrace(t, Xe), t
+                    throw Error.captureStackTrace && Error.captureStackTrace(t, Je), t
                 }
                 return a
             }
-            var Je, Ze, ea, aa, ta = (0, e.createContext)((function() {}));
+            var Ze, ea, aa, ta, ia = (0, e.createContext)((function() {}));
 
-            function ia(a) {
+            function na(a) {
                 var t = a.children,
                     i = a.onUpdate,
                     n = a.type,
                     o = a.element,
-                    r = (0, e.useContext)(ta),
+                    r = (0, e.useContext)(ia),
                     l = (0, e.useCallback)((function() {
                         for (var e = arguments.length, a = new Array(e), t = 0; t < e; t++) a[t] = arguments[t];
                         null == i || i.apply(void 0, a), r.apply(void 0, a)
                     }), [r, i]);
                 return k((function() {
-                    return l(Je.Add, n, o),
+                    return l(Ze.Add, n, o),
                         function() {
-                            return l(Je.Remove, n, o)
+                            return l(Ze.Remove, n, o)
                         }
-                }), [l, n, o]), e.createElement(ta.Provider, {
+                }), [l, n, o]), e.createElement(ia.Provider, {
                     value: l
                 }, t)
             }
-            ta.displayName = "StackContext",
+            ia.displayName = "StackContext",
                 function(e) {
                     e[e.Add = 0] = "Add", e[e.Remove = 1] = "Remove"
-                }(Je || (Je = {})),
+                }(Ze || (Ze = {})),
                 function(e) {
                     e[e.Open = 0] = "Open", e[e.Closed = 1] = "Closed"
-                }(ea || (ea = {})),
+                }(aa || (aa = {})),
                 function(e) {
                     e[e.SetTitleId = 0] = "SetTitleId"
-                }(aa || (aa = {}));
-            var na = ((Ze = {})[aa.SetTitleId] = function(e, a) {
+                }(ta || (ta = {}));
+            var oa = ((ea = {})[ta.SetTitleId] = function(e, a) {
                     return e.titleId === a.id ? e : p({}, e, {
                         titleId: a.id
                     })
-                }, Ze),
-                oa = (0, e.createContext)(null);
+                }, ea),
+                ra = (0, e.createContext)(null);
 
-            function ra(a) {
-                var t = (0, e.useContext)(oa);
+            function la(a) {
+                var t = (0, e.useContext)(ra);
                 if (null === t) {
-                    var i = new Error("<" + a + " /> is missing a parent <" + fa.displayName + " /> component.");
-                    throw Error.captureStackTrace && Error.captureStackTrace(i, ra), i
+                    var i = new Error("<" + a + " /> is missing a parent <" + da.displayName + " /> component.");
+                    throw Error.captureStackTrace && Error.captureStackTrace(i, la), i
                 }
                 return t
             }
 
-            function la(e, a) {
-                return b(a.type, na, e, a)
+            function sa(e, a) {
+                return b(a.type, oa, e, a)
             }
-            oa.displayName = "DialogContext";
-            var sa = f.RenderStrategy | f.Static,
-                ua = z((function(a, t) {
+            ra.displayName = "DialogContext";
+            var ua = f.RenderStrategy | f.Static,
+                ca = z((function(a, t) {
                     var i, n = a.open,
                         o = a.onClose,
                         r = a.initialFocus,
@@ -7542,7 +7543,7 @@
                     void 0 === n && null !== f && (n = b(f, ((i = {})[N.Open] = !0, i[N.Closed] = !1, i)));
                     var d = (0, e.useRef)(new Set),
                         g = (0, e.useRef)(null),
-                        y = Te(g, t),
+                        y = _e(g, t),
                         z = a.hasOwnProperty("open") || null !== f,
                         w = a.hasOwnProperty("onClose");
                     if (!z && !w) throw new Error("You have to provide an `open` and an `onClose` prop to the `Dialog` component.");
@@ -7550,9 +7551,9 @@
                     if (!w) throw new Error("You provided an `open` prop to the `Dialog`, but forgot an `onClose` prop.");
                     if ("boolean" !== typeof n) throw new Error("You provided an `open` prop to the `Dialog`, but the value is not a boolean. Received: " + n);
                     if ("function" !== typeof o) throw new Error("You provided an `onClose` prop to the `Dialog`, but the value is not a function. Received: " + o);
-                    var x = n ? ea.Open : ea.Closed,
-                        E = null !== f ? f === N.Open : x === ea.Open,
-                        C = (0, e.useReducer)(la, {
+                    var x = n ? aa.Open : aa.Closed,
+                        E = null !== f ? f === N.Open : x === aa.Open,
+                        C = (0, e.useReducer)(sa, {
                             titleId: null,
                             descriptionId: null
                         }),
@@ -7563,17 +7564,17 @@
                         }), [o]),
                         L = (0, e.useCallback)((function(e) {
                             return j({
-                                type: aa.SetTitleId,
+                                type: ta.SetTitleId,
                                 id: e
                             })
                         }), [j]),
-                        M = S() && x === ea.Open,
+                        M = S() && x === aa.Open,
                         R = u > 1,
-                        D = null !== (0, e.useContext)(oa);
-                    Ie(g, M ? b(R ? "parent" : "leaf", {
-                            parent: Me.RestoreFocus,
-                            leaf: Me.All
-                        }) : Me.None, {
+                        D = null !== (0, e.useContext)(ra);
+                    Ae(g, M ? b(R ? "parent" : "leaf", {
+                            parent: Re.RestoreFocus,
+                            leaf: Re.All
+                        }) : Re.None, {
                             initialFocus: r,
                             containers: d
                         }),
@@ -7581,51 +7582,51 @@
                             void 0 === a && (a = !0), k((function() {
                                 if (a && e.current) {
                                     var t = e.current;
-                                    Ae.add(t);
-                                    for (var i, n = v(Ue.keys()); !(i = n()).done;) {
+                                    Ue.add(t);
+                                    for (var i, n = v(He.keys()); !(i = n()).done;) {
                                         var o = i.value;
-                                        o.contains(t) && (qe(o), Ue.delete(o))
+                                        o.contains(t) && (Ve(o), He.delete(o))
                                     }
                                     return document.querySelectorAll("body > *").forEach((function(e) {
                                             if (e instanceof HTMLElement) {
-                                                for (var a, t = v(Ae); !(a = t()).done;) {
+                                                for (var a, t = v(Ue); !(a = t()).done;) {
                                                     var i = a.value;
                                                     if (e.contains(i)) return
                                                 }
-                                                1 === Ae.size && (Ue.set(e, {
+                                                1 === Ue.size && (He.set(e, {
                                                     "aria-hidden": e.getAttribute("aria-hidden"),
                                                     inert: e.inert
-                                                }), He(e))
+                                                }), qe(e))
                                             }
                                         })),
                                         function() {
-                                            if (Ae.delete(t), Ae.size > 0) document.querySelectorAll("body > *").forEach((function(e) {
-                                                if (e instanceof HTMLElement && !Ue.has(e)) {
-                                                    for (var a, t = v(Ae); !(a = t()).done;) {
+                                            if (Ue.delete(t), Ue.size > 0) document.querySelectorAll("body > *").forEach((function(e) {
+                                                if (e instanceof HTMLElement && !He.has(e)) {
+                                                    for (var a, t = v(Ue); !(a = t()).done;) {
                                                         var i = a.value;
                                                         if (e.contains(i)) return
                                                     }
-                                                    Ue.set(e, {
+                                                    He.set(e, {
                                                         "aria-hidden": e.getAttribute("aria-hidden"),
                                                         inert: e.inert
-                                                    }), He(e)
+                                                    }), qe(e)
                                                 }
                                             }));
                                             else
-                                                for (var e, a = v(Ue.keys()); !(e = a()).done;) {
+                                                for (var e, a = v(He.keys()); !(e = a()).done;) {
                                                     var i = e.value;
-                                                    qe(i), Ue.delete(i)
+                                                    Ve(i), He.delete(i)
                                                 }
                                         }
                                 }
                             }), [a])
-                        }(g, !!R && M), Ne("mousedown", (function(e) {
+                        }(g, !!R && M), je("mousedown", (function(e) {
                             var a, t = e.target;
-                            x === ea.Open && (R || (null == (a = g.current) ? void 0 : a.contains(t)) || O())
-                        })), Ne("keydown", (function(e) {
-                            e.key === te.Escape && x === ea.Open && (R || (e.preventDefault(), e.stopPropagation(), O()))
+                            x === aa.Open && (R || (null == (a = g.current) ? void 0 : a.contains(t)) || O())
+                        })), je("keydown", (function(e) {
+                            e.key === te.Escape && x === aa.Open && (R || (e.preventDefault(), e.stopPropagation(), O()))
                         })), (0, e.useEffect)((function() {
-                            if (x === ea.Open && !D) {
+                            if (x === aa.Open && !D) {
                                 var e = document.documentElement.style.overflow,
                                     a = document.documentElement.style.paddingRight,
                                     t = window.innerWidth - document.documentElement.clientWidth;
@@ -7635,7 +7636,7 @@
                                     }
                             }
                         }), [x, D]), (0, e.useEffect)((function() {
-                            if (x === ea.Open && g.current) {
+                            if (x === aa.Open && g.current) {
                                 var e = new IntersectionObserver((function(e) {
                                     for (var a, t = v(e); !(a = t()).done;) {
                                         var i = a.value;
@@ -7674,7 +7675,7 @@
                                                 props: a.props
                                             }
                                         }), [t, a.slot, a.name, a.props]);
-                                    return e.createElement(Ge.Provider, {
+                                    return e.createElement(Xe.Provider, {
                                         value: n
                                     }, a.children)
                                 }
@@ -7692,14 +7693,14 @@
                         }), [x, _, O, L]),
                         q = (0, e.useMemo)((function() {
                             return {
-                                open: x === ea.Open
+                                open: x === aa.Open
                             }
                         }), [x]),
                         V = {
                             ref: y,
                             id: U,
                             role: "dialog",
-                            "aria-modal": x === ea.Open || void 0,
+                            "aria-modal": x === aa.Open || void 0,
                             "aria-labelledby": _.titleId,
                             "aria-describedby": I,
                             onClick: function(e) {
@@ -7707,28 +7708,28 @@
                             }
                         },
                         W = l;
-                    return e.createElement(ia, {
+                    return e.createElement(na, {
                         type: "Dialog",
                         element: g,
                         onUpdate: (0, e.useCallback)((function(e, a, t) {
                             var i;
-                            "Dialog" === a && b(e, ((i = {})[Je.Add] = function() {
+                            "Dialog" === a && b(e, ((i = {})[Ze.Add] = function() {
                                 d.current.add(t), c((function(e) {
                                     return e + 1
                                 }))
-                            }, i[Je.Remove] = function() {
+                            }, i[Ze.Remove] = function() {
                                 d.current.add(t), c((function(e) {
                                     return e - 1
                                 }))
                             }, i))
                         }), [])
-                    }, e.createElement(We, {
+                    }, e.createElement(Be, {
                         force: !0
-                    }, e.createElement(Qe, null, e.createElement(oa.Provider, {
+                    }, e.createElement(Ye, null, e.createElement(ra.Provider, {
                         value: H
-                    }, e.createElement(Qe.Group, {
+                    }, e.createElement(Ye.Group, {
                         target: g
-                    }, e.createElement(We, {
+                    }, e.createElement(Be, {
                         force: !1
                     }, e.createElement(A, {
                         slot: q,
@@ -7737,26 +7738,26 @@
                         props: p({}, W, V),
                         slot: q,
                         defaultTag: "div",
-                        features: sa,
+                        features: ua,
                         visible: E,
                         name: "Dialog"
                     }))))))))
                 })),
-                ca = z((function a(t, i) {
-                    var n = ra([fa.displayName, a.name].join("."))[0],
+                fa = z((function a(t, i) {
+                    var n = la([da.displayName, a.name].join("."))[0],
                         o = n.dialogState,
                         r = n.close,
-                        l = Te(i),
+                        l = _e(i),
                         s = "headlessui-dialog-overlay-" + T(),
                         u = (0, e.useCallback)((function(e) {
                             if (e.target === e.currentTarget) {
-                                if (_e(e.currentTarget)) return e.preventDefault();
+                                if (Ne(e.currentTarget)) return e.preventDefault();
                                 e.preventDefault(), e.stopPropagation(), r()
                             }
                         }), [r]),
                         c = (0, e.useMemo)((function() {
                             return {
-                                open: o === ea.Open
+                                open: o === aa.Open
                             }
                         }), [o]);
                     return h({
@@ -7771,10 +7772,10 @@
                         name: "Dialog.Overlay"
                     })
                 }));
-            var fa = Object.assign(ua, {
-                    Overlay: ca,
+            var da = Object.assign(ca, {
+                    Overlay: fa,
                     Title: function a(t) {
-                        var i = ra([fa.displayName, a.name].join("."))[0],
+                        var i = la([da.displayName, a.name].join("."))[0],
                             n = i.dialogState,
                             o = i.setTitleId,
                             r = "headlessui-dialog-title-" + T();
@@ -7786,7 +7787,7 @@
                         }), [r, o]);
                         var l = (0, e.useMemo)((function() {
                             return {
-                                open: n === ea.Open
+                                open: n === aa.Open
                             }
                         }), [n]);
                         return h({
@@ -7799,7 +7800,7 @@
                         })
                     },
                     Description: function(e) {
-                        var a = Xe(),
+                        var a = Je(),
                             t = "headlessui-description-" + T();
                         k((function() {
                             return a.register(t)
@@ -7816,7 +7817,7 @@
                         })
                     }
                 }),
-                da = function(a) {
+                pa = function(a) {
                     var t = a.title,
                         i = a.children,
                         n = a.isOpen,
@@ -7824,7 +7825,7 @@
                     return (0, J.jsx)(K.Root, {
                         show: n,
                         as: e.Fragment,
-                        children: (0, J.jsx)(fa, {
+                        children: (0, J.jsx)(da, {
                             as: "div",
                             className: "fixed z-10 inset-0 overflow-y-auto",
                             onClose: o,
@@ -7838,7 +7839,7 @@
                                     leave: "ease-in duration-200",
                                     leaveFrom: "opacity-100",
                                     leaveTo: "opacity-0",
-                                    children: (0, J.jsx)(fa.Overlay, {
+                                    children: (0, J.jsx)(da.Overlay, {
                                         className: "fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
                                     })
                                 }), (0, J.jsx)("span", {
@@ -7866,7 +7867,7 @@
                                         }), (0, J.jsx)("div", {
                                             children: (0, J.jsxs)("div", {
                                                 className: "text-center",
-                                                children: [(0, J.jsx)(fa.Title, {
+                                                children: [(0, J.jsx)(da.Title, {
                                                     as: "h3",
                                                     className: "text-lg leading-6 font-medium text-gray-900 dark:text-gray-100",
                                                     children: t
@@ -7882,10 +7883,10 @@
                         })
                     })
                 },
-                pa = function(e) {
+                ma = function(e) {
                     var a = e.isOpen,
                         t = e.handleClose;
-                    return (0, J.jsxs)(da, {
+                    return (0, J.jsxs)(pa, {
                         title: "Come giocare a Medical Words",
                         isOpen: a,
                         handleClose: t,
@@ -7897,16 +7898,16 @@
                             children: 'Dopo ogni tentativo, i colori delle tessere cambiano per mostrarti quanto ci sei andato vicino."'
                         }), (0, J.jsxs)("div", {
                             className: "flex justify-center mb-1 mt-4",
-                            children: [(0, J.jsx)(ze, {
+                            children: [(0, J.jsx)(we, {
                                 value: "F",
                                 status: "correct"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "L"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "E"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "B"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "o"
                             })]
                         }), (0, J.jsx)("p", {
@@ -7914,16 +7915,16 @@
                             children: "La lettera F \xe8 nella parola ed \xe8 nel posto giusto."
                         }), (0, J.jsxs)("div", {
                             className: "flex justify-center mb-1 mt-4",
-                            children: [(0, J.jsx)(ze, {
+                            children: [(0, J.jsx)(we, {
                                 value: "L"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "I"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "N",
                                 status: "present"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "F"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "A"
                             })]
                         }), (0, J.jsx)("p", {
@@ -7931,16 +7932,16 @@
                             children: "La lettera N \xe8 nella parola ma nel posto sbagliato"
                         }), (0, J.jsxs)("div", {
                             className: "flex justify-center mb-1 mt-4",
-                            children: [(0, J.jsx)(ze, {
+                            children: [(0, J.jsx)(we, {
                                 value: "C"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "R"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "O"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "H",
                                 status: "absent"
-                            }), (0, J.jsx)(ze, {
+                            }), (0, J.jsx)(we, {
                                 value: "N"
                             })]
                         }), (0, J.jsx)("p", {
@@ -7963,24 +7964,24 @@
                         })]
                     })
                 },
-                ma = t(7);
+                ga = t(7);
 
-            function ga(e, a) {
+            function va(e, a) {
                 if (!(e instanceof a)) throw new TypeError("Cannot call a class as a function")
             }
 
-            function va(e, a) {
+            function ba(e, a) {
                 for (var t = 0; t < a.length; t++) {
                     var i = a[t];
                     i.enumerable = i.enumerable || !1, i.configurable = !0, "value" in i && (i.writable = !0), Object.defineProperty(e, i.key, i)
                 }
             }
 
-            function ba(e, a, t) {
-                return a && va(e.prototype, a), t && va(e, t), e
+            function ha(e, a, t) {
+                return a && ba(e.prototype, a), t && ba(e, t), e
             }
 
-            function ha(e, a) {
+            function ya(e, a) {
                 if ("function" !== typeof a && null !== a) throw new TypeError("Super expression must either be null or a function");
                 e.prototype = Object.create(a && a.prototype, {
                     constructor: {
@@ -7988,29 +7989,29 @@
                         writable: !0,
                         configurable: !0
                     }
-                }), a && za(e, a)
+                }), a && wa(e, a)
             }
 
-            function ya(e) {
-                return ya = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
+            function za(e) {
+                return za = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
                     return e.__proto__ || Object.getPrototypeOf(e)
-                }, ya(e)
-            }
-
-            function za(e, a) {
-                return za = Object.setPrototypeOf || function(e, a) {
-                    return e.__proto__ = a, e
-                }, za(e, a)
+                }, za(e)
             }
 
             function wa(e, a) {
+                return wa = Object.setPrototypeOf || function(e, a) {
+                    return e.__proto__ = a, e
+                }, wa(e, a)
+            }
+
+            function ka(e, a) {
                 return !a || "object" !== typeof a && "function" !== typeof a ? function(e) {
                     if (void 0 === e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
                     return e
                 }(e) : a
             }
 
-            function ka(e) {
+            function xa(e) {
                 var a = function() {
                     if ("undefined" === typeof Reflect || !Reflect.construct) return !1;
                     if (Reflect.construct.sham) return !1;
@@ -8022,39 +8023,39 @@
                     }
                 }();
                 return function() {
-                    var t, i = ya(e);
+                    var t, i = za(e);
                     if (a) {
-                        var n = ya(this).constructor;
+                        var n = za(this).constructor;
                         t = Reflect.construct(i, arguments, n)
                     } else t = i.apply(this, arguments);
-                    return wa(this, t)
+                    return ka(this, t)
                 }
             }
 
-            function xa(e) {
+            function Sa(e) {
                 return function(e) {
-                    if (Array.isArray(e)) return Sa(e)
+                    if (Array.isArray(e)) return Ea(e)
                 }(e) || function(e) {
                     if ("undefined" !== typeof Symbol && Symbol.iterator in Object(e)) return Array.from(e)
                 }(e) || function(e, a) {
                     if (!e) return;
-                    if ("string" === typeof e) return Sa(e, a);
+                    if ("string" === typeof e) return Ea(e, a);
                     var t = Object.prototype.toString.call(e).slice(8, -1);
                     "Object" === t && e.constructor && (t = e.constructor.name);
                     if ("Map" === t || "Set" === t) return Array.from(e);
-                    if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)) return Sa(e, a)
+                    if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)) return Ea(e, a)
                 }(e) || function() {
                     throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
                 }()
             }
 
-            function Sa(e, a) {
+            function Ea(e, a) {
                 (null == a || a > e.length) && (a = e.length);
                 for (var t = 0, i = new Array(a); t < a; t++) i[t] = e[t];
                 return i
             }
 
-            function Ea(e) {
+            function Ca(e) {
                 var a = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 2,
                     t = String(e);
                 if (0 === a) return t;
@@ -8062,42 +8063,42 @@
                     n = i ? i[1] : "",
                     o = i ? i[3] : "",
                     r = i ? i[2] : t,
-                    l = r.length >= a ? r : (xa(Array(a)).map((function() {
+                    l = r.length >= a ? r : (Sa(Array(a)).map((function() {
                         return "0"
                     })).join("") + r).slice(-1 * a);
                 return "".concat(n).concat(l).concat(o)
             }
-            var Ca = {
+            var Ta = {
                 daysInHours: !1,
                 zeroPadTime: 2
             };
 
-            function Ta(e, a) {
+            function _a(e, a) {
                 var t = e.days,
                     i = e.hours,
                     n = e.minutes,
                     o = e.seconds,
-                    r = Object.assign(Object.assign({}, Ca), a),
+                    r = Object.assign(Object.assign({}, Ta), a),
                     l = r.daysInHours,
                     s = r.zeroPadTime,
                     u = r.zeroPadDays,
                     c = void 0 === u ? s : u,
                     f = Math.min(2, s),
-                    d = l ? Ea(i + 24 * t, s) : Ea(i, f);
+                    d = l ? Ca(i + 24 * t, s) : Ca(i, f);
                 return {
-                    days: l ? "" : Ea(t, c),
+                    days: l ? "" : Ca(t, c),
                     hours: d,
-                    minutes: Ea(n, f),
-                    seconds: Ea(o, f)
+                    minutes: Ca(n, f),
+                    seconds: Ca(o, f)
                 }
             }
-            var _a = function(a) {
-                ha(i, a);
-                var t = ka(i);
+            var Na = function(a) {
+                ya(i, a);
+                var t = xa(i);
 
                 function i() {
                     var e;
-                    return ga(this, i), (e = t.apply(this, arguments)).state = {
+                    return va(this, i), (e = t.apply(this, arguments)).state = {
                         count: e.props.count || 3
                     }, e.startCountdown = function() {
                         e.interval = window.setInterval((function() {
@@ -8117,7 +8118,7 @@
                         }), e.startCountdown)
                     }, e
                 }
-                return ba(i, [{
+                return ha(i, [{
                     key: "componentDidMount",
                     value: function() {
                         this.startCountdown()
@@ -8136,18 +8137,18 @@
                     }
                 }]), i
             }(e.Component);
-            _a.propTypes = {
-                count: ma.number,
-                children: ma.element,
-                onComplete: ma.func
+            Na.propTypes = {
+                count: ga.number,
+                children: ga.element,
+                onComplete: ga.func
             };
-            var Na = function(a) {
-                ha(i, a);
-                var t = ka(i);
+            var ja = function(a) {
+                ya(i, a);
+                var t = xa(i);
 
                 function i(a) {
                     var n;
-                    if (ga(this, i), (n = t.call(this, a)).mounted = !1, n.initialTimestamp = n.calcOffsetStartTimestamp(), n.offsetStartTimestamp = n.props.autoStart ? 0 : n.initialTimestamp, n.offsetTime = 0, n.legacyMode = !1, n.legacyCountdownRef = (0, e.createRef)(), n.tick = function() {
+                    if (va(this, i), (n = t.call(this, a)).mounted = !1, n.initialTimestamp = n.calcOffsetStartTimestamp(), n.offsetStartTimestamp = n.props.autoStart ? 0 : n.initialTimestamp, n.offsetTime = 0, n.legacyMode = !1, n.legacyCountdownRef = (0, e.createRef)(), n.tick = function() {
                             var e = n.calcTimeDelta(),
                                 a = e.completed && !n.props.overtime ? void 0 : n.props.onTick;
                             n.setTimeDeltaState(e, void 0, a)
@@ -8181,7 +8182,7 @@
                     } else n.legacyMode = !0;
                     return n
                 }
-                return ba(i, [{
+                return ha(i, [{
                     key: "componentDidMount",
                     value: function() {
                         this.legacyMode || (this.mounted = !0, this.props.onMount && this.props.onMount(this.calcTimeDelta()), this.props.autoStart && this.start())
@@ -8299,7 +8300,7 @@
                         return Object.assign(Object.assign({}, n), {
                             api: this.getApi(),
                             props: this.props,
-                            formatted: Ta(n, {
+                            formatted: _a(n, {
                                 daysInHours: a,
                                 zeroPadTime: t,
                                 zeroPadDays: i
@@ -8314,7 +8315,7 @@
                                 t = a.count,
                                 i = a.children,
                                 n = a.onComplete;
-                            return (0, e.createElement)(_a, {
+                            return (0, e.createElement)(Na, {
                                 ref: this.legacyCountdownRef,
                                 count: t,
                                 onComplete: n
@@ -8341,34 +8342,34 @@
                     }
                 }]), i
             }(e.Component);
-            Na.defaultProps = Object.assign(Object.assign({}, Ca), {
+            ja.defaultProps = Object.assign(Object.assign({}, Ta), {
                 controlled: !1,
                 intervalDelay: 1e3,
                 precision: 0,
                 autoStart: !0
-            }), Na.propTypes = {
-                date: (0, ma.oneOfType)([(0, ma.instanceOf)(Date), ma.string, ma.number]),
-                daysInHours: ma.bool,
-                zeroPadTime: ma.number,
-                zeroPadDays: ma.number,
-                controlled: ma.bool,
-                intervalDelay: ma.number,
-                precision: ma.number,
-                autoStart: ma.bool,
-                overtime: ma.bool,
-                className: ma.string,
-                children: ma.element,
-                renderer: ma.func,
-                now: ma.func,
-                onMount: ma.func,
-                onStart: ma.func,
-                onPause: ma.func,
-                onStop: ma.func,
-                onTick: ma.func,
-                onComplete: ma.func
+            }), ja.propTypes = {
+                date: (0, ga.oneOfType)([(0, ga.instanceOf)(Date), ga.string, ga.number]),
+                daysInHours: ga.bool,
+                zeroPadTime: ga.number,
+                zeroPadDays: ga.number,
+                controlled: ga.bool,
+                intervalDelay: ga.number,
+                precision: ga.number,
+                autoStart: ga.bool,
+                overtime: ga.bool,
+                className: ga.string,
+                children: ga.element,
+                renderer: ga.func,
+                now: ga.func,
+                onMount: ga.func,
+                onStart: ga.func,
+                onPause: ga.func,
+                onStop: ga.func,
+                onTick: ga.func,
+                onComplete: ga.func
             };
-            var ja = Na,
-                Oa = function(e) {
+            var Oa = ja,
+                Pa = function(e) {
                     var a = e.label,
                         t = e.value;
                     return (0, J.jsxs)("div", {
@@ -8382,26 +8383,26 @@
                         })]
                     })
                 },
-                Pa = function(e) {
+                La = function(e) {
                     var a = e.gameStats;
                     return (0, J.jsxs)("div", {
                         className: "flex justify-center my-2",
-                        children: [(0, J.jsx)(Oa, {
+                        children: [(0, J.jsx)(Pa, {
                             label: "Partite",
                             value: a.totalGames
-                        }), (0, J.jsx)(Oa, {
+                        }), (0, J.jsx)(Pa, {
                             label: "% Vittorie",
                             value: "".concat(a.successRate, "%")
-                        }), (0, J.jsx)(Oa, {
+                        }), (0, J.jsx)(Pa, {
                             label: "Vinte di fila",
                             value: a.currentStreak
-                        }), (0, J.jsx)(Oa, {
+                        }), (0, J.jsx)(Pa, {
                             label: "Record vinte di fila",
                             value: a.bestStreak
                         })]
                     })
                 },
-                La = function(e) {
+                Ma = function(e) {
                     var a = e.index,
                         t = e.size,
                         i = e.label;
@@ -8422,13 +8423,13 @@
                         })]
                     })
                 },
-                Ma = function(e) {
+                Ra = function(e) {
                     var a = e.gameStats.winDistribution,
                         t = Math.max.apply(Math, o(a));
                     return (0, J.jsx)("div", {
                         className: "columns-1 justify-left m-2 text-sm dark:text-white",
                         children: a.map((function(e, a) {
-                            return (0, J.jsx)(La, {
+                            return (0, J.jsx)(Ma, {
                                 index: a,
                                 size: e / t * 90,
                                 label: String(e)
@@ -8436,10 +8437,10 @@
                         }))
                     })
                 },
-                Ra = function(e) {
+                Da = function(e) {
                     return e.map((function(e) {
-                        var a = ge(e),
-                            t = ye();
+                        var a = ve(e),
+                            t = ze();
                         return e.split("").map((function(e, i) {
                             switch (a[i]) {
                                 case "correct":
@@ -8452,7 +8453,7 @@
                         })).join("")
                     })).join("\n")
                 },
-                Da = function(e) {
+                Fa = function(e) {
                     var a = e.isOpen,
                         t = e.handleClose,
                         i = e.guesses,
@@ -8461,32 +8462,32 @@
                         r = e.isGameWon,
                         l = e.handleShare,
                         s = e.isHardMode;
-                    return n.totalGames <= 0 ? (0, J.jsx)(da, {
-                        title: ue,
+                    return n.totalGames <= 0 ? (0, J.jsx)(pa, {
+                        title: ce,
                         isOpen: a,
                         handleClose: t,
-                        children: (0, J.jsx)(Pa, {
+                        children: (0, J.jsx)(La, {
                             gameStats: n
                         })
-                    }) : (0, J.jsxs)(da, {
-                        title: ue,
+                    }) : (0, J.jsxs)(pa, {
+                        title: ce,
                         isOpen: a,
                         handleClose: t,
-                        children: [(0, J.jsx)(Pa, {
+                        children: [(0, J.jsx)(La, {
                             gameStats: n
                         }), (0, J.jsx)("h4", {
                             className: "text-lg leading-6 font-medium text-gray-900 dark:text-gray-100",
                             children: "Distribuzione dei tentativi"
-                        }), (0, J.jsx)(Ma, {
+                        }), (0, J.jsx)(Ra, {
                             gameStats: n
                         }), (o || r) && (0, J.jsxs)("div", {
                             className: "mt-5 sm:mt-6 columns-2 dark:text-white",
                             children: [(0, J.jsxs)("div", {
                                 children: [(0, J.jsx)("h5", {
                                     children: "Nuova parola in"
-                                }), (0, J.jsx)(ja, {
+                                }), (0, J.jsx)(Oa, {
                                     className: "text-lg font-medium text-gray-900 dark:text-gray-100",
-                                    date: me,
+                                    date: ge,
                                     daysInHours: !0
                                 })]
                             }), (0, J.jsx)("button", {
@@ -8494,7 +8495,7 @@
                                 className: "mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm",
                                 onClick: function() {
                                     ! function(e, a, t) {
-                                        navigator.clipboard.writeText("".concat("", " ").concat(pe, " ").concat(a ? "X" : e.length, "/6").concat(t ? "*" : "", "\n\n") + Ra(e))
+                                        navigator.clipboard.writeText("".concat(oe, " ").concat(me, " ").concat(a ? "X" : e.length, "/6").concat(t ? "*" : "", "\n\n") + Da(e))
                                     }(i, o, s), l()
                                 },
                                 children: "Condividi"
@@ -8502,7 +8503,7 @@
                         })]
                     })
                 },
-                Fa = function(e) {
+                Ia = function(e) {
                     var a = e.settingName,
                         t = e.flag,
                         i = e.handleFlag,
@@ -8528,7 +8529,7 @@
                         })]
                     })
                 },
-                Ia = function(e) {
+                Aa = function(e) {
                     var a = e.isOpen,
                         t = e.handleClose,
                         i = e.isHardMode,
@@ -8538,21 +8539,21 @@
                         l = e.isHardModeErrorModalOpen,
                         s = e.isHighContrastMode,
                         u = e.handleHighContrastMode;
-                    return (0, J.jsx)(da, {
+                    return (0, J.jsx)(pa, {
                         title: "Impostazioni",
                         isOpen: a,
                         handleClose: t,
                         children: (0, J.jsxs)("div", {
                             className: "grid-cols-2 gap-4",
-                            children: [(0, J.jsx)(Fa, {
+                            children: [(0, J.jsx)(Ia, {
                                 settingName: "Modalit\xe0 difficile",
                                 flag: i,
                                 handleFlag: n
-                            }), (0, J.jsx)(Fa, {
+                            }), (0, J.jsx)(Ia, {
                                 settingName: "Tema scuro",
                                 flag: o,
                                 handleFlag: r
-                            }), (0, J.jsx)(Fa, {
+                            }), (0, J.jsx)(Ia, {
                                 settingName: "Colori ad alto contrasto",
                                 flag: s,
                                 handleFlag: u
@@ -8564,7 +8565,7 @@
                     })
                 };
 
-            function Aa(e, a, t) {
+            function Ua(e, a, t) {
                 return a in e ? Object.defineProperty(e, a, {
                     value: t,
                     enumerable: !0,
@@ -8573,7 +8574,7 @@
                 }) : e[a] = t, e
             }
 
-            function Ua(e, a) {
+            function Ha(e, a) {
                 var t = Object.keys(e);
                 if (Object.getOwnPropertySymbols) {
                     var i = Object.getOwnPropertySymbols(e);
@@ -8583,24 +8584,24 @@
                 }
                 return t
             }
-            var Ha = function(e, a) {
+            var qa = function(e, a) {
                     var t = function(e) {
                         for (var a = 1; a < arguments.length; a++) {
                             var t = null != arguments[a] ? arguments[a] : {};
-                            a % 2 ? Ua(Object(t), !0).forEach((function(a) {
-                                Aa(e, a, t[a])
-                            })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : Ua(Object(t)).forEach((function(a) {
+                            a % 2 ? Ha(Object(t), !0).forEach((function(a) {
+                                Ua(e, a, t[a])
+                            })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : Ha(Object(t)).forEach((function(a) {
                                 Object.defineProperty(e, a, Object.getOwnPropertyDescriptor(t, a))
                             }))
                         }
                         return e
                     }({}, e);
-                    return t.totalGames += 1, a >= 6 ? (t.currentStreak = 0, t.gamesFailed += 1) : (t.winDistribution[a] += 1, t.currentStreak += 1, t.bestStreak < t.currentStreak && (t.bestStreak = t.currentStreak)), t.successRate = Wa(t),
+                    return t.totalGames += 1, a >= 6 ? (t.currentStreak = 0, t.gamesFailed += 1) : (t.winDistribution[a] += 1, t.currentStreak += 1, t.bestStreak < t.currentStreak && (t.bestStreak = t.currentStreak)), t.successRate = Ba(t),
                         function(e) {
-                            localStorage.setItem(he, JSON.stringify(e))
+                            localStorage.setItem(ye, JSON.stringify(e))
                         }(t), t
                 },
-                qa = {
+                Va = {
                     winDistribution: Array.from(new Array(6), (function() {
                         return 0
                     })),
@@ -8610,18 +8611,18 @@
                     totalGames: 0,
                     successRate: 0
                 },
-                Va = function() {
+                Wa = function() {
                     return function() {
-                        var e = localStorage.getItem(he);
+                        var e = localStorage.getItem(ye);
                         return e ? JSON.parse(e) : null
-                    }() || qa
+                    }() || Va
                 },
-                Wa = function(e) {
+                Ba = function(e) {
                     var a = e.totalGames,
                         t = e.gamesFailed;
                     return Math.round(100 * (a - t) / Math.max(a, 1))
                 };
-            var Ba = function() {
+            var $a = function() {
                     var a = window.matchMedia("(prefers-color-scheme: dark)").matches,
                         t = r((0, e.useState)(""), 2),
                         i = t[0],
@@ -8656,7 +8657,7 @@
                         F = r((0, e.useState)(localStorage.getItem("theme") ? "dark" === localStorage.getItem("theme") : !!a), 2),
                         I = F[0],
                         A = F[1],
-                        U = r((0, e.useState)(ye()), 2),
+                        U = r((0, e.useState)(ze()), 2),
                         H = U[0],
                         q = U[1],
                         V = r((0, e.useState)(""), 2),
@@ -8667,41 +8668,41 @@
                         Y = $[1],
                         K = (0, e.useState)((function() {
                             var e = function() {
-                                var e = localStorage.getItem(ve);
+                                var e = localStorage.getItem(be);
                                 return e ? JSON.parse(e) : null
                             }();
-                            if ((null === e || void 0 === e ? void 0 : e.solution) !== de) return [];
-                            var a = e.guesses.includes(de);
+                            if ((null === e || void 0 === e ? void 0 : e.solution) !== pe) return [];
+                            var a = e.guesses.includes(pe);
                             return a && d(!0), 6 !== e.guesses.length || a || D(!0), e.guesses
                         })),
                         G = r(K, 2),
                         X = G[0],
                         ae = G[1],
                         te = r((0, e.useState)((function() {
-                            return Va()
+                            return Wa()
                         })), 2),
-                        le = te[0],
-                        se = te[1],
-                        ue = r((0, e.useState)(!!localStorage.getItem("gameMode") && "hard" === localStorage.getItem("gameMode")), 2),
-                        fe = ue[0],
-                        pe = ue[1],
-                        me = r((0, e.useState)(!1), 2),
-                        ge = me[0],
-                        he = me[1],
-                        ze = r((0, e.useState)(""), 2),
-                        we = ze[0],
-                        ke = ze[1];
+                        se = te[0],
+                        ue = te[1],
+                        ce = r((0, e.useState)(!!localStorage.getItem("gameMode") && "hard" === localStorage.getItem("gameMode")), 2),
+                        de = ce[0],
+                        me = ce[1],
+                        ge = r((0, e.useState)(!1), 2),
+                        ve = ge[0],
+                        ye = ge[1],
+                        we = r((0, e.useState)(""), 2),
+                        ke = we[0],
+                        xe = we[1];
                     return (0, e.useEffect)((function() {
                         I ? document.documentElement.classList.add("dark") : document.documentElement.classList.remove("dark"), H ? document.documentElement.classList.add("high-contrast") : document.documentElement.classList.remove("high-contrast")
                     }), [I, H]), (0, e.useEffect)((function() {
                         var e;
                         e = {
                             guesses: X,
-                            solution: de
-                        }, localStorage.setItem(ve, JSON.stringify(e))
+                            solution: pe
+                        }, localStorage.setItem(be, JSON.stringify(e))
                     }), [X]), (0, e.useEffect)((function() {
                         f && setTimeout((function() {
-                            B(oe[Math.floor(Math.random() * oe.length)]), setTimeout((function() {
+                            B(re[Math.floor(Math.random() * re.length)]), setTimeout((function() {
                                 B(""), w(!0)
                             }), ee)
                         }), 1750), R && setTimeout((function() {
@@ -8713,7 +8714,7 @@
                             className: "flex w-80 mx-auto items-center mb-8 mt-20",
                             children: [(0, J.jsx)("h1", {
                                 className: "text-xl ml-2.5 grow font-bold dark:text-white",
-                                children: ""
+                                children: oe
                             }), (0, J.jsx)(u, {
                                 className: "h-6 w-6 mr-2 cursor-pointer dark:stroke-white",
                                 onClick: function() {
@@ -8730,12 +8731,12 @@
                                     return S(!0)
                                 }
                             })]
-                        }), (0, J.jsx)(Se, {
+                        }), (0, J.jsx)(Ee, {
                             guesses: X,
                             currentGuess: i,
                             isRevealing: Q,
                             currentRowClassName: P
-                        }), (0, J.jsx)(Ce, {
+                        }), (0, J.jsx)(Te, {
                             onChar: function(e) {
                                 i.length < 5 && X.length < 6 && !f && n("".concat(i).concat(e))
                             },
@@ -8751,38 +8752,38 @@
                                         j(!1), L("")
                                     }), ee);
                                     var e;
-                                    if (fe) {
-                                        var a = ce(i, X);
-                                        if (a) return ke(a), he(!0), L("jiggle"), setTimeout((function() {
-                                            he(!1), L("")
+                                    if (de) {
+                                        var a = fe(i, X);
+                                        if (a) return xe(a), ye(!0), L("jiggle"), setTimeout((function() {
+                                            ye(!1), L("")
                                         }), ee)
                                     }
                                     Y(!0), setTimeout((function() {
                                         Y(!1)
                                     }), 1750);
                                     var t = function(e) {
-                                        return de === e
+                                        return pe === e
                                     }(i);
                                     if (5 === i.length && X.length < 6 && !f) {
-                                        if (ae([].concat(o(X), [i])), n(""), t) return se(Ha(le, X.length)), d(!0);
-                                        5 === X.length && (se(Ha(le, X.length + 1)), D(!0))
+                                        if (ae([].concat(o(X), [i])), n(""), t) return ue(qa(se, X.length)), d(!0);
+                                        5 === X.length && (ue(qa(se, X.length + 1)), D(!0))
                                     }
                                 }
                             },
                             guesses: X,
                             isRevealing: Q
-                        }), (0, J.jsx)(pa, {
+                        }), (0, J.jsx)(ma, {
                             isOpen: m,
                             handleClose: function() {
                                 return g(!1)
                             }
-                        }), (0, J.jsx)(Da, {
+                        }), (0, J.jsx)(Fa, {
                             isOpen: z,
                             handleClose: function() {
                                 return w(!1)
                             },
                             guesses: X,
-                            gameStats: le,
+                            gameStats: se,
                             isGameLost: R,
                             isGameWon: f,
                             handleShare: function() {
@@ -8790,18 +8791,18 @@
                                     return B("")
                                 }), ee)
                             },
-                            isHardMode: fe
-                        }), (0, J.jsx)(Ia, {
+                            isHardMode: de
+                        }), (0, J.jsx)(Aa, {
                             isOpen: x,
                             handleClose: function() {
                                 return S(!1)
                             },
-                            isHardMode: fe,
+                            isHardMode: de,
                             handleHardMode: function(e) {
                                 if (0 !== X.length && "hard" !== localStorage.getItem("gameMode")) return T(!0), setTimeout((function() {
                                     T(!1)
                                 }), ee);
-                                pe(e), localStorage.setItem("gameMode", e ? "hard" : "normal")
+                                me(e), localStorage.setItem("gameMode", e ? "hard" : "normal")
                             },
                             isDarkMode: I,
                             handleDarkMode: function(e) {
@@ -8812,7 +8813,7 @@
                             handleHighContrastMode: function(e) {
                                 q(e),
                                     function(e) {
-                                        e ? localStorage.setItem(be, "1") : localStorage.removeItem(be)
+                                        e ? localStorage.setItem(he, "1") : localStorage.removeItem(he)
                                     }(e)
                             }
                         }), (0, J.jsx)(Z, {
@@ -8822,10 +8823,10 @@
                             message: "Parola non presente nel dizionario",
                             isOpen: N
                         }), (0, J.jsx)(Z, {
-                            message: we,
-                            isOpen: ge
+                            message: ke,
+                            isOpen: ve
                         }), (0, J.jsx)(Z, {
-                            message: re(de),
+                            message: le(pe),
                             isOpen: R && !Q
                         }), (0, J.jsx)(Z, {
                             message: W,
@@ -8835,7 +8836,7 @@
                         })]
                     })
                 },
-                $a = function(e) {
+                Qa = function(e) {
                     e && e instanceof Function && t.e(787).then(t.bind(t, 787)).then((function(a) {
                         var t = a.getCLS,
                             i = a.getFID,
@@ -8846,8 +8847,8 @@
                     }))
                 };
             a.render((0, J.jsx)(e.StrictMode, {
-                children: (0, J.jsx)(Ba, {})
-            }), document.getElementById("root")), $a()
+                children: (0, J.jsx)($a, {})
+            }), document.getElementById("root")), Qa()
         }()
 }();
-//# sourceMappingURL=main.a75e428e.js.map
+//# sourceMappingURL=main.cc92f49d.js.map
