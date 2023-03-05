@@ -42,7 +42,7 @@ export const findFirstUnusedReveal = (word: string, guesses: string[]) => {
 
 export const getWordOfDay = () => {
   // January 3, 2022 Game Epoch for Parle
-  const epochMs = new Date('December 22, 2022 00:00:00').valueOf()
+  const epochMs = new Date('March 01, 2023 00:00:00').valueOf()
   const now = Date.now()
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
