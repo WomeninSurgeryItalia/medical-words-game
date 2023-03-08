@@ -1,5 +1,6 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
-
+export const SHARE_DESCRIPTION =  'La mia partita di oggi'
+export const WORD_NUMBER = 'Parola numero:'
 export const WIN_MESSAGES = ['Great Job!', 'Awesome', 'Well done!']
 export const GAME_COPIED_MESSAGE = 'Copiata la partita negli appunti'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Non ci sono abbastanza lettere'

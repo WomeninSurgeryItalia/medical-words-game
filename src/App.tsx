@@ -3,6 +3,14 @@ import {
   ChartBarIcon,
   CogIcon,
 } from '@heroicons/react/outline'
+import {
+  faLinkedin,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { useState, useEffect } from 'react'
 import { Alert } from './components/alerts/Alert'
 import { Grid } from './components/grid/Grid'
@@ -11,7 +19,6 @@ import { InfoModal } from './components/modals/InfoModal'
 import { StatsModal } from './components/modals/StatsModal'
 import { SettingsModal } from './components/modals/SettingsModal'
 import {
-  GAME_TITLE,
   WIN_MESSAGES,
   GAME_COPIED_MESSAGE,
   NOT_ENOUGH_LETTERS_MESSAGE,
@@ -48,7 +55,7 @@ function App() {
 
   const [currentGuess, setCurrentGuess] = useState('')
   const [isGameWon, setIsGameWon] = useState(false)
-  const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)
+  const [isInfoModalOpen, setIsInfoModalOpen] = useState(true)
   const [isNotEnoughLetters, setIsNotEnoughLetters] = useState(false)
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false)
@@ -236,20 +243,40 @@ function App() {
 
   return (
     <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
-      <div className="flex w-80 mx-auto items-center mb-8 mt-20">
-        <h1 className="text-xl ml-2.5 grow font-bold dark:text-white">
-          {GAME_TITLE}
+      <div className="flex w-80 mx-auto items-center mb-8 mt-5">
+        <h1 className="text-xl ml-2.5 grow color: #627c9d;">
+           <div className="text-blue">
+
+                 <a href="https://www.facebook.com/womeninsurgeryitalia/" target="_blank" rel="noopener noreferrer"
+                    className="h-6 w-6 mr-3 facebook social">
+                    <FontAwesomeIcon icon={faFacebook} size="1x" />
+                </a>
+      <a href="https://www.linkedin.com/in/women-in-surgery-italia-0a8bb313a" target="_blank" rel="noopener noreferrer"
+        className="h-6 w-6 mr-3 linkedin social">
+        <FontAwesomeIcon icon={faLinkedin} size="1x" />
+      </a>
+
+      <a href="https://twitter.com/@wisitalia" target="_blank" rel="noopener noreferrer"
+        className="h-6 w-6 mr-3 twitter social">
+        <FontAwesomeIcon icon={faTwitter} size="1x" />
+      </a>
+              <a href="https://instagram.com/womeninsurgeryitalia?igshid=hakfpty6hy54" target="_blank" rel="noopener noreferrer"
+                   className="h-6 w-6 mr-3 instagram social">
+                   <FontAwesomeIcon icon={faInstagram} size="1x" />
+                 </a>
+          </div>
         </h1>
+
         <InformationCircleIcon
-          className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
+          className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white text-blue"
           onClick={() => setIsInfoModalOpen(true)}
         />
         <ChartBarIcon
-          className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
+          className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white text-blue"
           onClick={() => setIsStatsModalOpen(true)}
         />
         <CogIcon
-          className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white"
+          className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white text-blue"
           onClick={() => setIsSettingsModalOpen(true)}
         />
       </div>

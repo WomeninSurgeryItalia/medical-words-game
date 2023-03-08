@@ -11,9 +11,9 @@
     <!-- FB Meta Tags -->
     <meta property="og:url" content="https://womeninsurgeryitalia.github.io/medical-words-game/index.html">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Medical Words, Powered by WIS ( Womenin in Surgery Italia)">
+    <meta property="og:title" content="Medical Words, Powered by Women in Surgery Italia">
     <meta property="og:description" content="Indovina ogni giorno dei termini ed acronimi medici di 5 lettere in 6 tentativi.">
-    <meta property="og:image" content="/react-wordle/images/logo_index.png">
+    <meta property="og:image" content="https://womeninsurgeryitalia.github.io/medical-words-game/custom_images/titleNew.png">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -30,7 +30,7 @@
     -->
     <title>%REACT_APP_GAME_NAME%</title>
 
-    <% if (process.env.NODE_ENV === 'production' && process.env.REACT_APP_GOOGLE_MEASUREMENT_ID != null) { %>
+    <% if (process.env.REACT_APP_GOOGLE_MEASUREMENT_ID != null) { %>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=%REACT_APP_GOOGLE_MEASUREMENT_ID%"></script>
       <script>
@@ -42,15 +42,17 @@
       </script>
     <% } %>
     <% if (process.env.NODE_ENV === 'production' && process.env.REACT_APP_PLAUSIBLE_DOMAIN != null) { %>
-      <!-- Plausible Analytics -->
+      <!-- Plausible Analytics
+      <a title="Facebook page opens in new window" href=" https://www.facebook.com/womeninsurgeryitalia/" target="_blank" class="facebook"><span class="soc-font-icon"></span><span class="screen-reader-text">Facebook page opens in new window</span></a><a title="Linkedin page opens in new window" href="https://www.linkedin.com/in/women-in-surgery-italia-0a8bb313a" target="_blank" class="linkedin"><span class="soc-font-icon"></span><span class="screen-reader-text">Linkedin page opens in new window</span></a><a title="Instagram page opens in new window" href="https://instagram.com/womeninsurgeryitalia?igshid=hakfpty6hy54" target="_blank" class="instagram"><span class="soc-font-icon"></span><span class="screen-reader-text">Instagram page opens in new window</span></a><a title="Twitter page opens in new window" href="https://twitter.com/wis_italia?s=11&amp;t=iaQTey5h0jokGVkmH7cy6g" target="_blank" class="twitter"><span class="soc-font-icon"></span><span class="screen-reader-text">Twitter page opens in new window</span></a></p>
+      -->
       <script defer data-domain="%REACT_APP_PLAUSIBLE_DOMAIN%" src="https://plausible.io/js/plausible.js"></script>
     <% } %>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div style="background-image: url('custom_images/wis-it-header-Xsmall.jpg');background-repeat: no-repeat;background-position-x: right;">
-      <img src="custom_images/titleNew.png" height="150px" style="display: block;margin-left: auto;margin-right: auto"/>
-      <p Style="text-align:center">Powered by Women in Surgery Italia </p>
+    <div style="background-color: #fff;background-image: url('custom_images/wis-it-header-Xsmall.jpg');background-repeat: no-repeat;background-position-x: right;">
+      <img src="custom_images/titleNew.png" style="display: block;margin-left: auto;margin-right:auto ; height:150px"/>
+      <p class="text-center text-blue font-bold">Powered by  <a href="https://womeninsurgeryitalia.it/" class="underline"> Women in Surgery Italia  </a>  </p>
     </div>
     <div id="root" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.985) 0%,rgba(255,255,255,0.5) 75%),url('custom_images/wsi_index.jpeg');background-position: center;background-size: cover; linear-gradient(#eb01a5, #d13531);">
     </div>
