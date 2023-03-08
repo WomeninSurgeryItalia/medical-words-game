@@ -243,7 +243,7 @@ function App() {
 
   return (
     <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
-      <div className="flex w-80 mx-auto items-center mb-8 mt-5">
+      <div className="flex w-80 mx-auto items-center mb-8 mt-10">
         <h1 className="text-xl ml-2.5 grow color: #627c9d;">
            <div className="text-blue">
 
