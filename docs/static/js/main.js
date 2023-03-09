@@ -10854,7 +10854,7 @@
                                 className: "mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm",
                                 onClick: function() {
                                     ! function(e, a, t) {
-                                        navigator.clipboard.writeText("".concat("https://womeninsurgeryitalia.github.io/medical-words-game/", "\n").concat("Parola numero:", ": ").concat(Kn, "\n").concat("La mia partita di oggi", " ").concat(a ? "X" : e.length, "/6").concat(t ? "*" : "", "\n\n") + vr(e))
+                                        navigator.clipboard.writeText("".concat("https://womeninsurgeryitalia.github.io/medical-words-game/", "\n").concat("Parola numero", ": ").concat(Kn, "\n").concat("La mia partita di oggi", ": ").concat(a ? "X" : e.length, "/6").concat(t ? "*" : "", "\n\n") + vr(e))
                                     }(n, r, s), l()
                                 },
                                 children: "Condividi"
