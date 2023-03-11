@@ -3,13 +3,7 @@ import {
   ChartBarIcon,
   CogIcon,
 } from '@heroicons/react/outline'
-import {
-  faLinkedin,
-  faFacebook,
-  faTwitter,
-  faInstagram
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 import { useState, useEffect } from 'react'
 import { Alert } from './components/alerts/Alert'
@@ -18,7 +12,10 @@ import { Keyboard } from './components/keyboard/Keyboard'
 import { InfoModal } from './components/modals/InfoModal'
 import { StatsModal } from './components/modals/StatsModal'
 import { SettingsModal } from './components/modals/SettingsModal'
+import { SocialFollow } from './components/social/SocialFollow'
+import CookieConsent from 'react-cookie-consent'
 import {
+  GAME_TITLE,
   WIN_MESSAGES,
   GAME_COPIED_MESSAGE,
   NOT_ENOUGH_LETTERS_MESSAGE,
@@ -45,6 +42,7 @@ import {
   setStoredIsHighContrastMode,
   getStoredIsHighContrastMode,
 } from './lib/localStorage'
+import logo from './wisTitle.png'
 
 import './App.css'
 
@@ -67,7 +65,7 @@ function App() {
     localStorage.getItem('theme')
       ? localStorage.getItem('theme') === 'dark'
       : prefersDarkMode
-      ? true
+      ? false
       : false
   )
   const [isHighContrastMode, setIsHighContrastMode] = useState(
@@ -242,43 +240,43 @@ function App() {
   }
 
   return (
-    <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
-      <div className="flex w-80 mx-auto items-center mb-8 mt-10">
-        <h1 className="text-xl ml-2.5 grow color: #627c9d;">
-           <div className="text-blue">
-
-                 <a href="https://www.facebook.com/womeninsurgeryitalia/" target="_blank" rel="noopener noreferrer"
-                    className="h-6 w-6 mr-3 facebook social">
-                    <FontAwesomeIcon icon={faFacebook} size="1x" />
-                </a>
-      <a href="https://www.linkedin.com/in/women-in-surgery-italia-0a8bb313a" target="_blank" rel="noopener noreferrer"
-        className="h-6 w-6 mr-3 linkedin social">
-        <FontAwesomeIcon icon={faLinkedin} size="1x" />
-      </a>
-
-      <a href="https://twitter.com/@wisitalia" target="_blank" rel="noopener noreferrer"
-        className="h-6 w-6 mr-3 twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="1x" />
-      </a>
-              <a href="https://instagram.com/womeninsurgeryitalia?igshid=hakfpty6hy54" target="_blank" rel="noopener noreferrer"
-                   className="h-6 w-6 mr-3 instagram social">
-                   <FontAwesomeIcon icon={faInstagram} size="1x" />
-                 </a>
-          </div>
-        </h1>
-
-        <InformationCircleIcon
-          className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white text-blue"
-          onClick={() => setIsInfoModalOpen(true)}
-        />
-        <ChartBarIcon
-          className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white text-blue"
-          onClick={() => setIsStatsModalOpen(true)}
-        />
-        <CogIcon
-          className="h-6 w-6 mr-3 cursor-pointer dark:stroke-white text-blue"
-          onClick={() => setIsSettingsModalOpen(true)}
-        />
+    <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8 ">
+      <div className="w-96 mx-auto items-center mb-2 mt-2">
+        <img src={logo} alt={GAME_TITLE} />
+      </div>
+      <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8 background-image">
+      <div className="w-80 mx-auto text-center text-sm mb-2 mt-2 dark:text-white ">
+        <p className="text-blue font-bold">
+          Powered by{' '}
+          <a
+            href="https://womeninsurgeryitalia.it/"
+            className="underline font-bold"
+            target="_blank" rel="noopener noreferrer"
+          >
+            Women in Surgery Italia
+          </a>
+        </p>
+      </div>
+    <div>
+      <div className="flex w-80 mx-auto items-center mb-8 mt-8 ">
+        <div className="w-1/2">
+          <SocialFollow />
+        </div>
+        <div className="w-1/2 text-right text-blue">
+          <InformationCircleIcon
+            className="h-6 w-6 ml-2 inline cursor-pointer dark:stroke-white"
+            onClick={() => setIsInfoModalOpen(true)}
+          />
+          <ChartBarIcon
+            className="h-6 w-6 ml-3 inline cursor-pointer dark:stroke-white"
+            onClick={() => setIsStatsModalOpen(true)}
+          />
+          <CogIcon
+            className="h-6 w-6 ml-3 inline cursor-pointer dark:stroke-white"
+            onClick={() => setIsSettingsModalOpen(true)}
+          />
+        </div>
+        </div>
       </div>
       <Grid
         guesses={guesses}
@@ -338,6 +336,31 @@ function App() {
         variant="success"
         topMost={true}
       />
+      <CookieConsent
+        location="bottom"
+        buttonText="Accetta tutto"
+        cookieName="medical_words_game_cookie"
+        buttonStyle={{
+          backgroundColor: '#8A3B2F',
+          color: '#fff',
+          fontSize: '14px',
+        }}
+        expires={150}
+      >
+        Utilizziamo i cookie sul nostro sito Web per offrirti l'esperienza più
+        pertinente ricordando le tue preferenze e le visite ripetute.
+        <br />
+        Cliccando su “Accetta” acconsenti all'uso di tutti i cookie.&nbsp;(
+        <a
+          href="{process.env.REACT_APP_COOKIE_POLICY_URL}"
+          target="_blank" rel="noopener noreferrer"
+          style={{ fontStyle: 'italic' }}
+        >
+          leggi di più
+        </a>
+        )
+      </CookieConsent>
+    </div>
     </div>
   )
 }

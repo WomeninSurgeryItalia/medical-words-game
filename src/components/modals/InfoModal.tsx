@@ -1,12 +1,7 @@
 import { Cell } from '../grid/Cell'
 import { BaseModal } from './BaseModal'
-import {
-  faLinkedin,
-  faFacebook,
-  faTwitter,
-  faInstagram
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SocialFollow } from '../social/SocialFollow'
+
 type Props = {
   isOpen: boolean
   handleClose: () => void
@@ -20,25 +15,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
        Condividi la soluzione con gli amici e sui nostri canali social...
-
-                       <a href="https://instagram.com/womeninsurgeryitalia?igshid=hakfpty6hy54" target="_blank" rel="noopener noreferrer"
-                          className="h-6 w-6 mr-3 instagram social">
-                          <FontAwesomeIcon icon={faInstagram} size="1x" />
-                        </a>
-                        <a href="https://www.facebook.com/womeninsurgeryitalia/" target="_blank" rel="noopener noreferrer"
-                           className="h-6 w-6 mr-3 facebook social">
-                           <FontAwesomeIcon icon={faFacebook} size="1x" />
-                       </a>
-             <a href="https://www.linkedin.com/in/women-in-surgery-italia-0a8bb313a"
-               className="h-6 w-6 mr-3 linkedin social">
-               <FontAwesomeIcon icon={faLinkedin} size="1x" />
-             </a>
-
-             <a href="https://twitter.com/@wisitalia" target="_blank" rel="noopener noreferrer"
-               className="h-6 w-6 mr-3 twitter social">
-               <FontAwesomeIcon icon={faTwitter} size="1x" />
-             </a>
-
+        <SocialFollow />
       </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">Seguici per aggiornamenti quotidiani</p>
 

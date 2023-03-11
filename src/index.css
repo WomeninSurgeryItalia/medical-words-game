@@ -13,6 +13,10 @@
   --present-cell-bg-color: theme('colors.yellow.400');
 }
 
+.trasparent-bg {
+    background: rgba(255,255,255,0.7)
+}
+
 .text-blue{
     color: #627c9d
 }
@@ -171,5 +175,12 @@ svg:hover {
   margin-left: auto;
   margin-right:auto
 }
+
+.background-image {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.985) 10%,rgba(255,255,255,0.5) 75%),url('wsiBackground.gif');
+    background-position: center;
+    background-size: cover;
+}
+
 
 
