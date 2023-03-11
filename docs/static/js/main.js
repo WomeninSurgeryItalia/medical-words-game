@@ -11620,7 +11620,7 @@
                                 },
                                 expires: 150,
                                 children: ["Utilizziamo i cookie sul nostro sito Web per offrirti l'esperienza pi\xf9 pertinente ricordando le tue preferenze e le visite ripetute.", (0, J.jsx)("br", {}), "Cliccando su \u201cAccetta\u201d acconsenti all'uso di tutti i cookie.\xa0(", (0, J.jsx)("a", {
-                                    href: "{process.env.REACT_APP_COOKIE_POLICY_URL}",
+                                    href: "https://www.iubenda.com/privacy-policy/123456",
                                     target: "_blank",
                                     rel: "noopener noreferrer",
                                     style: {
