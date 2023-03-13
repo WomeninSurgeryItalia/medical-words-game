@@ -13,7 +13,6 @@ import { InfoModal } from './components/modals/InfoModal'
 import { StatsModal } from './components/modals/StatsModal'
 import { SettingsModal } from './components/modals/SettingsModal'
 import { SocialFollow } from './components/social/SocialFollow'
-import CookieConsent from 'react-cookie-consent'
 import {
   GAME_TITLE,
   WIN_MESSAGES,
@@ -336,30 +335,6 @@ function App() {
         variant="success"
         topMost={true}
       />
-      <CookieConsent
-        location="bottom"
-        buttonText="Accetta tutto"
-        cookieName="medical_words_game_cookie"
-        buttonStyle={{
-          backgroundColor: '#8A3B2F',
-          color: '#fff',
-          fontSize: '14px',
-        }}
-        expires={150}
-      >
-        Utilizziamo i cookie sul nostro sito Web per offrirti l'esperienza più
-        pertinente ricordando le tue preferenze e le visite ripetute.
-        <br />
-        Cliccando su “Accetta” acconsenti all'uso di tutti i cookie.&nbsp;(
-        <a
-          href="{process.env.REACT_APP_COOKIE_POLICY_URL}"
-          target="_blank" rel="noopener noreferrer"
-          style={{ fontStyle: 'italic' }}
-        >
-          leggi di più
-        </a>
-        )
-      </CookieConsent>
     </div>
     </div>
   )
