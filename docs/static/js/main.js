@@ -1,4 +1,4 @@
-/*! For license information please see main.fedae659.js.LICENSE.txt */ ! function() {
+/*! For license information please see main.76da1e65.js.LICENSE.txt */ ! function() {
     var e = {
             694: function(e, t) {
                 var n;
@@ -7061,7 +7061,7 @@
                         u = "".concat((void 0 === o ? 0 : o) * te, "ms"),
                         s = we(),
                         c = X()("w-14 h-14 border-solid border-2 flex items-center justify-center mx-0.5 text-4xl font-bold rounded dark:text-white", {
-                            "trasparent-bg dark:bg-slate-900 border-slate-200 dark:border-slate-600": !n,
+                            "trasparent-bg dark:bg-slate-400/75 border-slate-200 dark:border-slate-600": !n,
                             "border-black dark:border-slate-100": t && !n,
                             "absent shadowed bg-slate-400 dark:bg-slate-700 text-white border-slate-400 dark:border-slate-700": "absent" === n,
                             "correct shadowed bg-orange-500 text-white border-orange-500": "correct" === n && s,
@@ -7859,7 +7859,7 @@
                                     leaveFrom: "opacity-100 translate-y-0 sm:scale-100",
                                     leaveTo: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95",
                                     children: (0, J.jsxs)("div", {
-                                        className: "inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6 dark:bg-gray-800",
+                                        className: "inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6 dark:bg-gray-600",
                                         children: [(0, J.jsx)("div", {
                                             className: "absolute right-4 top-4",
                                             children: (0, J.jsx)(c, {
@@ -11247,4 +11247,4 @@
             }), document.getElementById("root")), _o()
         }()
 }();
-//# sourceMappingURL=main.fedae659.js.map
+//# sourceMappingURL=main.76da1e65.js.map
