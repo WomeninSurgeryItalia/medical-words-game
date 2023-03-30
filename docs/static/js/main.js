@@ -1,4 +1,4 @@
-/*! For license information please see main.76da1e65.js.LICENSE.txt */ ! function() {
+/*! For license information please see main.b457c8df.js.LICENSE.txt */ ! function() {
     var e = {
             694: function(e, t) {
                 var n;
@@ -10993,7 +10993,6 @@
                 },
                 Po = n(390);
             var To = function() {
-                    window.matchMedia("(prefers-color-scheme: dark)").matches;
                     var t = i((0, e.useState)(""), 2),
                         n = t[0],
                         r = t[1],
@@ -11024,7 +11023,7 @@
                         L = i((0, e.useState)(!1), 2),
                         M = L[0],
                         A = L[1],
-                        R = i((0, e.useState)(!!localStorage.getItem("theme") && "dark" === localStorage.getItem("theme")), 2),
+                        R = i((0, e.useState)(!1), 2),
                         D = R[0],
                         I = R[1],
                         F = i((0, e.useState)(we()), 2),
@@ -11247,4 +11246,4 @@
             }), document.getElementById("root")), _o()
         }()
 }();
-//# sourceMappingURL=main.76da1e65.js.map
+//# sourceMappingURL=main.b457c8df.js.map
