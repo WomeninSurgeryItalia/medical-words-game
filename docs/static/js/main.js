@@ -1,4 +1,4 @@
-/*! For license information please see main.b457c8df.js.LICENSE.txt */ ! function() {
+/*! For license information please see main.07464bb5.js.LICENSE.txt */ ! function() {
     var e = {
             694: function(e, t) {
                 var n;
@@ -10999,7 +10999,7 @@
                         a = i((0, e.useState)(!1), 2),
                         c = a[0],
                         f = a[1],
-                        d = i((0, e.useState)(!0), 2),
+                        d = i((0, e.useState)(!1), 2),
                         p = d[0],
                         m = d[1],
                         v = i((0, e.useState)(!1), 2),
@@ -11014,70 +11014,71 @@
                         E = i((0, e.useState)(!1), 2),
                         C = E[0],
                         O = E[1],
-                        N = i((0, e.useState)(!1), 2),
+                        N = i((0, e.useState)(""), 2),
                         j = N[0],
                         P = N[1],
-                        T = i((0, e.useState)(""), 2),
+                        T = i((0, e.useState)(!1), 2),
                         _ = T[0],
                         z = T[1],
                         L = i((0, e.useState)(!1), 2),
                         M = L[0],
                         A = L[1],
-                        R = i((0, e.useState)(!1), 2),
+                        R = i((0, e.useState)(we()), 2),
                         D = R[0],
                         I = R[1],
-                        F = i((0, e.useState)(we()), 2),
+                        F = i((0, e.useState)(""), 2),
                         U = F[0],
                         H = F[1],
-                        V = i((0, e.useState)(""), 2),
+                        V = i((0, e.useState)(!1), 2),
                         W = V[0],
                         B = V[1],
-                        Y = i((0, e.useState)(!1), 2),
-                        $ = Y[0],
-                        Q = Y[1],
-                        q = (0, e.useState)((function() {
+                        Y = (0, e.useState)((function() {
                             var e = function() {
                                 var e = localStorage.getItem(ge);
                                 return e ? JSON.parse(e) : null
                             }();
                             if ((null === e || void 0 === e ? void 0 : e.solution) !== pe) return [];
                             var t = e.guesses.includes(pe);
-                            return t && f(!0), 6 !== e.guesses.length || t || A(!0), e.guesses
+                            return t && f(!0), 6 !== e.guesses.length || t || z(!0), e.guesses
                         })),
-                        K = i(q, 2),
-                        G = K[0],
-                        X = K[1],
-                        te = i((0, e.useState)((function() {
+                        $ = i(Y, 2),
+                        Q = $[0],
+                        q = $[1],
+                        K = !(Q.length > 0 || c || _),
+                        G = i((0, e.useState)(K), 2),
+                        X = G[0],
+                        te = G[1],
+                        ne = i((0, e.useState)((function() {
                             return No()
                         })), 2),
-                        ne = te[0],
-                        ue = te[1],
-                        se = i((0, e.useState)(!!localStorage.getItem("gameMode") && "hard" === localStorage.getItem("gameMode")), 2),
-                        ce = se[0],
-                        de = se[1],
-                        me = i((0, e.useState)(!1), 2),
-                        ve = me[0],
-                        he = me[1],
-                        ye = i((0, e.useState)(""), 2),
-                        ke = ye[0],
-                        xe = ye[1];
+                        ue = ne[0],
+                        se = ne[1],
+                        ce = i((0, e.useState)(!!localStorage.getItem("gameMode") && "hard" === localStorage.getItem("gameMode")), 2),
+                        de = ce[0],
+                        me = ce[1],
+                        ve = i((0, e.useState)(!1), 2),
+                        he = ve[0],
+                        ye = ve[1],
+                        ke = i((0, e.useState)(""), 2),
+                        xe = ke[0],
+                        Se = ke[1];
                     return (0, e.useEffect)((function() {
-                        D ? document.documentElement.classList.add("dark") : document.documentElement.classList.remove("dark"), U ? document.documentElement.classList.add("high-contrast") : document.documentElement.classList.remove("high-contrast")
-                    }), [D, U]), (0, e.useEffect)((function() {
+                        M ? document.documentElement.classList.add("dark") : document.documentElement.classList.remove("dark"), D ? document.documentElement.classList.add("high-contrast") : document.documentElement.classList.remove("high-contrast")
+                    }), [M, D]), (0, e.useEffect)((function() {
                         var e;
                         e = {
-                            guesses: G,
+                            guesses: Q,
                             solution: pe
                         }, localStorage.setItem(ge, JSON.stringify(e))
-                    }), [G]), (0, e.useEffect)((function() {
+                    }), [Q]), (0, e.useEffect)((function() {
                         c && setTimeout((function() {
-                            B(ie[Math.floor(Math.random() * ie.length)]), setTimeout((function() {
-                                B(""), w(!0)
+                            H(ie[Math.floor(Math.random() * ie.length)]), setTimeout((function() {
+                                H(""), g(!0)
                             }), ee)
-                        }), 1750), M && setTimeout((function() {
-                            w(!0)
+                        }), 1750), _ && setTimeout((function() {
+                            g(!0)
                         }), 2100)
-                    }), [c, M]), (0, J.jsxs)("div", {
+                    }), [c, _]), (0, J.jsxs)("div", {
                         className: "pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8 ",
                         children: [(0, J.jsx)("div", {
                             className: "w-96 mx-auto items-center mb-2 mt-2",
@@ -11110,121 +11111,121 @@
                                         children: [(0, J.jsx)(s, {
                                             className: "h-6 w-6 ml-2 inline cursor-pointer dark:stroke-white",
                                             onClick: function() {
-                                                return m(!0)
+                                                return te(!0)
                                             }
                                         }), (0, J.jsx)(l, {
                                             className: "h-6 w-6 ml-3 inline cursor-pointer dark:stroke-white",
                                             onClick: function() {
-                                                return w(!0)
+                                                return g(!0)
                                             }
                                         }), (0, J.jsx)(u, {
                                             className: "h-6 w-6 ml-3 inline cursor-pointer dark:stroke-white",
                                             onClick: function() {
-                                                return S(!0)
+                                                return w(!0)
                                             }
                                         })]
                                     })]
                                 })
                             }), (0, J.jsx)(Ce, {
-                                guesses: G,
+                                guesses: Q,
                                 currentGuess: n,
-                                isRevealing: $,
-                                currentRowClassName: _
+                                isRevealing: W,
+                                currentRowClassName: j
                             }), (0, J.jsx)(Ne, {
                                 onChar: function(e) {
-                                    n.length < 5 && G.length < 6 && !c && r("".concat(n).concat(e))
+                                    n.length < 5 && Q.length < 6 && !c && r("".concat(n).concat(e))
                                 },
                                 onDelete: function() {
                                     r(n.slice(0, -1))
                                 },
                                 onEnter: function() {
-                                    if (!c && !M) {
-                                        if (5 !== n.length) return g(!0), z("jiggle"), setTimeout((function() {
-                                            g(!1), z("")
+                                    if (!c && !_) {
+                                        if (5 !== n.length) return m(!0), P("jiggle"), setTimeout((function() {
+                                            m(!1), P("")
                                         }), ee);
-                                        if (e = n, !re.includes(e.toLowerCase()) && !ae.includes(e.toLowerCase())) return P(!0), z("jiggle"), setTimeout((function() {
-                                            P(!1), z("")
+                                        if (e = n, !re.includes(e.toLowerCase()) && !ae.includes(e.toLowerCase())) return O(!0), P("jiggle"), setTimeout((function() {
+                                            O(!1), P("")
                                         }), ee);
                                         var e;
-                                        if (ce) {
-                                            var t = fe(n, G);
-                                            if (t) return xe(t), he(!0), z("jiggle"), setTimeout((function() {
-                                                he(!1), z("")
+                                        if (de) {
+                                            var t = fe(n, Q);
+                                            if (t) return Se(t), ye(!0), P("jiggle"), setTimeout((function() {
+                                                ye(!1), P("")
                                             }), ee)
                                         }
-                                        Q(!0), setTimeout((function() {
-                                            Q(!1)
+                                        B(!0), setTimeout((function() {
+                                            B(!1)
                                         }), 1750);
                                         var a = function(e) {
                                             return pe === e
                                         }(n);
-                                        if (5 === n.length && G.length < 6 && !c) {
-                                            if (X([].concat(o(G), [n])), r(""), a) return ue(Co(ne, G.length)), f(!0);
-                                            5 === G.length && (ue(Co(ne, G.length + 1)), A(!0))
+                                        if (5 === n.length && Q.length < 6 && !c) {
+                                            if (q([].concat(o(Q), [n])), r(""), a) return se(Co(ue, Q.length)), f(!0);
+                                            5 === Q.length && (se(Co(ue, Q.length + 1)), z(!0))
                                         }
                                     }
                                 },
-                                guesses: G,
-                                isRevealing: $
+                                guesses: Q,
+                                isRevealing: W
                             }), (0, J.jsx)(Xa, {
-                                isOpen: p,
+                                isOpen: X,
                                 handleClose: function() {
-                                    return m(!1)
+                                    return te(!1)
                                 }
                             }), (0, J.jsx)(wo, {
+                                isOpen: h,
+                                handleClose: function() {
+                                    return g(!1)
+                                },
+                                guesses: Q,
+                                gameStats: ue,
+                                isGameLost: _,
+                                isGameWon: c,
+                                handleShare: function() {
+                                    return H("Copiata la partita negli appunti"), setTimeout((function() {
+                                        return H("")
+                                    }), ee)
+                                },
+                                isHardMode: de
+                            }), (0, J.jsx)(xo, {
                                 isOpen: y,
                                 handleClose: function() {
                                     return w(!1)
                                 },
-                                guesses: G,
-                                gameStats: ne,
-                                isGameLost: M,
-                                isGameWon: c,
-                                handleShare: function() {
-                                    return B("Copiata la partita negli appunti"), setTimeout((function() {
-                                        return B("")
-                                    }), ee)
-                                },
-                                isHardMode: ce
-                            }), (0, J.jsx)(xo, {
-                                isOpen: x,
-                                handleClose: function() {
-                                    return S(!1)
-                                },
-                                isHardMode: ce,
+                                isHardMode: de,
                                 handleHardMode: function(e) {
-                                    if (0 !== G.length && "hard" !== localStorage.getItem("gameMode")) return O(!0), setTimeout((function() {
-                                        O(!1)
+                                    if (0 !== Q.length && "hard" !== localStorage.getItem("gameMode")) return S(!0), setTimeout((function() {
+                                        S(!1)
                                     }), ee);
-                                    de(e), localStorage.setItem("gameMode", e ? "hard" : "normal")
+                                    me(e), localStorage.setItem("gameMode", e ? "hard" : "normal")
                                 },
-                                isDarkMode: D,
+                                isDarkMode: M,
                                 handleDarkMode: function(e) {
-                                    I(e), localStorage.setItem("theme", e ? "dark" : "light")
+                                    A(e), localStorage.setItem("theme", e ? "dark" : "light")
                                 },
-                                isHardModeErrorModalOpen: C,
-                                isHighContrastMode: U,
+                                isHardModeErrorModalOpen: x,
+                                isHighContrastMode: D,
                                 handleHighContrastMode: function(e) {
-                                    H(e),
+                                    I(e),
                                         function(e) {
                                             e ? localStorage.setItem(be, "1") : localStorage.removeItem(be)
                                         }(e)
                                 }
                             }), (0, J.jsx)(Z, {
                                 message: "Non ci sono abbastanza lettere",
-                                isOpen: h
+                                isOpen: p
                             }), (0, J.jsx)(Z, {
                                 message: "Parola non presente nel dizionario",
-                                isOpen: j
+                                isOpen: C
                             }), (0, J.jsx)(Z, {
-                                message: ke,
-                                isOpen: ve
+                                message: xe,
+                                isOpen: he
                             }), (0, J.jsx)(Z, {
                                 message: le(pe),
-                                isOpen: M && !$
+                                isOpen: _ && !W
                             }), (0, J.jsx)(Z, {
-                                message: W,
-                                isOpen: "" !== W,
+                                message: U,
+                                isOpen: "" !== U,
                                 variant: "success",
                                 topMost: !0
                             })]
@@ -11246,4 +11247,4 @@
             }), document.getElementById("root")), _o()
         }()
 }();
-//# sourceMappingURL=main.b457c8df.js.map
+//# sourceMappingURL=main.07464bb5.js.map

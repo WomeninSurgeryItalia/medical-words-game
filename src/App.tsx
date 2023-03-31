@@ -50,7 +50,7 @@ function App() {
 
   const [currentGuess, setCurrentGuess] = useState('')
   const [isGameWon, setIsGameWon] = useState(false)
-  const [isInfoModalOpen, setIsInfoModalOpen] = useState(true)
+
   const [isNotEnoughLetters, setIsNotEnoughLetters] = useState(false)
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false)
@@ -79,7 +79,8 @@ function App() {
     }
     return loaded.guesses
   })
-
+  const iSsGmeStarted = !(guesses.length > 0 || isGameWon || isGameLost)
+  const [isInfoModalOpen, setIsInfoModalOpen] = useState(iSsGmeStarted)
   const [stats, setStats] = useState(() => loadStats())
 
   const [isHardMode, setIsHardMode] = useState(
